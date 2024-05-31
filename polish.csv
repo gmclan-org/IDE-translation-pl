@@ -7814,7 +7814,6 @@ RedefineKeys_tile_line,Tile Line,Linia do kafelków,,Redefine keys tile_line str
 RedefineKeys_tile_rect,Tile Rect,Prostokąt do kafelków,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Wybierz kafelki,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Automatycznie układaj kafelki,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Obróć,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Automatyczne układanie kafelków - Dodaj pełny zestaw,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Automatyczne układanie kafelków - Dodaj zestaw przejściowy,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Automatyczne układanie kafelków - Usuń zestaw,,Redefine keys autotile_delete_set string
@@ -7903,8 +7902,8 @@ RedefineKeys_SoundMixer,Sound Mixer,Mikser dźwięku,,Redefine keys location ent
 RedefineKeys_Debugger,Debugger,Debugger,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,Obszar roboczy,,Redefine keys location entry
-RedefineKeys_Command,Command,Command,,Redefine keys Command label
-RedefineKeys_Keys,Keys,Klucze,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},Command{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},Klucze{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Start rollbacku,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Zdarzenie rollbacku,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
