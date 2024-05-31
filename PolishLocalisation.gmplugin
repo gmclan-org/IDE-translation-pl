@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "Polish IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Polish"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "PolishLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "Polish": "polish.csv" },
-            {"Polish": "polish_dnd.csv" }
+          {
+            "Polish": "polish.csv"
+          },
+          {
+            "Polish": "polish_dnd.csv"
+          }
         ]
       },
       "description": "Polish IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "KZcyY8MDDxixyqJU1q9grvuRgZZQYHX6V\u002BtUx2Tbo0ACYpn\u002Bfu3d02vIrp90CNW71mVoSsAW9sJrbU2wfaMcbmyfcgybbNZw\u002Bg9StGSx4Qpb\u002BKTTX6raD/HGBd\u002BhuKQwulRGpk3\u002BihnWu0MONstlw7rG\u002B0RMS8LHLBHG8FtAoGY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
