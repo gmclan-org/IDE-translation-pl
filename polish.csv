@@ -1246,7 +1246,7 @@ Object_Mask,Collision Mask:,Maska kolizji:,,"object ""mask"" property"
 Object_Parent,Parent,Rodzic,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,Rodzic i dziecko,,Object editor parent and children caption
 Object_Persistent,Persistent,Pernamentny,,"Object Model ""persistent"" property"
-Object_Persistent_Tooltip,Instances of this object will persist between rooms,Wystąpienia tego obiektu będą trwałe na różnych planszach,,object editor persistent property tooltip
+Object_Persistent_Tooltip,Instances of this object will persist between rooms,Instancje tego obiektu będą trwałe na różnych planszach,,object editor persistent property tooltip
 Object_PhysicsAngularDamping,Angular Damping,Tłumienie prędkości kątowej,,"object ""physicsAngularDamping"" property label"
 Object_PhysicsDensity,Density,Gęstość,,"object ""physicsDensity"" property label"
 Object_PhysicsFriction,Friction,Tarcie,,"object ""physicsFriction"" property label"
@@ -1257,11 +1257,11 @@ Object_PhysicsRestitution,Restitution,Sprężystość,,"object ""physicsRestitut
 Object_PhysicsSensor,Sensor,Czujnik,,"object ""physicsSensor"" property label"
 Object_PhysicsStartAwake,Start Awake,Przecknięcie,,"object ""physicsStartAwake"" property label"
 Object_Solid,Solid,Lity,,"Object Model ""solid"" property"
-Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,W przypadku kolizji wystąpienia bryła będą automatycznie powracały do poprzedniego położenia,,object editor solid property tooltip
+Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,W przypadku kolizji instancji bryła będą automatycznie powracały do poprzedniego położenia,,object editor solid property tooltip
 Object_UsesPhysics,Uses Physics,Używa fizyki,,"Object Model ""uses physics"" property"
-Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,"Wystąpienia wykorzystują przetwarzanie w oparciu o fizykę, gdy znajdują się na planszy, dla której zaznaczono pole „Włącz fizykę”",,object editor uses physics tooltip
+Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,"Instancje wykorzystują przetwarzanie w oparciu o fizykę, gdy znajdują się na planszy, dla której zaznaczono pole „Włącz fizykę”",,object editor uses physics tooltip
 Object_Visible,Visible,Widoczne,,"Object Model ""visible"" property"
-Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","Po usunięciu zaznaczenia tej opcji wystąpienia tego obiektu wciąż będą przetwarzane, ale nie będą rysowane",,object editor visible property tooltip
+Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","Po usunięciu zaznaczenia tej opcji instancji tego obiektu wciąż będą przetwarzane, ale nie będą rysowane",,object editor visible property tooltip
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Powiększ,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Pomniejsz,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Przywróć domyślne powiększenie,,Object editor physics window label
@@ -1312,7 +1312,7 @@ ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the par
 ObjectEditor_PropName,Name,Nazwa,,Variable name
 ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,Tak będzie wyglądało odniesienie do tego w kodzie.,,Tooltip property name
 InstanceEditor_PropValue,Value,Wartość,,Variable value
-InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,Ustaw zmienną na wartość wyłącznie dla tego wystąpienia.,,Set variable tooltip
+InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,Ustaw zmienną na wartość wyłącznie dla tej instancji.,,Set variable tooltip
 ObjectEditor_PropType,Type,Typ,,Variable type
 ObjectEditor_PropDefault,Default,Domyślna,,Variable default value
 ObjectEditor_PropParams,Options,Opcje,,Variable attributes aka parameters
@@ -1495,10 +1495,10 @@ ResourceTree_CollapseAll,Collapse All,Zwiń wszystko,,Collapse all elements of t
 RoomEditor_AddSubLayer,Add Sub Layer,Dodaj warstwę podrzędną,,context sub menu heading for adding sub layers in the room editor layer view
 RoomEditor_AddRootLayer,Add Layer,Dodaj warstwę,,context sub menu heading for adding layers at the same level as the selected layer in the room editor layer view
 RoomEditor_AllLayers,All,Wszystkie,,Layers label next to the set all layers locked/visible checkboxes
-RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},Czy na pewno chcesz usunąć następujące elementy (uwaga: kod tworzenia wystąpienia zostanie nieodwracalnie utracony): {0},,Confirm delete instances
-RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},Czy na pewno chcesz usunąć następujące warstwy (uwaga: kod tworzenia wystąpienia zostanie nieodwracalnie utracony): {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},"Trwa próba usunięcia elementów z planszy nadrzędnej (uwaga: kod tworzenia wystąpienia zostanie nieodwracalnie utracony).\nUsuń wszystko: pozwala usunąć elementy spełniające kryteria z plansz podrzędnych\nZachowaj wszystko: pozwala zachować wszystkie elementy plansz podrzędnych\nZachowaj zmienione: pozwala zachować elementy plansz podrzędnych, które zastąpiły elementy rodzic\nBezpośrednie elementy dziecko: {0}",,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},"Trwa próba usunięcia warstw z planszy nadrzędnej (uwaga: kod tworzenia wystąpienia zostanie nieodwracalnie utracony).\nUsuń wszystko: pozwala usunąć warstwy spełniające kryteria z plansz podrzędnych\nZachowaj wszystko: pozwala zachować wszystkie warstwy plansz podrzędnych\nZachowaj zmienione: pozwala zachować warstwy plansz podrzędnych, które zastąpiły elementy rodzic\nBezpośrednie warstwy dziecko: {0}",,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},Czy na pewno chcesz usunąć następujące elementy (uwaga: kod tworzenia instancji zostanie nieodwracalnie utracony): {0},,Confirm delete instances
+RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},Czy na pewno chcesz usunąć następujące warstwy (uwaga: kod tworzenia instancji zostanie nieodwracalnie utracony): {0},,Confirm delete layers
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},"Trwa próba usunięcia elementów z planszy nadrzędnej (uwaga: kod tworzenia instancji zostanie nieodwracalnie utracony).\nUsuń wszystko: pozwala usunąć elementy spełniające kryteria z plansz podrzędnych\nZachowaj wszystko: pozwala zachować wszystkie elementy plansz podrzędnych\nZachowaj zmienione: pozwala zachować elementy plansz podrzędnych, które zastąpiły elementy rodzic\nBezpośrednie elementy dziecko: {0}",,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},"Trwa próba usunięcia warstw z planszy nadrzędnej (uwaga: kod tworzenia instancji zostanie nieodwracalnie utracony).\nUsuń wszystko: pozwala usunąć warstwy spełniające kryteria z plansz podrzędnych\nZachowaj wszystko: pozwala zachować wszystkie warstwy plansz podrzędnych\nZachowaj zmienione: pozwala zachować warstwy plansz podrzędnych, które zastąpiły elementy rodzic\nBezpośrednie warstwy dziecko: {0}",,layer delete confirm dialog message explaining the child layer deletion options
 RoomEditor_DeleteAllChildLayers,Delete All,Usuń wszystko,,layer delete confirm dialog message for the delete all button
 RoomEditor_DeleteLayer,Delete Layer,Usuń warstwę,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,Zmień nazwę warstwy,,context menu option for renaming a layer
@@ -1527,14 +1527,14 @@ RoomEditor_Layers,Layers - {0},Warstwy – {0},,Window heading for the room edit
 RoomEditor_NewAssetLayer,Create New Asset Layer,Utwórz nową warstwę zasobów,,Tool tip for the new asset layer button
 RoomEditor_NewBackgroundLayer,Create New Background Layer,Utwórz nową warstwę tła,,Tool tip for the new background layer button
 RoomEditor_NewFolder,Create New Folder,Utwórz nowy folder,,Tool tip for the new folder button
-RoomEditor_NewInstanceLayer,Create New Instance Layer,Utwórz nową warstwę wystąpień,,Tool tip for the new instance layer button
+RoomEditor_NewInstanceLayer,Create New Instance Layer,Utwórz nową warstwę instancji,,Tool tip for the new instance layer button
 RoomEditor_NewPathLayer,Create New Path Layer,Utwórz nową warstwę ścieżek,,Create new path layer tool tip for room editor
 RoomEditor_NewTileLayer,Create New Tile Layer,Utwórz nową warstwę kafelków,,Tool tip for the new tile layer button
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
 RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","Element nadrzędny {0} ({1}, {2}) – {3}",,instance/graphic tooltip when there is no parent item
 RoomEditor_RoomProperties,Properties - {0},Właściwości – {0},,Window title for room properties
-RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},Kolejność tworzenia wystąpień – {0},,Window title for instance creation order
-RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,Kolejność tworzenia wystąpień,,menu entry for instance creation order window
+RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},Kolejność tworzenia instancji – {0},,Window title for instance creation order
+RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,Kolejność tworzenia instancji,,menu entry for instance creation order window
 RoomEditor_SelectedTileBrush,Brush:,Pędzel:,,Label for the currently selected tile editing brush
 RoomEditor_SelectedTileTool,Tool:,Narzędzie:,,Label for the currently selected tile editing tool
 RoomEditor_EditingWindowMode,Editing Mode:,Tryb edycji:,,Label for the TileSet macro page mode (selection or editing)
@@ -1571,7 +1571,7 @@ RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Wyczyść bufor wyświetl
 RoomProperties_ClearView,Clear Viewport Background,Wyczyść tło okienka ekranu,,checkbox caption for clear view background option
 RoomProperties_Colour,Colour,Kolor,,colour select box caption
 RoomProperties_CreationCode,Creation Code,Kod tworzenia,,button caption for opening creation code
-RoomProperties_CreationOrder,Instance Creation Order,Kolejność tworzenia wystąpień,,button caption for opening the instance creation order window
+RoomProperties_CreationOrder,Instance Creation Order,Kolejność tworzenia instancji,,button caption for opening the instance creation order window
 RoomProperties_EnablePhysics,Enable Physics,Włącz fizykę,,Checkbox caption for enabling physics
 RoomProperties_EnableViews,Enable Viewports,Wyczyść okienka ekranu,,checkbox caption for enable views option
 RoomProperties_GravityX,Gravity X,Oś X grawitacji,,Numeric textbox caption for horizontal gravity
@@ -1751,7 +1751,7 @@ Splash_LoadingDevices,Loading Devices...,Ładowanie urządzeń...,,Loading the d
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Ładowanie zasobów wtyczek...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Ładowanie języków wtyczek...,,Loading the plugin languages
 Splash_UserLogin,User Login,Login użytkownika,,User Login has been started
-Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual 
+Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual
 Splash_CheckingRSS,Checking RSS...,Sprawdzanie RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Pobieranie instrukcji...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Usuń punkty,,Path spline editor context menu entry
@@ -2181,8 +2181,8 @@ TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be und
 TimeLine_DeleteWarningTitle,Delete Moments,Usuń momenty,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},Obszar roboczy {0},,The default tab name for workspace tabs
 Dock_TabTitle,Dock Tab{0},Karta paska Dock,,the default tab name for dock tabs
-RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","Wybrana warstwa nie przyjmuje przeciągniętych zasobów. Wybierz odpowiedni typ warstwy: obiekt -> warstwa wystąpień, sprite -> warstwa zasobów lub tła, ścieżka -> warstwa ścieżek",,Information warning for dropping resource gadgets on a layer which won't accept them
-RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,"Ten zasób można zastosować wyłącznie do warstwy wystąpień, a obecnie nie jest ona wybrana.\n\nCzy chcesz utworzyć nową warstwę wystąpień?",,Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
+RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","Wybrana warstwa nie przyjmuje przeciągniętych zasobów. Wybierz odpowiedni typ warstwy: obiekt -> warstwa instancji, sprite -> warstwa zasobów lub tła, ścieżka -> warstwa ścieżek",,Information warning for dropping resource gadgets on a layer which won't accept them
+RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,"Ten zasób można zastosować wyłącznie do warstwy wystąpień, a obecnie nie jest ona wybrana.\n\nCzy chcesz utworzyć nową warstwę instancji?",,Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
 RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,"Ten zasób można zastosować wyłącznie do warstwy zasobów, a obecnie nie jest ona wybrana.\n\nCzy chcesz utworzyć nową warstwę zasobów?",,Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
 Dock_FloatingDock_Title,Floating Dock,Przestawny pasek Dock,,floating dock window title
 RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected","Nie można przeciągnąć zasobów na planszę. Upewnij się, że warstwa została wybrana",,Information warning for dropping resource gadgets on the room but layer selection is invalid
@@ -2845,7 +2845,7 @@ roomeditor_automaticparentlayerdeletion,Automatic response to parent room layer 
 roomeditor_automaticitemdeletion,Automatic response to room item deletion,Automatyczna odpowiedź na usunięcie elementu planszy,,Automatic item deletion in room editor
 roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,Automatyczna odpowiedź na usunięcie warstwy planszy,,Automatic layer deletion in room editor
 roomeditor_automaticacceptitemdrag,Hide warnings when dragging unusable assets onto room layers,Ukryj ostrzeżenia w przypadku przeciągnięcia nieużywanych zasobów na warstwy planszy,,Automatic drag acceptance on invalid items in room editor
-roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,Utwórz nowe warstwy wystąpienia w przypadku przeciągnięcia obiektów na nieodpowiednie warstwy,,Automatic drag acceptance on invalid instance items in room editor
+roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,Utwórz nowe warstwy instancji w przypadku przeciągnięcia obiektów na nieodpowiednie warstwy,,Automatic drag acceptance on invalid instance items in room editor
 roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,Utwórz nowe warstwy zasobów w przypadku przeciągnięcia sekwencji/duszków na nieodpowiednie warstwy,,Automatic drag acceptance on invalid asset items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,Automatyczna odpowiedź na błąd przeciągania wyboru nieprawidłowej warstwy,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,Automatyczna odpowiedź na błąd przeciągania zablokowanej/niewidocznej warstwy,,Automatic layer drag acceptance for locked or invisible layer in room editor
@@ -3441,7 +3441,7 @@ TileSetEditor_SelectedFrame,Selected Frame:,Wybrana ramka:,,the caption in the a
 TileSetEditor_SelectedTile,Selected Tile:,Wybrany kafelek:,,the caption in the animations window status bar
 TileSetEditor_SelectAnimationFrameCount,Set number of frames,Ustaw liczbę ramek,,the message displayed on a new animation which the user has not selected the frame count
 TileSetEditor_TileTemplates,Auto Tile Templates,Szablony automatycznych kafelków,,The auto tile editor heading for the auto tile set list
-ApplyTo_GMLVisual_ToolTip,Apply to a different instance.,Zastosuj do innego wystąpienia.,,Apply To GML Visual tooltip caption
+ApplyTo_GMLVisual_ToolTip,Apply to a different instance.,Zastosuj do innej instancji.,,Apply To GML Visual tooltip caption
 YoYoImage_UnknownImageFormat,Unknown image format,Nieznany format obrazu,,ouput to show that the selected image file was of an unknown type
 YoYoImage_ImageTooLarge,Tried to load an image that was too large. Skipping pixels.,Podjęto próbę załadowania zbyt dużego obrazu. Pomijanie pikseli.,,tried to load image message
 YoYoImage_BmpRleNotSupported,Runlength encoded not supported for .bmp formatted images. Skipping pixels.,Kompresja metodą RLE nie jest obsługiwana w przypadku obrazów w formacie .bmp. Pomijanie pikseli.,,BMP RLE not suported message
@@ -3700,17 +3700,17 @@ GMStdCallFunction_Name,Function Call,Wywołanie funkcji,,GML Visual label
 GMStdCallFunction_Desc,Call any function with optional arguments and get the return value of the function.,Wywołaj dowolną funkcję przy użyciu opcjonalnych argumentów i pobierz wartość zwrotną z funkcji.,,GML Visual label
 GMStdNew_Name,New Struct,Nowa struktura,,GML Visual label
 GMStdNew_Desc,Create a new struct with optional arguments and assign it to a variable.,Utwórz nową strukturę przy użyciu opcjonalnych argumentów i przypisz ją do zmiennej.,,GML Visual label
-GMStdCatCommon,Common,Publiczne,,GML Visual  library category name
+GMStdCatCommon,Common,Podstawowe,,GML Visual  library category name
 GMStdCatCamera,Cameras,Kamery,,GML Visual  library category name
-GMStdCatInstances,Instances,Wystąpienia,,GML Visual  library category name
+GMStdCatInstances,Instances,Instancje,,GML Visual  library category name
 GMStdCatSequences,Sequences,Sekwencje,,GML Visual  library category name
 GMStdCatMouseKeyboard,Mouse & Keyboard,Mysz i klawiatura,,GML Visual  library category name
 GMStdCatGamepad,Gamepad,Kontroler,,GML Visual  library category name
 GMStdCatMovement,Movement,Ruch,,GML Visual  library category name
 GMStdCatCollisions,Collisions,Kolizje,,GML Visual  library category name
-GMStdCatDrawing,Drawing,Rysunek,,GML Visual  library category name
+GMStdCatDrawing,Drawing,Rysowanie,,GML Visual  library category name
 GMStdCatTiles,Tiles,Kafelki,,GML Visual  library category name
-GMStdCatInstVars,Instance Variables,Zmienne wystąpienia,,GML Visual  library category name
+GMStdCatInstVars,Instance Variables,Zmienne instancji,,GML Visual  library category name
 GMStdCatGlobal,Global,Ogólnoświatowe,,GML Visual  library category name
 GMStdCatRandom,Random,Losowe,,GML Visual  library category name
 GMStdCatLoops,Loops,Pętle,,GML Visual  library category name
@@ -3733,11 +3733,11 @@ GMStdTemp,Temp,Tymczasowa,,GML Visual™ library
 GMStdIfVar_Name,If Variable,Jeśli zmienna,,GML Visual  library action name
 GMStdIfVar_Desc,Check if a variable satisfies a condition.,"Sprawdź, czy zmienna spełnia warunek.",,GML Visual  library action description
 GMStdIfScore_Name,If Score,Jeśli wynik,,GML Visual  library action name
-GMStdIfScore_Desc,Check if an instance's score satisfies a condition.,"Sprawdź, czy wynik wystąpienia spełnia warunek.",,GML Visual  library action description
+GMStdIfScore_Desc,Check if an instance's score satisfies a condition.,"Sprawdź, czy wynik instancji spełnia warunek.",,GML Visual  library action description
 GMStdIfLives_Name,If Lives,Jeśli liczba żyć,,GML Visual  library action name
-GMStdIfLives_Desc,Check if an instance's lives satisfies a condition.,"Sprawdź, czy liczba żyć wystąpienia spełnia warunek.",,GML Visual  library action description
-GMStdIfHealth_Name,If Health,Jeśli stan życia,,GML Visual  library action name
-GMStdIfHealth_Desc,Check if an instance's health satisfies a condition.,"Sprawdź, czy stan paska życia wystąpienia spełnia warunek.",,GML Visual  library action description
+GMStdIfLives_Desc,Check if an instance's lives satisfies a condition.,"Sprawdź, czy liczba żyć instancji spełnia warunek.",,GML Visual  library action description
+GMStdIfHealth_Name,If Health,Jeśli energia,,GML Visual  library action name
+GMStdIfHealth_Desc,Check if an instance's health satisfies a condition.,"Sprawdź, czy wartość energii instancji spełnia warunek.",,GML Visual  library action description
 GMStdIfExpr_Name,If Expression,Jeśli wyrażenie,,GML Visual  library action name
 GMStdIfExpr_Desc,Check if an expression is true or false.,"Sprawdź, czy wyrażenie jest prawdziwe czy fałszywe.",,GML Visual  library action description
 GMStdIfUndef_Name,If Undefined,Jeśli nie zdefiniowano,,GML Visual  library action name
@@ -3750,25 +3750,25 @@ GMStdExScript_Name,Execute Script,Wykonaj skrypt,,GML Visual  library action nam
 GMStdExScript_Desc,Execute a script resource.,Wykonaj zasób skryptu.,,GML Visual  library action description
 GMStdApplyTo_Name,Apply To,Zastosuj do,,GML Visual  library action name
 GMStdApply,Apply,Zastosuj,,apply GML Visual label
-GMStdApplyTo_Desc,Execute code in the context of a specific object or instance.,Wykonaj kod w kontekście konkretnego obiektu lub wystąpienia.,,GML Visual  library action description
+GMStdApplyTo_Desc,Execute code in the context of a specific object or instance.,Wykonaj kod w kontekście konkretnego obiektu lub instancji.,,GML Visual  library action description
 GMStdRet_Name,Return,Zwróć,,GML Visual  library action name
 GMStdRet_Desc,Return a value from a function.,Zwróć wartość z funkcji.,,GML Visual  library action description
 GMStdMacro_Name,Macro,Makro,,GML Visual  library action name
 GMStdMacro_Desc,Define a global compile-time macro.,Zdefiniuj makro globalne obejmujące czas kompilacji.,,GML Visual  library action description
 GMStdExit_Name,Exit,Zakończ,,GML Visual  library action name
 GMStdExit_Desc,Exit the current event without executing the remaining code.,Zakończ bieżące zdarzenie bez wykonywania pozostałego kodu.,,GML Visual  library action description
-GMStdInstCount_Name,Get Instance Count,Pobierz liczbę wystąpień,,GML Visual  library action name
-GMStdInstCount_Desc,Returns the number of active instances of the object.,Zwraca liczbę aktywnych wystąpień obiektu.,,GML Visual  library action description
-GMStdInstCreate_Name,Create Instance,Utwórz instancja,,GML Visual  library action name
-GMStdInstCreate_Desc,Creates an instance of an object.,Tworzy instancja obiektu.,,GML Visual  library action description
-GMStdInstChange_Name,Change Instance,Zmień instancja,,GML Visual  library action name
-GMStdInstChange_Desc,Change an instance to be an instance of another object.,Zamienia instancja na instancja innego obiektu.,,GML Visual  library action description
-GMStdInstDestroy_Name,Destroy Instance,Zlikwiduj instancja,,GML Visual  library action name
-GMStdInstDestroy_Desc,Destroy an instance and remove it from the room.,Zlikwiduj instancja i usuń je z planszy.,,GML Visual  library action description
+GMStdInstCount_Name,Get Instance Count,Pobierz liczbę instancji,,GML Visual  library action name
+GMStdInstCount_Desc,Returns the number of active instances of the object.,Zwraca liczbę aktywnych instancji obiektu.,,GML Visual  library action description
+GMStdInstCreate_Name,Create Instance,Utwórz instancję,,GML Visual  library action name
+GMStdInstCreate_Desc,Creates an instance of an object.,Tworzy instancję obiektu.,,GML Visual  library action description
+GMStdInstChange_Name,Change Instance,Zmień instancje,,GML Visual  library action name
+GMStdInstChange_Desc,Change an instance to be an instance of another object.,Zamienia instancje na instancje innego obiektu.,,GML Visual  library action description
+GMStdInstDestroy_Name,Destroy Instance,Usuń instancje,,GML Visual  library action name
+GMStdInstDestroy_Desc,Destroy an instance and remove it from the room.,Zlikwiduj instancje i usuń je z planszy.,,GML Visual  library action description
 GMStdSeqCreate_Name,Create Sequence,Utwórz sekwencję,,GML Visual  library action name
-GMStdSeqCreate_Desc,Creates an instance of a sequence.,Tworzy instancja sekwencji.,,GML Visual  library action description
+GMStdSeqCreate_Desc,Creates an instance of a sequence.,Tworzy instancję sekwencji.,,GML Visual  library action description
 GMStdSeqDestroy_Name,Destroy Sequence,Zlikwiduj sekwencję,,GML Visual  library action name
-GMStdSeqDestroy_Desc,Destroys an instance of a sequence and remove it from the room.,Likwiduje instancja sekwencji i usuwa ją z planszy.,,GML Visual  library action description
+GMStdSeqDestroy_Desc,Destroys an instance of a sequence and remove it from the room.,Usuwa instancję sekwencji i usuwa ją z planszy.,,GML Visual  library action description
 GMStdSeqGetPosition_Name,Get Sequence Position,Pobierz położenie sekwencji,,GML Visual  library action name
 GMStdSeqGetPosition_Desc,Sets the values of the x and y variables to the position of the sequence.,Ustawia wartości zmiennych x i y zgodnie z położeniem sekwencji.,,GML Visual  library action description
 GMStdSeqSetPosition_Name,Set Sequence Position,Ustaw położenie sekwencji,,GML Visual  library action name
@@ -3785,31 +3785,31 @@ GMStdSeqGetHead_Name,Get Sequence Head,Pobierz głowicę sekwencji,,GML Visual l
 GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,Pobierz położenie głowicy (w ramkach) elementu sekwencji.,,GML Visual library action description
 GMStdSeqSetHead_Name,Set Sequence Head,Ustaw głowicę sekwencji,,GML Visual library action name
 GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,Ustaw położenie głowicy (w ramkach) elementu sekwencji.,,GML Visual library action description
-GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Pobierz długość wystąpienia sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
-GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Pobierz długość wystąpienia sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
-GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
-GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
-GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdDestroyAtPos_Name,Destroy At Position,Zlikwiduj w położeniu,,GML Visual  library action name
-GMStdDestroyAtPos_Desc,Destroy all instances at a position.,Zlikwiduj wszystkie wystąpienia w danym położeniu.,,GML Visual  library action description
+GMStdDestroyAtPos_Desc,Destroy all instances at a position.,Zlikwiduj wszystkie instancje na danej pozycji.,,GML Visual  library action description
 GMStdSetSprite_Name,Set Sprite,Ustaw duszka,,GML Visual  library action name
-GMStdSetSprite_Desc,Change the sprite of an object instance.,Zmień duszka wystąpienia obiektu.,,GML Visual  library action description
-GMStdRotSprite_Name,Set Instance Rotation,Ustaw obrót wystąpienia,,GML Visual  library action name
-GMStdRotSprite_Desc,Set the rotation of an instance.,Ustaw obrót wystąpienia.,,GML Visual  library action description
+GMStdSetSprite_Desc,Change the sprite of an object instance.,Zmień duszka instancji obiektu.,,GML Visual  library action description
+GMStdRotSprite_Name,Set Instance Rotation,Ustaw obrót instancji,,GML Visual  library action name
+GMStdRotSprite_Desc,Set the rotation of an instance.,Ustaw obrót instancji.,,GML Visual  library action description
 GMStdSpriteAnimSpd_Name,Set Animation Speed,Ustaw szybkość animacji,,GML Visual  library action name
-GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,Ustaw szybkość animacji duszka w wystąpieniu.,,GML Visual  library action description
-GMStdSpriteScale_Name,Set Instance Scale,Ustaw skalę wystąpienia,,GML Visual  library action name
-GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,Ustaw poziome i pionowe skalowanie duszka wystąpienia.,,GML Visual  library action description
-GMStdSpriteAlpha_Name,Set Instance Alpha,Ustaw kanał alfa wystąpienia,,GML Visual  library action name
-GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,Ustaw przezroczystość (0-1) duszka wystąpienia.,,GML Visual  library action description
-GMStdSpriteColor_Name,Set Instance Colour,Ustaw kolor wystąpienia,,GML Visual  library action name
-GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,Ustaw mieszanie koloru duszka wystąpienia.,,GML Visual  library action description
+GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,Ustaw szybkość animacji duszka w instancji.,,GML Visual  library action description
+GMStdSpriteScale_Name,Set Instance Scale,Ustaw skalę instancji,,GML Visual  library action name
+GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,Ustaw poziome i pionowe skalowanie duszka instancji.,,GML Visual  library action description
+GMStdSpriteAlpha_Name,Set Instance Alpha,Ustaw kanał alfa instancji,,GML Visual  library action name
+GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,Ustaw przezroczystość (0-1) duszka instancji.,,GML Visual  library action description
+GMStdSpriteColor_Name,Set Instance Colour,Ustaw kolor instancji,,GML Visual  library action name
+GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,Ustaw mieszanie koloru duszka instancji.,,GML Visual  library action description
 GMStdSetAlarm_Name,Set Alarm Countdown,Ustaw odliczanie alarmu,,GML Visual  library action name
 GMStdSetAlarm_Desc,Set the countdown value of an alarm event.,Ustaw wartość odliczania zdarzenia alarmu.,,GML Visual  library action description
 GMStdGetAlarm_Name,Get Alarm Countdown,Pobierz odliczanie alarmu,,GML Visual  library action name
 GMStdGetAlarm_Desc,Get the countdown value of an alarm event.,Pobierz wartość odliczania zdarzenia alarmu.,,GML Visual  library action description
 GMStdInheritEvent_Name,Call Parent Event,Wywołaj zdarzenie rodzic,,GML Visual  library action name
-GMStdInheritEvent_Desc,Call this event on the instance's parent object.,Wywołaj to zdarzenie na obiekcie nadrzędnym wystąpienia.,,GML Visual  library action description
+GMStdInheritEvent_Desc,Call this event on the instance's parent object.,Wywołaj to zdarzenie na obiekcie nadrzędnym instancji.,,GML Visual  library action description
 GMStdIfMousePressed_Name,If Mouse Pressed,Jeśli przycisk myszy został naciśnięty,,GML Visual  library action name
 GMStdIfMousePressed_Desc,Check if a mouse button is pressed.,"Sprawdź, czy przycisk myszy został naciśnięty.",,GML Visual  library action description
 GMStdIfMouseDown_Name,If Mouse Down,Jeśli przycisk myszy jest naciskany,,GML Visual  library action name
@@ -3849,7 +3849,7 @@ GMStdDirPoint_Desc,Set a direction towards a specified point.,Ustaw kierunek w s
 GMStdDirRandom_Name,Set Direction Random,Ustaw kierunek losowo,,GML Visual  library action name
 GMStdDirRandom_Desc,Set a random direction based on the specified directions.,"Ustaw kierunek losowy, zależny od określonych kierunków.",,GML Visual  library action description
 GMStdSpeed_Name,Set Speed,Ustaw szybkość,,GML Visual  library action name
-GMStdSpeed_Desc,Set the speed of an instance.,Ustaw szybkość wystąpienia.,,GML Visual  library action description
+GMStdSpeed_Desc,Set the speed of an instance.,Ustaw szybkość instancji.,,GML Visual  library action description
 GMStdGravDir_Name,Set Gravity Direction,Ustaw kierunek grawitacji,,GML Visual  library action name
 GMStdGravDir_Desc,Set the gravitational direction.,Ustaw kierunek działania siły grawitacji.,,GML Visual  library action description
 GMStdGravForce_Name,Set Gravity Force,Ustaw siłę grawitacji,,GML Visual  library action name
@@ -3865,25 +3865,25 @@ GMStdVKeyHeight_Desc,Get the current pixel height of the virtual keyboard if it 
 GMStdReverse_Name,Reverse,Odwróć,,GML Visual  library action name
 GMStdReverse_Desc,Reverse a direction from a list of presets.,Odwróć kierunek z listy ustawień wstępnych.,,GML Visual  library action description
 GMStdFriction_Name,Set Friction,Ustaw tarcie,,GML Visual  library action name
-GMStdFriction_Desc,Apply friction to the instance's movement.,Zastosuj tarcie do ruchu wystąpienia.,,GML Visual  library action description
+GMStdFriction_Desc,Apply friction to the instance's movement.,Zastosuj tarcie do ruchu instancji.,,GML Visual  library action description
 GMStdJumpPoint_Name,Jump To Point,Przeskocz do punktu,,GML Visual  library action name
 GMStdJumpPoint_Desc,Jump to the specified position.,Przeskocz do określonego położenia.,,GML Visual  library action description
 GMStdJumpStart_Name,Jump To Start,Przeskocz na początek,,GML Visual  library action nameGM
-GMStdJumpStart_Desc,Jump to the instance's start position.,Przeskocz do położenia początkowego wystąpienia.,,GML Visual  library action description
+GMStdJumpStart_Desc,Jump to the instance's start position.,Przeskocz do położenia początkowego instancji.,,GML Visual  library action description
 GMStdSnapPos_Name,Snap Position,Przyciągnij położenie,,GML Visual  library action name
-GMStdSnapPos_Desc,Snap an instance's position to a grid.,Przyciągnij położenie wystąpienia do siatki.,,GML Visual  library action description
+GMStdSnapPos_Desc,Snap an instance's position to a grid.,Przyciągnij położenie instancji do siatki.,,GML Visual  library action description
 GMStdWrapRoom_Name,Wrap Around Room,Zawijaj wokół planszy,,GML Visual  library action name
 GMStdWrapRoom_Desc,Wrap around room.,Zawijaj wokół planszy.,,GML Visual  library action description
 GMStdIfAnyObjAt_Name,If Any Object At Place,Jeśli dowolny obiekt jest na miejscu,,GML Visual  library action name
-GMStdIfAnyObjAt_Desc,Check if an instance overlaps any object instances at a position.,"Sprawdź, czy instancja pokrywa się z dowolnymi wystąpieniami obiektów w danym położeniu.",,GML Visual  library action description
+GMStdIfAnyObjAt_Desc,Check if an instance overlaps any object instances at a position.,"Sprawdź, czy instancja pokrywa się z dowolnymi instancji obiektów w danym położeniu.",,GML Visual  library action description
 GMStdIfObjAt_Name,If Object At Place,Jeśli obiekt jest na miejscu,,GML Visual  library action name
-GMStdIfObjAt_Desc,Check if an instance overlaps one or more instances of a specific object at a position.,"Sprawdź, czy instancja pokrywa się z co najmniej jednym wystąpieniem konkretnego obiektu w danym położeniu.",,GML Visual  library action description
+GMStdIfObjAt_Desc,Check if an instance overlaps one or more instances of a specific object at a position.,"Sprawdź, czy instancja pokrywa się z co najmniej jednym instancją konkretnego obiektu w danym położeniu.",,GML Visual  library action description
 GMStdIfColShape_Name,If Collision Shape,Jeśli kolizja z kształtem,,GML Visual  library action name
-GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,"Sprawdź, czy co najmniej jedno instancja przecina kształt.",,GML Visual  library action description
+GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,"Sprawdź, czy co najmniej jedna instancja przecina kształt.",,GML Visual  library action description
 GMStdIfColPoint_Name,If Collision Point,Jeśli kolizja z punktem,,GML Visual  library action name
-GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,"Sprawdź, czy co najmniej jedno instancja przecina punkt.",,GML Visual  library action description
+GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,"Sprawdź, czy co najmniej jedna instancja przecina punkt.",,GML Visual  library action description
 GMStdDrawSelf_Name,Draw Self,Rysuj samodzielnie,,GML Visual  library action name
-GMStdDrawSelf_Desc,Draw this instance's sprite.,Rysuj duszka tego wystąpienia.,,GML Visual  library action description
+GMStdDrawSelf_Desc,Draw this instance's sprite.,Rysuj duszka obecnej instancji.,,GML Visual  library action description
 GMStdDrawValue_Name,Draw Value,Rysuj wartość,,GML Visual  library action name
 GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.","Rysuj określoną wartość. Może być ciągiem, liczbą lub zmienną.",,GML Visual  library action description
 GMStdDrawValueTransformed_Name,Draw Transformed Value,Rysuj wartość przekształconą,,GML Visual  library action name
@@ -3904,12 +3904,12 @@ GMStdDrawLine_Name,Draw Line,Rysuj linię,,GML Visual  library action name
 GMStdDrawLine_Desc,Draw a line.,Rysuj linię.,,GML Visual  library action description
 GMStdDrawHealthbar_Name,Draw Healthbar,Rysuj pasek życia,,GML Visual  library action name
 GMStdDrawHealthbar_Desc,Draw a healthbar from a 0-100 value.,Rysuj pasek życia z wartością 0-100.,,GML Visual  library action description
-GMStdDrawInstanceScore_Name,Draw Instance Score,Rysuj wynik wystąpienia,,GML Visual  library action name
-GMStdDrawInstanceScore_Desc,Draw an instance's score with a caption.,Rysuj wynik wystąpienia z podpisem.,,GML Visual  library action description
-GMStdDrawInstanceHealth_Name,Draw Instance Health,Rysuj stan wystąpienia,,GML Visual  library action name
-GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,Rysuj stan wystąpienia przy użyciu paska życia.,,GML Visual  library action description
-GMStdDrawInstanceLives_Name,Draw Instance Lives,Rysuj życia wystąpienia,,GML Visual  library action name
-GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,Rysuj życia wystąpienia przy użyciu stosu duszków.,,GML Visual  library action description
+GMStdDrawInstanceScore_Name,Draw Instance Score,Rysuj wynik instancji,,GML Visual  library action name
+GMStdDrawInstanceScore_Desc,Draw an instance's score with a caption.,Rysuj wynik instancji z podpisem.,,GML Visual  library action description
+GMStdDrawInstanceHealth_Name,Draw Instance Health,Rysuj energię instancji,,GML Visual  library action name
+GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,Rysuj energię instancji przy użyciu paska życia.,,GML Visual  library action description
+GMStdDrawInstanceLives_Name,Draw Instance Lives,Rysuj życia instancji,,GML Visual  library action name
+GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,Rysuj życia instancji przy użyciu stosu duszków.,,GML Visual  library action description
 GMStdSetColor_Name,Set Draw Colour,Ustaw kolor rysowania,,GML Visual  library action name
 GMStdSetColor_Desc,Set the colour to blend all drawing with.,"Ustaw kolor, który będzie używany do mieszania we wszystkich rysunkach.",,GML Visual  library action description
 GMStdGetColor_Name,Get Draw Colour,Pobierz kolor rysowania,,GML Visual  library action name
@@ -3948,17 +3948,17 @@ GMStdTileGetTransform_Name,Get Tile Data Transform,Pobierz przekształcenie dany
 GMStdTileGetTransform_Desc,Get the transformation of tile data.,Pobierz przekształcenie danych kafelków.,,GML Visual  library action description
 GMStdTileSet,Tile Set,Zestaw kafelków,,GML Visual label
 GMStdSetScore_Name,Set Score,Ustaw wynik,,GML Visual  library action name
-GMStdSetScore_Desc,Set the score variable on the instance.,Ustaw zmienną wyniku dla wystąpienia.,,GML Visual  library action description
+GMStdSetScore_Desc,Set the score variable on the instance.,Ustaw zmienną wyniku dla instancji.,,GML Visual  library action description
 GMStdGetScore_Name,Get Score,Pobierz wynik,,GML Visual  library action name
-GMStdGetScore_Desc,Get the score of the instance.,Pobierz wynik wystąpienia.,,GML Visual  library action description
+GMStdGetScore_Desc,Get the score of the instance.,Pobierz wynik instancji.,,GML Visual  library action description
 GMStdSetLives_Name,Set Lives,Ustaw liczbę żyć,,GML Visual  library action name
-GMStdSetLives_Desc,Set the life count of the instance.,Ustaw liczbę żyć wystąpienia.,,GML Visual  library action description
+GMStdSetLives_Desc,Set the life count of the instance.,Ustaw liczbę żyć instancji.,,GML Visual  library action description
 GMStdGetLives_Name,Get Lives,Pobierz liczbę żyć,,GML Visual  library action name
-GMStdGetLives_Desc,Get the life count of the instance.,Pobierz liczbę żyć wystąpienia.,,GML Visual  library action description
-GMStdSetHealth_Name,Set Health,Ustaw stan życia,,GML Visual  library action name
-GMStdSetHealth_Desc,Set the health variable of the instance.,Ustaw zmienną stanu życia wystąpienia.,,GML Visual  library action description
-GMStdGetHealth_Name,Get Health,Pobierz stan życia,,GML Visual  library action name
-GMStdGetHealth_Desc,Get the health of the instance.,Pobierz stan życia wystąpienia.,,GML Visual  library action description
+GMStdGetLives_Desc,Get the life count of the instance.,Pobierz liczbę żyć instancji.,,GML Visual  library action description
+GMStdSetHealth_Name,Set Health,Ustaw energię,,GML Visual  library action name
+GMStdSetHealth_Desc,Set the health variable of the instance.,Ustaw energię instancji.,,GML Visual  library action description
+GMStdGetHealth_Name,Get Health,Pobierz energię,,GML Visual  library action name
+GMStdGetHealth_Desc,Get the health of the instance.,Pobierz energię instancji.,,GML Visual  library action description
 GMStdSetGlobal_Name,Set Global Variable,Ustaw zmienną globalną,,GML Visual  library action name
 GMStdSetGlobal_Desc,Set a global variable.,Ustaw zmienną globalną.,,GML Visual  library action description
 GMStdGetGlobal_Name,Get Global Variable,Pobierz zmienną globalną,,GML Visual  library action name
@@ -4103,22 +4103,22 @@ GMStdIniWrite_Name,Write To Ini File,Zapisz do pliku ini,,GML Visual  library ac
 GMStdIniWrite_Desc,Write a string or numeric value to an ini file.,Zapisz ciąg lub wartość liczbową do pliku ini.,,GML Visual  library action description
 GMStdIniRead_Name,Read Ini File,Odczytaj plik ini,,GML Visual  library action name
 GMStdIniRead_Desc,Read a string or numeric value from an ini file.,Odczytaj ciąg lub wartość liczbową z pliku ini.,,GML Visual  library action description
-GMStdSetTimeline_Name,Set Instance Timeline,Ustaw oś czasu wystąpienia,,GML Visual  library action name
-GMStdSetTimeline_Desc,Attach a timeline to an instance.,Dołącz oś czasu do wystąpienia.,,GML Visual  library action description
+GMStdSetTimeline_Name,Set Instance Timeline,Ustaw oś czasu instancji,,GML Visual  library action name
+GMStdSetTimeline_Desc,Attach a timeline to an instance.,Dołącz oś czasu do instancji.,,GML Visual  library action description
 GMStdPositionTimeline_Name,Set Timeline Moment,Ustaw moment na osi czasu,,GML Visual  library action name
-GMStdPositionTimeline_Desc,Set the current moment of an instance's timeline.,Ustaw bieżący moment na osi czasu wystąpienia.,,GML Visual  library action description
+GMStdPositionTimeline_Desc,Set the current moment of an instance's timeline.,Ustaw bieżący moment na osi czasu instancji.,,GML Visual  library action description
 GMStdSpeedTimeline_Name,Set Timeline Speed,Ustaw szybkość osi czasu,,GML Visual  library action name
-GMStdSpeedTimeline_Desc,Set the speed of an instance's timeline.,Ustaw szybkość osi czasu wystąpienia.,,GML Visual  library action description
+GMStdSpeedTimeline_Desc,Set the speed of an instance's timeline.,Ustaw szybkość osi czasu instancji.,,GML Visual  library action description
 GMStdSetTimelineState_Name,Set Timeline State,Ustaw stan osi czasu,,GML Visual  library action name
-GMStdSetTimelineState_Desc,Set the state of an instance's timeline.,Ustaw stan osi czasu wystąpienia.,,GML Visual  library action description
+GMStdSetTimelineState_Desc,Set the state of an instance's timeline.,Ustaw stan osi czasu instancji.,,GML Visual  library action description
 GMStdStartPath_Name,Start Following Path,Rozpocznij śledzenie ścieżki,,GML Visual  library action name
-GMStdStartPath_Desc,Start following a path with an instance.,Rozpocznij śledzenie ścieżki za pomocą wystąpienia.,,GML Visual  library action description
+GMStdStartPath_Desc,Start following a path with an instance.,Rozpocznij instancji po ścieżce.,,GML Visual  library action description
 GMStdStopPath_Name,Stop Following Path,Zatrzymaj śledzenie ścieżki,,GML Visual  library action name
-GMStdStopPath_Desc,Stop an instance from following a path.,Zatrzymaj śledzenie ścieżki przez instancja.,,GML Visual  library action description
+GMStdStopPath_Desc,Stop an instance from following a path.,Zatrzymaj poruszanie instancji po ścieżce.,,GML Visual  library action description
 GMStdPathPosition_Name,Set Position Along Path,Ustaw położenie na ścieżce,,GML Visual  library action name
-GMStdPathPosition_Desc,Set the position of the instance along the path it is following.,"Ustaw położenie wystąpienia wzdłuż ścieżki, którą to instancja śledzi.",,GML Visual  library action description
+GMStdPathPosition_Desc,Set the position of the instance along the path it is following.,"Ustaw położenie instancji wzdłuż ścieżki, którą to instancja podąża.",,GML Visual  library action description
 GMStdPathSpeed_Name,Set Path Follow Speed,Ustaw szybkość podążania ścieżką,,GML Visual  library action name
-GMStdPathSpeed_Desc,Set the speed of the instance following a path.,Ustaw szybkość wystąpienia podążającego ścieżką.,,GML Visual  library action description
+GMStdPathSpeed_Desc,Set the speed of the instance following a path.,Ustaw szybkość instancji podążającej ścieżką.,,GML Visual  library action description
 GMStdDebugShowMessage_Name,Show Debug Message,Pokaż komunikat o debugowaniu,,GML Visual  library action name
 GMStdDebugShowMessage_Desc,Display a debug message in the output console.,Wyświetl komunikat o debugowaniu na konsoli wyjściowej.,,GML Visual  library action description
 GMStdSetWindowState_Name,Set Window State,Ustaw stan okna,,GML Visual  library action name
@@ -4212,8 +4212,8 @@ GMStdColumn,Column,Kolumna,,GML Visual  library argument label
 GMStdRow,Row,Wiersz,,GML Visual  library argument label
 GMStdScore,Score,Wynik,,GML Visual  library argument label
 GMStdLives,Lives,Życia,,GML Visual  library argument label
-GMStdHealth,Health,Zdrowie,,GML Visual  library argument label
-GMStdGlobal,Global,Ogólnoświatowe,,GML Visual  library argument label
+GMStdHealth,Health,Energia,,GML Visual  library argument label
+GMStdGlobal,Global,Globalne,,GML Visual  library argument label
 GMStdMin,Minimum,Minimalne,,GML Visual  library argument label
 GMStdMax,Maximum,Maksymalnie,,GML Visual  library argument label
 GMStdTimes,Times,Liczba razy,,GML Visual  library argument label
@@ -4452,7 +4452,7 @@ GMStdVar_persistent,Persistent,Pernamentny,,GML Visual™
 GMStdVar_mask_index,Mask,Maska,,GML Visual™
 GMStdVar_score,Score,Wynik,,GML Visual™
 GMStdVar_lives,Lives,Życia,,GML Visual™
-GMStdVar_health,Health,Zdrowie,,GML Visual™
+GMStdVar_health,Health,Energia,,GML Visual™
 GMStdVar_depth,Depth,Głębokość,,GML Visual™
 GMStdVar_image_xscale,Horizontal Scale,Skala pozioma,,GML Visual™
 GMStdVar_image_yscale,Vertical Scale,Skala pionowa,,GML Visual™
@@ -4469,7 +4469,7 @@ GMStdEvent,Event,Zdarzenie,,GML Visual™
 GMStdPerStep,Per Step,Na krok,,GML Visual™
 GMStdOnDeath,On Death,W chwili śmierci,,GML Visual™
 GMStdCallUserEvent_Name,Call User Event,Wywołaj zdarzenie użytkownika,,GML Visual™ action name
-GMStdCallUserEvent_Desc,Call a user event on an instance.,Wywołaj zdarzenie użytkownika w wystąpieniu.,,GML Visual™ action description
+GMStdCallUserEvent_Desc,Call a user event on an instance.,Wywołaj zdarzenie użytkownika w instancji.,,GML Visual™ action description
 GMStdInstExists_Name,If Instance Exists,Jeśli instancja istnieje,,GML Visual™ action name
 GMStdInstExists_Desc,Checks if an instance exists.,"Sprawdź, czy instancja istnieje.",,GML Visual™ action description
 GMStdIfFileExists_Name,If File Exists,Jeśli plik istnieje,,GML Visual™ action name
@@ -4522,16 +4522,16 @@ GMStdDefault_Name,Default,Domyślna,,GML Visual™ action name
 GMStdDefault_Desc,A default switch case for when no other case is matched.,"Domyślny przypadek przełączenia obowiązujący w sytuacjach, gdy żaden inny przypadek nie pasuje.",,GML Visual™ action description
 GMStdLoop_Name,Loop,Pętla,,GML Visual™ action name
 GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,Pętla ogólna wykonywana do momentu wykonania czynności przerwania.,,GML Visual™ action description
-GMStdGetInstanceVar_Name,Get Instance Variable,Pobierz zmienną wystąpienia,,GML Visual™ action name
-GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Pobiera wartość zmiennej wystąpienia.,,GML Visual™ action description
-GMStdSetInstanceVar_Name,Set Instance Variable,Ustaw zmienną wystąpienia,,GML Visual™ action name
-GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Ustaw wartość zmiennej wystąpienia.,,GML Visual™ action description
+GMStdGetInstanceVar_Name,Get Instance Variable,Pobierz zmienną instancji,,GML Visual™ action name
+GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Pobiera wartość zmiennej instancji.,,GML Visual™ action description
+GMStdSetInstanceVar_Name,Set Instance Variable,Ustaw zmienną instancji,,GML Visual™ action name
+GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Ustaw wartość zmiennej instancji.,,GML Visual™ action description
 GMStdPathGetSpeed_Name,Get Path Follow Speed,Pobierz szybkość podążania ścieżką,,GML Visual™ action name
-GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Pobierz szybkość wystąpienia podążającego ścieżką.,,GML Visual™ action description
+GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Pobierz szybkość instancji podążającej ścieżką.,,GML Visual™ action description
 GMStdPathGetPosition_Name,Get Position Along Path,Pobierz położenie na ścieżce,,GML Visual™ action name
-GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,"Pobierz położenie wystąpienia wzdłuż ścieżki, którą to instancja śledzi.",,GML Visual™ action description
+GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,"Pobierz położenie instancji wzdłuż ścieżki, którą ta instancja śledzi.",,GML Visual™ action description
 GMStdConstructor,Constructor,Konstruktor,,GML Visual function label for constructor
-GMStdStatic,Static,Statyczny,,GML Visual function label for static
+GMStdStatic,Static,Statyczna,,GML Visual function label for static
 GMStdDeclFunction_Desc,Declare a new function,Zadeklaruj nową funkcję,,GML Visual declare a new function
 GMStdDeclFunction_Name,Declare A New Function,Zadeklaruj nową funkcję,,GML Visual declare a new function
 GMStdDeclFunction_Story,Declare a new function ${funcName},Zadeklaruj nową funkcję ${funcName},,GML Visual declare a new function
@@ -4823,8 +4823,8 @@ Debugger_Window_LocalsView,Locals,Lokalne,,Debugger locals window title
 Debugger_Window_GlobalsView,Globals,Globalne,,Debugger globals window title
 Debugger_Window_WatchView,Watch,Obserwuj,,Debugger watch window title
 Debugger_Window_InstanceView,Instance,Instancja,,Debugger instance window title
-Debugger_Window_AllInstancesView,All Instances,Wszystkie wystąpienia,,Debugger all instances window title
-Debugger_Window_SelectedInstanceView,Selected Instance,Wybrane instancja,,Debugger selected instance window title
+Debugger_Window_AllInstancesView,All Instances,Wszystkie instancji,,Debugger all instances window title
+Debugger_Window_SelectedInstanceView,Selected Instance,Wybrana instancja,,Debugger selected instance window title
 Debugger_Window_SelectedInstanceView_Arg,Selected Instance {0},Wybrane instancja {0},,Debugger selected instance window title with argument
 Debugger_Window_Callstack,Call Stack,Wywołaj stos,,Debugger call stack window title
 Debugger_Window_Surfaces,Surfaces & Textures,Powierzchnie i tekstury,,Debugger surfaces window title
@@ -4863,7 +4863,7 @@ Debugger_DataGrid_Name,Name,Nazwa,,Debugger data grid name column
 Debugger_DataGrid_Value,Value,Wartość,,Debugger data grid value column
 Debugger_Dock_Variables,Variables,Zmienne,,Debugger variables dock
 Debugger_Dock_Graphics,Graphics,Grafika,,Debugger graphics dock
-Debugger_Dock_Instance,Instances,Wystąpienia,,Debugger instance dock
+Debugger_Dock_Instance,Instances,Instancje,,Debugger instance dock
 Debugger_Dock_Misc,Others,Inne,,Debugger miscellaneous dock
 Debugger_Dock_Debugger,Debugger,Debugger,,Debugger dock
 Debugger_Buffer_textOnly,Show Text Only,Pokaż tylko tekst,,Buffer view type
@@ -5155,7 +5155,7 @@ ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheri
 ResourceTree_RemoveRoomParent,Are you sure you want to remove the room inheritance parent from '{0}'?,Czy na pewno chcesz usunąć element nadrzędny dziedziczenia planszy z „{0}”?,,message displayed when attempting to drag a room off a parent
 resourcetree_automaticsetparentroom,Automatic response to setting a room parent via node drag,Automatyczna odpowiedź na ustawienie elementu nadrzędnego planszy poprzez przeciągnięcie węzła,,the automatic response to dragging rooms to become child rooms in the resource tree
 resourcetree_automaticviewdeletion,Automatic response to deleting custom views,Automatyczna odpowiedź na usunięcie widoków niestandardowych,,the automatic response when deleting a custom view
-RoomEditor_InstanceLockToolTip,Lock Instance,Zablokuj instancja,,tooltip for instance lock
+RoomEditor_InstanceLockToolTip,Lock Instance,Zablokuj instancję,,tooltip for instance lock
 RoomEditor_GraphicLockToolTip,Lock Graphic,Zablokuj grafikę,,tooltip for graphic lock
 RoomEditor_SequenceLockToolTip,Lock Sequence,Zablokuj sekwencję,,tooltip for sequence graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),"Użyto symboli, których nie znaleziono w czcionce (?)",,Font glyph error
@@ -5619,13 +5619,13 @@ SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function decl
 SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,Przypisanie do wbudowanej zmiennej/funkcji/stałej,,syntax error
 CompileError_Info,{0} at line {1} : {2},{0} w wierszu {1} : {2},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),Nie oczekiwano przypisania {0} {1} w zmiennej {2} – „{3}” (oczekiwano {4}),,Object variable wrong type error
-CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Nie oczekiwano przypisania {0} {1} na planszy {2} w wystąpieniu zmiennej {3} – „{4}” (oczekiwano {5}),,Object variable wrong type error in room instances
+CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Nie oczekiwano przypisania {0} {1} na planszy {2} w zmiennej instancji {3} – „{4}” (oczekiwano {5}),,Object variable wrong type error in room instances
 CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',Odwołanie do niezdefiniowanej zmiennej „{0}” w zmiennej {1} – „{2}”,,Object variable undefined reference error
-CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Odwołanie do niezdefiniowanej zmiennej „{0}” na planszy {3} w wystąpieniu zmiennej {1} – „{2}”,,Instance variable undefined reference error
+CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Odwołanie do niezdefiniowanej zmiennej „{0}” na planszy {3} w zmiennej  instancji {1} – „{2}”,,Instance variable undefined reference error
 CompileError_Script,Script: {0},Skrypt: {0},,script error
 CompileError_Object,Object: {0},Obiekt: {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},Kod tworzenia na planszy: {0},,room creation code error
-CompileError_RoomInstance,Instance Code in Room: {0},Kod wystąpienia na planszy: {0},,instance creation code error
+CompileError_RoomInstance,Instance Code in Room: {0},Kod instancji na planszy: {0},,instance creation code error
 CompileError_Vertex,Vertex Shader: {0},Vertex Shader: {0},,vertex shader error
 CompileError_Fragment,Fragment Shader: {0},Fragment Shader: {0},,fragment shader error
 CompileError_Timeline,Timeline: {0},Oś czasu: {0},,timeline error
@@ -5672,7 +5672,7 @@ ConversionLog_TooManyErrors,Too many errors - GML not processed : {0},Zbyt wiele
 ConversionLog_VariableNameInvalid,"Error: variable '{0}' has same name as a built-in (function, constant or variable), it must be renamed to function correctly","Błąd: zmienna „{0}” ma taką samą nazwę jak wbudowana funkcja, stała lub zmienna i trzeba zmienić jej nazwę, aby działała poprawnie",,conversion log
 ConversionLog_ConvertedString,Converted string - line {0}: {1} -> {2},Skonwertowano ciąg – wiersz {0}: {1} -> {2},,conversion log
 ConversionLog_ConvertedDesc,Converted description {0},Skonwertowano opis {0},,conversion log
-ConversionLog_RemoveInstRef,Removing instance reference from builtin - line {0} : {1},Usuwanie odwołania do wystąpienia z wbudowanego elementu – wiersz {0}: {1},,conversion log
+ConversionLog_RemoveInstRef,Removing instance reference from builtin - line {0} : {1},Usuwanie odwołania do instancji z wbudowanego elementu – wiersz {0}: {1},,conversion log
 ConversionLog_ConvertedBuiltin,Converted builtin - line {0}: {1} -> {2},Skonwertowano wbudowany element – wiersz {0}: {1} -> {2},,conversion log
 ConversionLog_FilenamePrefix,compatibility_report_,compatibility_report_,must be usable as a standard windows/mac filename,used to prefix the output filename
 ConversionLog_AppliesToUndefined,Skipped action {0} as it applies to <undefined>,"Pominięto czynność {0}, ponieważ dotyczy ona elementu <niezdefiniowany>",do not localise <undefined>,conversion log when the applies to is undefined
@@ -5750,8 +5750,8 @@ Addon_DefaultFailedPlatformCheckMessage,"Unfortunately, this addon is not availa
 RoomEditor_InheritLayerDepthToolTip,Inherit Layer Depth,Dziedzicz głębokość warstwy,,tooltip for inherit layer depth
 RoomEditor_InheritCreationOrderToolTip,Inherit Creation Order,Dziedzicz kolejność tworzenia,,tooltip for inherit creation order
 RoomEditor_InheritGraphicToolTip,Inherit Graphic Properties,Dziedzicz właściwości grafiki,,tooltip for inherit graphic properties
-RoomEditor_InheritInstanceToolTip,Inherit Instance Properties,Dziedzicz właściwości wystąpienia,,tooltip for inherit instance properties
-RoomEditor_InheritInstancesToolTip,Inherit Instances,Dziedzicz wystąpienia,,tooltip for inherit instances
+RoomEditor_InheritInstanceToolTip,Inherit Instance Properties,Dziedzicz właściwości instancji,,tooltip for inherit instance properties
+RoomEditor_InheritInstancesToolTip,Inherit Instances,Dziedzicz po instancji,,tooltip for inherit instances
 RoomEditor_InheritAssetsToolTip,Inherit Assets,Dziedzicz zasoby,,tooltip for inherit assets
 RoomEditor_InheritBackgroundToolTip,Inherit Background Properties,Dziedzicz właściwości tła,,tooltip for inherit background
 RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Dziedzicz właściwości kafelka,,tooltip for inherit tile layer properties
@@ -6654,7 +6654,7 @@ CanvasItem_Sound,Sound,Dźwięk,,sound resource
 Category_SpriteInfo,Sprite Information,Informacje o duszku,,inspector category label
 Category_BasicInfo,Basic Information,Podstawowe informacje,,inspector category label
 Category_SoundInfo,Sound Information,Informacje o dźwięku,,inspector category label
-Category_InstanceInfo,Instance Information,Informacje o wystąpieniu,,inspector category label
+Category_InstanceInfo,Instance Information,Informacje o instancji,,inspector category label
 Category_SequenceInfo,Sequence Information,Informacje o sekwencji,,inspector category label
 GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// W wersji v2.3.0 zmieniono zasoby skryptu. Więcej informacji można znaleźć pod adresem\n// https://help.yoyogames.com/hc/en-us/articles/360005277377,,default script comment
 GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
@@ -6829,7 +6829,7 @@ Inspector_OpenInspector,Open Inspector,Otwórz Inspektora,,open inspector
 Inspector_Category_Channels,Channels,Kanały,,inspector category
 Inspector_EditCC,Edit Creation Code,Edytuj kod tworzenia,,inspector edit creation code button label
 Inspector_RoomLayerAssets,Assets,Zasoby,,room asset layer assets list
-Inspector_RoomLayerInstances,Instances,Wystąpienia,,room instance layer instances list
+Inspector_RoomLayerInstances,Instances,Instancje,,room instance layer instances list
 Inspector_FontName,Font Name,Nazwa czcionki,,inspector property name
 fonteditor_options_apply_kerning,Apply Kerning,Stosuj kerning,,Apply Kerning contained in font
 fonteditor_options_apply_kerning_tooltip,Apply Kerning contained in font when rendered in-game,"Stosuj kerning zapisany w czcionce, przy jej renderowaniu w grze",,Apply Kerning contained in font when rendered in-game
@@ -7477,7 +7477,7 @@ RedefineKeys_decrement_brush_size,Decrement Brush Size,Zmniejsz rozmiar pędzla,
 RedefineKeys_Open In Explorer,Open In Explorer,Otwórz w Eksploratorze,,Redefine keys Open In Explorer string
 RedefineKeys_Open Room Properties,Open Room Properties,Otwórz właściwości planszy,,Redefine keys Open Room Properties string
 RedefineKeys_Open Layer Properties,Open Layer Properties,Otwórz właściwości warstwy,,Redefine keys Open Layer Properties string
-RedefineKeys_Open Instance Creation Order,Open Instance Creation Order,Otwórz kolejność tworzenia wystąpień,,Redefine keys Open Instance Creation Order string
+RedefineKeys_Open Instance Creation Order,Open Instance Creation Order,Otwórz kolejność tworzenia instancji,,Redefine keys Open Instance Creation Order string
 RedefineKeys_Open Layer View,Open Layer View,Otwórz widok warstwy,,Redefine keys Open Layer View string
 RedefineKeys_cut_selection_win,Cut Selection Win,"Wytnij zaznaczenie, okno",,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,"Kopiuj zaznaczenie, okno",,Redefine keys copy_selection_win string
@@ -7716,7 +7716,7 @@ RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,Dodaj warstwę pod
 RedefineKeys_RoomEditor_InheritSubLayers,Room Editor Inherit Sub Layers,Dziedzicz warstwy podrzędne,,Redefine keys RoomEditor_InheritSubLayers string
 RedefineKeys_RoomEditor_InheritVisibility,Room Editor Inherit Visibility,Dziedzicz widoczność,,Redefine keys RoomEditor_InheritVisibility string
 RedefineKeys_RoomEditor_NewBackgroundLayer,Room Editor New Background Layer,Nowa warstwa tła,,Redefine keys RoomEditor_NewBackgroundLayer string
-RedefineKeys_RoomEditor_NewInstanceLayer,Room Editor New Instance Layer,Nową warstwa instancji,,Redefine keys RoomEditor_NewInstanceLayer string
+RedefineKeys_RoomEditor_NewInstanceLayer,Room Editor New Instance Layer,Nowa warstwa instancji,,Redefine keys RoomEditor_NewInstanceLayer string
 RedefineKeys_RoomEditor_NewTileLayer,Room Editor New Tile Layer,Nową warstwa kafelków,,Redefine keys RoomEditor_NewTileLayer string
 RedefineKeys_RoomEditor_NewPathLayer,Room Editor New Path Layer,Nowa warstwa ścieżek,,Redefine keys RoomEditor_NewPathLayer string
 RedefineKeys_RoomEditor_NewAssetLayer,Room Editor New Asset Layer,Nową warstwa zasobów,,Redefine keys RoomEditor_NewAssetLayer string

@@ -2,9 +2,9 @@ Name,English,Translation,Restrictions,Comment
 _Language,Polish,Polish,,Language name - in English
 _LanguageNative,Polish,Polski,,Language name in the native language
 _LanguageCode,pl,pl,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
-GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
-GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
-GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie głowicy (w ramkach) wystąpienia sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdVar_Story_1,Set ${var} to ${expr}${show_input_count},Ustaw dla zmiennej ${var} wyrażenie ${expr}${show_input_count},,GML Visual story text
 GMStdVar_Story_2,Set ${var} to ${expr} on ${applyto}${show_input_count},Ustaw dla zmiennej ${var} wyrażenie ${expr} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
 GMStdVar_Story_3,Add ${expr} to ${var}${show_input_count},Dodaj wyrażenie ${expr} do zmiennej ${var}${show_input_count},,GML Visual story text
@@ -90,12 +90,12 @@ GMStdCallFunction_Story_15,Set temp ${var} to return value of ${function} with 1
 GMStdCallFunction_Story_16,Set temp ${var} to return value of ${function} with 1 argument on ${applyto},Ustaw dla zmiennej tymczasowej ${var} wartość zwróconą przez funkcję ${function} z 1 argumentem w odniesieniu do: ${applyto},,GML Visual story text
 GMStdCallFunction_Story_17,Set temp ${var} to return value of ${function} with ${input_count} arguments,Ustaw dla zmiennej tymczasowej ${var} wartość zwróconą przez funkcję ${function} z ${input_count} argumentami,,GML Visual story text
 GMStdCallFunction_Story_18,Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto},Ustaw dla zmiennej tymczasowej ${var} wartość zwróconą przez funkcję ${function} z ${input_count} argumentami w odniesieniu do: ${applyto},,GML Visual story text
-GMStdNew_Story_1,Set ${var} to new instance of ${function},Ustaw dla zmiennej ${var} nowe wystąpienie funkcji ${function},,GML Visual story text
-GMStdNew_Story_2,Set ${var} to new instance of ${function} with 1 argument,Ustaw dla zmiennej ${var} nowe wystąpienie funkcji ${function} z 1 argumentem,,GML Visual story text
-GMStdNew_Story_3,Set ${var} to new instance of ${function} with ${input_count} arguments,Ustaw dla zmiennej ${var} nowe wystąpienie funkcji ${function} z ${input_count} argumentami,,GML Visual story text
-GMStdNew_Story_4,Set temp ${var} to new instance of ${function},Ustaw dla zmiennej tymczasowej ${var} nowe wystąpienie funkcji ${function},,GML Visual story text
-GMStdNew_Story_5,Set temp ${var} to new instance of ${function} with 1 argument,Ustaw dla zmiennej tymczasowej ${var} nowe wystąpienie funkcji ${function} z 1 argumentem,,GML Visual story text
-GMStdNew_Story_6,Set temp ${var} to new instance of ${function} with ${input_count} arguments,Ustaw dla zmiennej tymczasowej ${var} nowe wystąpienie funkcji ${function} z ${input_count} argumentami,,GML Visual story text
+GMStdNew_Story_1,Set ${var} to new instance of ${function},Ustaw zmienną ${var} dla nowej instancji ${function},,GML Visual story text
+GMStdNew_Story_2,Set ${var} to new instance of ${function} with 1 argument,Ustaw zmienną ${var} dla nowej instancji ${function} z 1 argumentem,,GML Visual story text
+GMStdNew_Story_3,Set ${var} to new instance of ${function} with ${input_count} arguments,Ustaw zmienną ${var} dla nowej instancji ${function} z ${input_count} argumentami,,GML Visual story text
+GMStdNew_Story_4,Set temp ${var} to new instance of ${function},Ustaw zmienną tymczasową ${var} dla nowej instancji ${function},,GML Visual story text
+GMStdNew_Story_5,Set temp ${var} to new instance of ${function} with 1 argument,Ustaw zmienną tymczasową ${var} dla nowej instancji ${function} z 1 argumentem,,GML Visual story text
+GMStdNew_Story_6,Set temp ${var} to new instance of ${function} with ${input_count} arguments,Ustaw zmienną tymczasową ${var} dla nowej instancji ${function} z ${input_count} argumentami,,GML Visual story text
 GMStdRet_Story_1,Return ${value},Zwróć wartość ${value},,GML Visual story text
 GMStdRet_Story_2,Return ${value} on ${applyto},Zwróć wartość ${value} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdApplyTo_Story_1,Apply to ${applyto},Zastosuj do: ${applyto},,GML Visual story text
@@ -108,10 +108,10 @@ GMStdInstCreate_Story_3,Create ${objectid} at ${dnd_pos} into ${var},Utwórz obi
 GMStdInstCreate_Story_4,Create ${objectid} at ${dnd_pos} into ${var} on ${applyto},Utwórz obiekt ${objectid} w położeniu ${dnd_pos} do zmiennej ${var} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdInstCreate_Story_5,Create ${objectid} at ${dnd_pos} into temp ${var},Utwórz obiekt ${objectid} w położeniu ${dnd_pos} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdInstCreate_Story_6,Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto},Utwórz obiekt ${objectid} w położeniu ${dnd_pos} do zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdInstDestroy_Story_1,Destroy this instance,Zlikwiduj to wystąpienie,,GML Visual story text
+GMStdInstDestroy_Story_1,Destroy this instance,Zlikwiduj instancję,,GML Visual story text
 GMStdInstDestroy_Story_2,Destroy ${applyto} on ${applyto},Zlikwiduj ${applyto} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},Zlikwiduj wystąpienia w położeniu ${dnd_pos},,GML Visual story text
-GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},Zlikwiduj wystąpienia w położeniu ${dnd_pos} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},Zlikwiduj instancje w położeniu ${dnd_pos},,GML Visual story text
+GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},Zlikwiduj instancje w położeniu ${dnd_pos} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdInstChange_Story_1,Change into ${objind},Zmień na ${objind},,GML Visual story text
 GMStdInstChange_Story_2,Change ${applyto} into ${objind} on ${applyto},Zmień ${applyto} na ${objind} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdSetAlarm_Story_1,Set alarm ${alarm} to ${steps}${show_input_count},Ustaw alarm ${alarm} na ${steps}${show_input_count},,GML Visual story text
@@ -128,12 +128,12 @@ GMStdInstCount_Story_3,Get ${object} count into temp ${var},Pobierz liczbę obie
 GMStdInstCount_Story_4,Get ${object} count into temp ${var} on ${applyto},Pobierz liczbę obiektów ${object} do zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdCallUserEvent_Story_1,Call user event ${event}${show_input_count},Wywołaj zdarzenie użytkownika ${event}${show_input_count},,GML Visual story text
 GMStdCallUserEvent_Story_2,Call user event ${event} on ${applyto}${show_input_count},Wywołaj zdarzenie użytkownika ${event} w: ${applyto}${show_input_count},,GML Visual story text
-GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},Ustaw dla zmiennej wystąpienia ${dnd_set_inst_vars} wartość ${value}${show_input_count},,GML Visual story text
-GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},Ustaw dla zmiennej wystąpienia ${dnd_set_inst_vars} wartość ${value} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
-GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},Pobierz zmienną wystąpienia ${dnd_get_inst_vars} do ${target}${show_input_count},,GML Visual story text
-GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},Pobierz zmienną wystąpienia ${dnd_get_inst_vars} do ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
-GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},Pobierz zmienną wystąpienia ${dnd_set_inst_vars} do tymczasowej wartości ${target}${show_input_count},,GML Visual story text
-GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},Pobierz zmienną wystąpienia ${dnd_get_inst_vars} do tymczasowej wartości ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},Ustaw zmiennej instancji ${dnd_set_inst_vars} wartość ${value}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},Ustaw zmiennej instancji ${dnd_set_inst_vars} wartość ${value} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},Pobierz zmienną instancji ${dnd_get_inst_vars} do ${target}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},Pobierz zmienną instancji${dnd_get_inst_vars} do ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},Pobierz zmienną instancji ${dnd_set_inst_vars} do tymczasowej wartości ${target}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},Pobierz zmienną instancji ${dnd_get_inst_vars} do tymczasowej wartości ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
 GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},Ustaw duszka ${spriteind} przy ramce ${imageind},,GML Visual story text
 GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},Ustaw duszka ${spriteind} przy ramce ${imageind} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdRotSprite_Story_1,Set rotation to ${angle},Ustaw obrót ${angle},,GML Visual story text
@@ -179,19 +179,19 @@ GMStdIfSequenceExists_Story_2,If sequence ${obj} does not exists,Jeśli sekwencj
 GMStdSeqDestroy_Story_1,Destroy sequence ${var},Zlikwiduj sekwencję ${var},,GML Visual story text
 GMStdSeqPlay_Story_1,Play sequence ${var},Odtwórz sekwencję ${var},,GML Visual story text
 GMStdSeqPause_Story_1,Pause sequence ${var},Wstrzymaj sekwencję ${var},,GML Visual story text
-GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},Ustaw położenie wystąpienia sekwencji ${sequenceelmid} na ${dnd_pos},,GML Visual story text
+GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},Ustaw położenie instancji sekwencji ${sequenceelmid} na ${dnd_pos},,GML Visual story text
 GMStdSeqCreate_Story_1,Create ${sequenceid} at ${dnd_pos},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos},,GML Visual story text
 GMStdSeqCreate_Story_2,Create ${sequenceid} at ${dnd_pos} on ${applyto},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdSeqCreate_Story_3,Create ${sequenceid} at ${dnd_pos} into ${var},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos} do ${var},,GML Visual story text
 GMStdSeqCreate_Story_4,Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos} w lokalizacji ${var} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdSeqCreate_Story_5,Create ${sequenceid} at ${dnd_pos} into temp ${var},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos} w ${var},,GML Visual story text
 GMStdSeqCreate_Story_6,Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto},Utwórz sekwencję ${sequenceid} w położeniu ${dnd_pos} w zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},Pobierz położenie wystąpienia sekwencji ${sequenceelmid} do zmiennych ${varx} i ${vary},,GML Visual story text
-GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},Pobierz położenie wystąpienia sekwencji ${sequenceelmid} do zmiennej tymczasowej ${varx} i zmiennej ${vary},,GML Visual story text
-GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},Pobierz położenie wystąpienia sekwencji ${sequenceelmid} do zmiennej ${varx} i zmiennej tymczasowej ${vary},,GML Visual story text
-GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},Pobierz położenie wystąpienia sekwencji ${sequenceelmid} do zmiennych tymczasowych ${varx} i ${vary},,GML Visual story text
-GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Pobierz długość wystąpienia sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
-GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Pobierz długość wystąpienia sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},Pobierz położenie instancji sekwencji ${sequenceelmid} do zmiennych ${varx} i ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},Pobierz położenie instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${varx} i zmiennej ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},Pobierz położenie instancji sekwencji ${sequenceelmid} do zmiennej ${varx} i zmiennej tymczasowej ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},Pobierz położenie instancji sekwencji ${sequenceelmid} do zmiennych tymczasowych ${varx} i ${vary},,GML Visual story text
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdIfMousePressed_Story_1,If mouse button ${button} is pressed,Jeśli przycisk myszy ${button} został naciśnięty,,GML Visual story text
 GMStdIfMousePressed_Story_2,If mouse button ${button} is pressed on ${applyto},Jeśli przycisk myszy ${button} został naciśnięty w odniesieniu do: ${applyto},,GML Visual story text
 GMStdIfMousePressed_Story_3,If mouse button ${button} is not pressed,Jeśli przycisk myszy ${button} nie został naciśnięty,,GML Visual story text
@@ -315,10 +315,10 @@ GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","Przyciągnij do ${xsnap},${ys
 GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","Przyciągnij obiekt ${applyto} do ${xsnap},${ysnap} w odniesieniu do: ${applyto}",,GML Visual story text
 GMStdWrapRoom_Story_1,Wrap around room,Zawijaj wokół planszy,,GML Visual story text
 GMStdWrapRoom_Story_2,Wrap ${applyto} around room on ${applyto},Zawijaj ${applyto} wokół planszy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},Jeśli jakiekolwiek wystąpienie pokrywa się z samym sobą w położeniu ${dnd_position},,GML Visual story text
-GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},Jeśli jakiekolwiek wystąpienie pokrywa się z samym sobą w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},Jeśli żadne wystąpienie nie pokrywa się z samym sobą w położeniu ${dnd_position},,GML Visual story text
-GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},Jeśli żadne wystąpienie nie pokrywa się z samym sobą w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},Jeśli jakakolwiek instancja pokrywa się z samym sobą w położeniu ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},Jeśli jakakolwiek instancja pokrywa się z samym sobą w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},Jeśli żadna instancja nie pokrywa się z samym sobą w położeniu ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},Jeśli żadna instancja nie pokrywa się z samym sobą w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdIfObjAt_Story_1,If ${object} is overlapping self at ${dnd_position}${show_input_count},Jeśli obiekt ${object} pokrywa się z samym sobą w położeniu ${dnd_position}${show_input_count},,GML Visual story text
 GMStdIfObjAt_Story_2,If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count},Jeśli obiekt ${object} pokrywa się z samym sobą w położeniu ${dnd_position} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
 GMStdIfObjAt_Story_3,If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count},Jeśli obiekt ${object} pokrywa się z samym sobą w położeniu ${dnd_position} do zmiennej ${target}${show_input_count},,GML Visual story text
@@ -455,14 +455,14 @@ GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_positio
 GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},Rysuj pasek życia od ${dnd_position1} do ${dnd_position2} z zastosowaniem wartości ${value} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},Rysuj wynik w położeniu ${dnd_position},,GML Visual story text
 GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ${caption}""""",Rysuj wynik w położeniu ${dnd_position} z podpisem ${caption}„”,,GML Visual story text
-GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Rysuj wynik wystąpienia ${applyto} w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ${caption}"" on ${applyto}""",Rysuj wynik wystąpienia ${applyto} w położeniu ${dnd_position} z podpisem ${caption} „w odniesieniu do: ${applyto}”,,GML Visual story text
-GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Rysuj pasek życia od ${dnd_position1} do ${dnd_position2},,GML Visual story text
-GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Rysuj pasek życia wystąpienia ${applyto} od ${dnd_position1} do ${dnd_position2} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Rysuj wynik instancji ${applyto} w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ${caption}"" on ${applyto}""",Rysuj wynik instancji ${applyto} w położeniu ${dnd_position} z podpisem ${caption} „w odniesieniu do: ${applyto}”,,GML Visual story text
+GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Rysuj energię od ${dnd_position1} do ${dnd_position2},,GML Visual story text
+GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Rysuj energię instancji ${applyto} od ${dnd_position1} do ${dnd_position2} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},Rysuj liczbę żyć w wierszu w położeniu ${dnd_position},,GML Visual story text
 GMStdDrawInstanceLives_Story_2,Draw lives in a column at ${dnd_position},Rysuj liczbę żyć w kolumnie w położeniu ${dnd_position},,GML Visual story text
-GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},Rysuj liczbę żyć wystąpienia ${applyto} w wierszu w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},Rysuj liczbę żyć wystąpienia ${applyto} w kolumnie w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},Rysuj liczbę żyć instancji ${applyto} w wierszu w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},Rysuj liczbę żyć instancji ${applyto} w kolumnie w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdSetColor_Story_1,Set draw color to ${color},Ustaw ${color} kolor rysowania,,GML Visual story text
 GMStdSetColor_Story_2,Set draw color to ${color} on ${applyto},Ustaw ${color} kolor rysowania w odniesieniu do: ${applyto},,GML Visual story text
 GMStdGetColor_Story_1,Get draw color into ${var},Pobierz kolor rysowania do zmiennej ${var},,GML Visual story text
@@ -969,74 +969,74 @@ GMStdGetLives_Story_1,Get lives into ${var},Pobierz liczbę żyć do zmiennej ${
 GMStdGetLives_Story_2,Get lives into ${var} on ${applyto},Pobierz liczbę żyć do zmiennej ${var} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdGetLives_Story_3,Get lives into temp ${var},Pobierz liczbę żyć do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdGetLives_Story_4,Get lives into temp ${var} on ${applyto},Pobierz liczbę żyć do zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdSetHealth_Story_1,Add ${health} to health,Dodaj ${health} do paska życia,,GML Visual story text
-GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},Dodaj ${health} do paska życia w odniesieniu do: ${applyto},,GML Visual story text
-GMStdSetHealth_Story_3,Set health to ${health},Ustaw ${health} jako stan paska życia,,GML Visual story text
-GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},Ustaw ${health} jako stan paska życia w odniesieniu do: ${applyto},,GML Visual story text
-GMStdGetHealth_Story_1,Get health into ${var},Pobierz stan paska życia do zmiennej ${var},,GML Visual story text
-GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},Pobierz stan paska życia do zmiennej ${var} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdGetHealth_Story_3,Get health into temp ${var},Pobierz stan paska życia do zmiennej tymczasowej ${var},,GML Visual story text
-GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},Pobierz stan paska życia do zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_1,If instance score is not equal to ${value},Jeśli wynik wystąpienia jest różny od ${value},,GML Visual story text
-GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},Jeśli wynik wystąpienia jest różny od ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_3,If instance score is not less than ${value},Jeśli wynik wystąpienia wynosi co najmniej ${value},,GML Visual story text
-GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},Jeśli wynik wystąpienia wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_5,If instance score is not greater than ${value},Jeśli wynik wystąpienia wynosi co najwyżej ${value},,GML Visual story text
-GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},Jeśli wynik wystąpienia wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},Jeśli wynik wystąpienia nie jest równy ${value} ani mniejszy,,GML Visual story text
-GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},Jeśli wynik wystąpienia nie jest równy ${value} ani mniejszy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},Jeśli wynik wystąpienia nie jest równy ${value} ani większy,,GML Visual story text
-GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},Jeśli wynik wystąpienia nie jest równy ${value} ani większy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_11,If instance score is equal to ${value},Jeśli wynik wystąpienia jest równy ${value},,GML Visual story text
-GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},Jeśli wynik wystąpienia jest równy ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_13,If instance score is less than ${value},Jeśli wynik wystąpienia jest mniejszy niż ${value},,GML Visual story text
-GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},Jeśli wynik wystąpienia jest mniejszy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_15,If instance score is greater than ${value},Jeśli wynik wystąpienia jest większy niż ${value},,GML Visual story text
-GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},Jeśli wynik wystąpienia jest większy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_17,If instance score is less than or equal to ${value},Jeśli wynik wystąpienia nie jest równy ${value} lub mniejszy,,GML Visual story text
-GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},Jeśli wynik wystąpienia nie jest równy ${value} lub mniejszy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},Jeśli wynik wystąpienia nie jest równy ${value} lub większy,,GML Visual story text
-GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},Jeśli wynik wystąpienia nie jest równy ${value} lub większy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_1,If instance lives is not equal to ${value},Jeśli liczba żyć wystąpienia jest różna od ${value},,GML Visual story text
-GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest różna od ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_3,If instance lives is not less than ${value},Jeśli liczba żyć wystąpienia wynosi co najmniej ${value},,GML Visual story text
-GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},Jeśli liczba żyć wystąpienia wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_5,If instance lives is not greater than ${value},Jeśli liczba żyć wystąpienia wynosi co najwyżej ${value},,GML Visual story text
-GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},Jeśli liczba żyć wystąpienia wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},Jeśli liczba żyć wystąpienia nie jest równa ${value} ani mniejsza,,GML Visual story text
-GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia nie jest równa ${value} ani mniejsza w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},Jeśli liczba żyć wystąpienia nie jest równa ${value} ani większa,,GML Visual story text
-GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia nie jest równa ${value} ani większa w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_11,If instance lives is equal to ${value},Jeśli liczba żyć wystąpienia jest równa ${value},,GML Visual story text
-GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest równa ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_13,If instance lives is less than ${value},Jeśli liczba żyć wystąpienia jest mniejsza niż ${value},,GML Visual story text
-GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest mniejsza niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_15,If instance lives is greater than ${value},Jeśli liczba żyć wystąpienia jest większa niż ${value},,GML Visual story text
-GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest większa niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},Jeśli liczba żyć wystąpienia jest równa ${value} lub mniejsza,,GML Visual story text
-GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest równa ${value} lub mniejsza w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},Jeśli liczba żyć wystąpienia jest równa ${value} lub większa,,GML Visual story text
-GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},Jeśli liczba żyć wystąpienia jest równa ${value} lub większa w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_1,If instance health is not equal to ${value},Jeśli stan paska życia wystąpienia jest różny od ${value},,GML Visual story text
-GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest różny od ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_3,If instance health is not less than ${value},Jeśli stan paska życia wystąpienia wynosi co najmniej ${value},,GML Visual story text
-GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},Jeśli stan paska życia wystąpienia wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_5,If instance health is not greater than ${value},Jeśli stan paska życia wystąpienia wynosi co najwyżej ${value},,GML Visual story text
-GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},Jeśli stan paska życia wystąpienia wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},Jeśli stan paska życia wystąpienia nie jest równy ${value} ani mniejszy,,GML Visual story text
-GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia nie jest równy ${value} ani mniejszy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},Jeśli stan paska życia wystąpienia nie jest równy ${value} ani większy,,GML Visual story text
-GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia nie jest równy ${value} ani większy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_11,If instance health is equal to ${value},Jeśli stan paska życia wystąpienia jest równy ${value},,GML Visual story text
-GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest równy ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_13,If instance health is less than ${value},Jeśli stan paska życia wystąpienia jest mniejszy niż ${value},,GML Visual story text
-GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest mniejszy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_15,If instance health is greater than ${value},Jeśli stan paska życia wystąpienia jest większy niż ${value},,GML Visual story text
-GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest większy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},Jeśli stan paska życia wystąpienia jest równy ${value} lub mniejszy,,GML Visual story text
-GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest równy ${value} lub mniejszy w odniesieniu do: ${applyto},,GML Visual story text
-GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},Jeśli stan paska życia wystąpienia jest równy ${value} lub większy,,GML Visual story text
-GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},Jeśli stan paska życia wystąpienia jest równy ${value} lub większy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdSetHealth_Story_1,Add ${health} to health,Dodaj ${health} do energii,,GML Visual story text
+GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},Dodaj ${health} do energii w odniesieniu do: ${applyto},,GML Visual story text
+GMStdSetHealth_Story_3,Set health to ${health},Ustaw ${health} jako wartość energii,,GML Visual story text
+GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},Ustaw ${health} jako wartość energii w odniesieniu do: ${applyto},,GML Visual story text
+GMStdGetHealth_Story_1,Get health into ${var},Pobierz wartość energii do zmiennej ${var},,GML Visual story text
+GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},Pobierz wartość energii do zmiennej ${var} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdGetHealth_Story_3,Get health into temp ${var},Pobierz wartość energii do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},Pobierz wartość energii do zmiennej tymczasowej ${var} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_1,If instance score is not equal to ${value},Jeśli wynik instancji jest różny od ${value},,GML Visual story text
+GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},Jeśli wynik instancji jest różny od ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_3,If instance score is not less than ${value},Jeśli wynik instancji wynosi co najmniej ${value},,GML Visual story text
+GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},Jeśli wynik instancji wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_5,If instance score is not greater than ${value},Jeśli wynik instancji wynosi co najwyżej ${value},,GML Visual story text
+GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},Jeśli wynik instancji wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},Jeśli wynik instancji nie jest równy ${value} ani mniejszy,,GML Visual story text
+GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},Jeśli wynik instancji nie jest równy ${value} ani mniejszy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},Jeśli wynik instancji nie jest równy ${value} ani większy,,GML Visual story text
+GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},Jeśli wynik instancji nie jest równy ${value} ani większy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_11,If instance score is equal to ${value},Jeśli wynik instancji jest równy ${value},,GML Visual story text
+GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},Jeśli wynik instancji jest równy ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_13,If instance score is less than ${value},Jeśli wynik instancji jest mniejszy niż ${value},,GML Visual story text
+GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},Jeśli wynik instancji jest mniejszy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_15,If instance score is greater than ${value},Jeśli wynik instancji jest większy niż ${value},,GML Visual story text
+GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},Jeśli wynik instancji jest większy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_17,If instance score is less than or equal to ${value},Jeśli wynik instancji nie jest równy ${value} lub mniejszy,,GML Visual story text
+GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},Jeśli wynik instancji nie jest równy ${value} lub mniejszy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},Jeśli wynik instancji nie jest równy ${value} lub większy,,GML Visual story text
+GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},Jeśli wynik instancji nie jest równy ${value} lub większy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_1,If instance lives is not equal to ${value},Jeśli liczba żyć instancji jest różna od ${value},,GML Visual story text
+GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},Jeśli liczba żyć instancji jest różna od ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_3,If instance lives is not less than ${value},Jeśli liczba żyć instancji wynosi co najmniej ${value},,GML Visual story text
+GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},Jeśli liczba żyć instancji wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_5,If instance lives is not greater than ${value},Jeśli liczba żyć instancji wynosi co najwyżej ${value},,GML Visual story text
+GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},Jeśli liczba żyć instancji wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},Jeśli liczba żyć instancji nie jest równa ${value} ani mniejsza,,GML Visual story text
+GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},Jeśli liczba żyć instancji nie jest równa ${value} ani mniejsza w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},Jeśli liczba żyć instancji nie jest równa ${value} ani większa,,GML Visual story text
+GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},Jeśli liczba żyć instancji nie jest równa ${value} ani większa w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_11,If instance lives is equal to ${value},Jeśli liczba żyć instancji jest równa ${value},,GML Visual story text
+GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},Jeśli liczba żyć instancji jest równa ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_13,If instance lives is less than ${value},Jeśli liczba żyć instancji jest mniejsza niż ${value},,GML Visual story text
+GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},Jeśli liczba żyć instancji jest mniejsza niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_15,If instance lives is greater than ${value},Jeśli liczba żyć instancji jest większa niż ${value},,GML Visual story text
+GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},Jeśli liczba żyć instancji jest większa niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},Jeśli liczba żyć instancji jest równa ${value} lub mniejsza,,GML Visual story text
+GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},Jeśli liczba żyć instancji jest równa ${value} lub mniejsza w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},Jeśli liczba żyć instancji jest równa ${value} lub większa,,GML Visual story text
+GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},Jeśli liczba żyć instancji jest równa ${value} lub większa w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_1,If instance health is not equal to ${value},Jeśli wartość energiii nstancji jest różny od ${value},,GML Visual story text
+GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},Jeśli wartość energii instancji jest różny od ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_3,If instance health is not less than ${value},Jeśli wartość energii instancji wynosi co najmniej ${value},,GML Visual story text
+GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},Jeśli wartość energii instancji wynosi co najmniej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_5,If instance health is not greater than ${value},Jeśli wartość energii instancji wynosi co najwyżej ${value},,GML Visual story text
+GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},Jeśli wartość energii instancji wynosi co najwyżej ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},Jeśli swartość energii instancji nie jest równy ${value} ani mniejszy,,GML Visual story text
+GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},Jeśli wartość energii instancji nie jest równy ${value} ani mniejszy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},Jeśli wartość energii instancji nie jest równy ${value} ani większy,,GML Visual story text
+GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},Jeśli wartość energii instancji nie jest równy ${value} ani większy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_11,If instance health is equal to ${value},Jeśli wartość energii instancji jest równy ${value},,GML Visual story text
+GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},Jeśli wartość energii instancji jest równy ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_13,If instance health is less than ${value},Jeśli wartość energii instancji jest mniejszy niż ${value},,GML Visual story text
+GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},Jeśli wartość energii instancji jest mniejszy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_15,If instance health is greater than ${value},Jeśli wartość energii instancji jest większy niż ${value},,GML Visual story text
+GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},Jeśli wartość energii instancji jest większy niż ${value} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},Jeśli wartość energii instancji jest równy ${value} lub mniejszy,,GML Visual story text
+GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},Jeśli wartość energii instancji jest równy ${value} lub mniejszy w odniesieniu do: ${applyto},,GML Visual story text
+GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},Jeśli wartość energii instancji jest równy ${value} lub większy,,GML Visual story text
+GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},Jeśli wartość energii instancji jest równy ${value} lub większy w odniesieniu do: ${applyto},,GML Visual story text
 GMStdDebugShowMessage_Story_1,Show debug message ${msg}${show_input_count},Pokaż komunikat o debugowaniu ${msg}${show_input_count},,GML Visual story text
 GMStdDebugShowMessage_Story_2,Show debug message ${msg} on ${applyto}${show_input_count},Pokaż komunikat o debugowaniu ${msg} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
 GMStdSetWindowState_Story_1,Toggle window state,Przełącz stan okna,,GML Visual story text
