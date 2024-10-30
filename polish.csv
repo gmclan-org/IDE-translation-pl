@@ -29,9 +29,9 @@ $linux_FileMenuExit,Exit,Zakończ,,Linux version of the Exit main menu entry
 $win_IDEMenuHelpAbout,About,O produkcie,,Windows version of the About main menu entry
 $mac_IDEMenuHelpAbout,About GameMaker,GameMaker – informacje,,Mac version of the About main menu entry
 $linux_IDEMenuHelpAbout,About,O produkcie,,Linux version of the About main menu entry
-$win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
+$win_IDEMenuViews,Windows,Okna,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Okno,,Mac version of the views menu entry
-$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
+$linux_IDEMenuViews,Windows,Okna,,Linux version of the views menu entry
 $win_LaptopRHSKeys,Right Control and Right Alt,Prawy Control i prawy Alt,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,Prawy Command i prawy Alt,,Mac version of laptop mode keys
 $linux_LaptopRHSKeys,Right Control and Right Alt,Prawy Control i prawy Alt,,Linux version of laptop mode keys
@@ -67,7 +67,7 @@ Button_No,No,Nie,,No
 Button_OK,OK,OK,,ok button
 Button_Rename,Rename,Zmień nazwę,,Rename button
 Button_Resize,Resize,Zmień rozmiar,,resize button label
-Button_Scale,Scale,Skala,,Image editor - scale button
+Button_Scale,Scale,Skaluj,,Image editor - scale button
 Button_Yes,Yes,Tak,,Yes
 Button_Next,Next,Dalej,,next button label
 Button_Create,Create,Utwórz,,create button label
@@ -108,14 +108,14 @@ CodeWindow_3Column,3 columns,3 kolumny,,Document window layout menu option - 3 c
 CodeWindow_Fullscreen,Fullscreen workspace tab,Karta obszaru roboczego na pełnym ekranie,,Document window layout menu option - fullscreen workspace tab
 CodeWindow_Menu_Help,Keyword help,Słowa kluczowe – pomoc,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,Pokaż zasób,,Code window show resource menu option
-CodeWindow_SingleColumn,Single pane,Jedno okienko,,Document window layout menu option - 1 column
+CodeWindow_SingleColumn,Single pane,Bez podziału,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,Kod,,fullscreen code editor workspace tab title
 CodeWindow_RestoreToWorkspace,Restore to Workspace,Przywróć do obszaru roboczego,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,Idź do obiektu,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,Dodaj/otwórz zdarzenie,,code editor event script add event context menu option
 CodeWindow_OpenInheritedEvent,Open Inherited Event,Otwórz odziedziczone zdarzenie,,open inherited event context menu option
 GotoLine_Title,Go To Line,Idź do wiersza,,goto line dialog title
-GotoLine_Label,Line Number ({0} - {1}),Numer wiersza ({0}-{1}),,goto line label
+GotoLine_Label,Line Number ({0} - {1}),Numer wiersza ({0} - {1}),,goto line label
 CompileErrors,Compile Errors,Błędy kompilacji,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,Brak błędów kompilacji do wyświetlenia,,No compile errors message
 Configuration,Configuration,Konfiguracja,,Configuration
@@ -160,12 +160,12 @@ Dialog_NotReady,Not Ready,Brak gotowości,,not ready dialog title
 Dialog_Success,Success,Udało się,,success dialog title
 Dialog_Invalid,Invalid,Dane nieprawidłowe,,Dialog caption text for invalid input
 Dialog_InvalidInput,Invalid input. Please provide the required information.,Wprowadzone dane są nieprawidłowe. Podaj wymagane informacje.,,A dialog message for invalid input in dialogs
-Dialog_SaveChangesToX,Save the changes to {0}?,Czy zapisać zmiany w zapytaniu {0}?,,Save changes to X query
+Dialog_SaveChangesToX,Save the changes to {0}?,Czy zapisać zmiany w {0}?,,Save changes to X query
 Dialog_Warning,Warning,Ostrzeżenie,,"Dialog ""Warning"" title"
 DialogEditor_AddContextMenu,Add Context Menu,Dodaj menu kontekstowe,,Context menu option to add a context menu to the selected gadget
 DialogEditor_Cell,Grid Cell,Komórka siatki,,Layout Hierarchy heading for a grid cell group
-DialogEditor_ChildGadgets,Child Gadgets,Gadżety dziecko,,Layout Hierarchy heading for a child gadgets group
-DialogEditor_ChildWindows,Child Windows,Okna dziecko,,Layout Hierarchy heading for a child windows group
+DialogEditor_ChildGadgets,Child Gadgets,Gadżety podrzędne,,Layout Hierarchy heading for a child gadgets group
+DialogEditor_ChildWindows,Child Windows,Okna podrzędne,,Layout Hierarchy heading for a child windows group
 DialogEditor_ClearLayoutList,Clear List,Wyczyść listę,,Button label for clearing the open layout list
 DialogEditor_Client,Client Panel,Panel klienta,,Layout Heirarchy heading for a client panel (window or tab)
 DialogEditor_ClippedGadget,Clip To Parent,Przytnij do nadrzędnego,,context menu option for setting if a gadget is clipped within its parent or not
@@ -190,7 +190,7 @@ DialogEditor_FileBrowse,Browse...,Przeglądaj…,,browse for filepath
 DialogEditor_FileName,File name:,Nazwa pliku:,,layout file name
 DialogEditor_FlattenSubLayout,Flatten SubLayout,Spłaszcz układ podrzędny,,Context menu/menu bar entry for flattening a sub layout within a layout hierarchy
 DialogEditor_Gadgets,Gadgets,Gadżety,,Layout Hierarchy heading for a gadgets group
-DialogEditor_GUIBase,GUI Base,Gaza GUI,,gadget properties heading for properties coming from the GUIBase class
+DialogEditor_GUIBase,GUI Base,Bazowe GUI,,gadget properties heading for properties coming from the GUIBase class
 DialogEditor_GUIStyle,Style,Styl,,Gadget properties heading for the guistyle class properties
 DialogEditor_Hierarchy,Layout Hierarchy,Hierarchia układów,,the title for the layout hierarchy window
 DialogEditor_HighlightedGadgetInfo,"relative position: ({0}px, {1}px) dimension: ({2}px, {3}px)","położenie względne: ({0} px, {1} px), wymiary: ({2} px, {3} px)",,display position and dimension of the currently highlighted gadget
@@ -270,16 +270,16 @@ Event_Async_Dialog,Async - Dialog,Asynchroniczne – Okno dialogowe,,Asynchronou
 Event_Async_HTTP,Async - HTTP,Asynchroniczne – HTTP,,Asynchronous event subtype
 Event_Async_IAP,Async - In-App Purchase,Asynchroniczne – Zakupy w aplikacji,,Asynchronous event subtype
 Event_Async_ImageLoaded,Async - Image Loaded,Asynchroniczne – Załadowany obraz,,Asynchronous event subtype
-Event_Async_Networking,Async - Networking,Asynchroniczne – Sieci,,Asynchronous event subtype
+Event_Async_Networking,Async - Networking,Asynchroniczne – Sieć,,Asynchronous event subtype
 Event_Async_PushNotification,Async - Push Notification,Asynchroniczne – Powiadomienia push,,Asynchronous event subtype
 Event_Async_SaveLoad,Async - Save/Load,Asynchroniczne – Zapisz/załaduj,,Asynchronous event subtype
-Event_Async_Social,Async - Social,Asynchroniczne – Społeczności,,Asynchronous event subtype
+Event_Async_Social,Async - Social,Asynchroniczne – Społecznościowe,,Asynchronous event subtype
 Event_Async_Steam,Async - Steam,Asynchroniczne – Steam,,Asynchronous event subtype
 Event_Async_SystemEvent,Async - System,Asynchroniczne – System,,Asynchronous event subtype
 Event_Asynchronous,Asynchronous,Asynchroniczne,,Asynchronous event name
 Event_Collision,Collision,Kolizja,,Collision event name
 Event_Create,Create,Utwórz,,Create event name
-Event_Destroy,Destroy,Likwidacja,,Destroy event name
+Event_Destroy,Destroy,Zniszcz,,Destroy event name
 Event_CleanUp,Clean Up,Czyszczenie,,Clean Up event name
 Event_Draw,Draw,Rysowanie,,Draw event name
 Event_Draw_Draw,Draw,Rysowanie,,Draw event subtype
@@ -288,24 +288,24 @@ Event_Draw_DrawEnd,Draw End,Koniec rysowania,,Draw event subtype
 Event_Draw_DrawGUI,Draw GUI,Rysowanie GUI,,Draw event subtype
 Event_Draw_DrawGUIBegin,Draw GUI Begin,Początek rysowania GUI,,Draw event subtype
 Event_Draw_DrawGUIEnd,Draw GUI End,Koniec rysowania GUI,,Draw event subtype
-Event_Draw_PostDraw,Post-Draw,Zakończenie rysowania,,Draw event subtype
-Event_Draw_PreDraw,Pre-Draw,Rysowanie wstępne,,Draw event subtype
+Event_Draw_PostDraw,Post-Draw,Po rysowaniu,,Draw event subtype
+Event_Draw_PreDraw,Pre-Draw,Przed rysowaniem,,Draw event subtype
 Event_Draw_Resize,Window Resize,Zmiana rozmiaru okna,,Draw event subtype
 Event_Key_Alt,Alt,Alt,,Key event subtype
 Event_Key_AnyKey,Any,Dowolny,,Key event subtype
 Event_Key_Backspace,Backspace,Backspace,,"Key event ""others"" subtype"
 Event_Key_Ctrl,Control,Control,,Key event subtype
-Event_Key_Delete,Delete,Usuń,,"Key event ""others"" subtype"
+Event_Key_Delete,Delete,Delete,,"Key event ""others"" subtype"
 Event_Key_DigitN,{0},{0},,event key digit N
 Event_Key_Digits,Digits,Cyfry,,Key event subtype
 Event_Key_Down,Down,Dół,,Key event subtype
 Event_Key_End,End,End,,"Key event ""others"" subtype"
 Event_Key_Enter,Enter,Enter,,Key event subtype
 Event_Key_Escape,Escape,Escape,,"Key event ""others"" subtype"
-Event_Key_FunctionKeys,Function Keys,Klawisze funkcyjne,,Key event subtype
-Event_Key_Home,Home,Strona startowa,,"Key event ""others"" subtype"
-Event_Key_Insert,Insert,Wstaw,,"Key event ""others"" subtype"
-Event_Key_Tab,Tab,Karta,,Key event others subtype
+Event_Key_FunctionKeys,Function Keys,Klawisze Funkcyjne,,Key event subtype
+Event_Key_Home,Home,Home,,"Key event ""others"" subtype"
+Event_Key_Insert,Insert,Insert,,"Key event ""others"" subtype"
+Event_Key_Tab,Tab,Tab,,Key event others subtype
 Event_Key_Keypad,Keypad,Klawiatura numeryczna,,Key event subtype
 Event_Key_KeypadN,Keypad {0},Klawiatura numeryczna {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,Modyfikatory,,Modifiers keyboard group title
@@ -313,41 +313,41 @@ Event_Key_ArrowKeys,Arrow Keys,Klawisze strzałek,,Arrow keys keyboard group tit
 Event_Key_ControlKeys,Control Keys,Klawisze Control,,Control keys keybaord group title
 Event_Key_Left,Left,Lewo,,Key event subtype
 Event_Key_Letters,Letters,Litery,,Key event subtype
-Event_Key_NoKey,No Key,Brak klawisza,,Key event subtype
+Event_Key_NoKey,No Key,Żaden klawisz,,Key event subtype
 Event_Key_Others,Others,Inne,,Key event subtype
-Event_Key_PageDown,Page Down,Strona w dół,,"Key event ""others"" subtype"
-Event_Key_PageUp,Page Up,Strona do góry,,"Key event ""others"" subtype"
+Event_Key_PageDown,Page Down,Page Down,,"Key event ""others"" subtype"
+Event_Key_PageUp,Page Up,Page Up,,"Key event ""others"" subtype"
 Event_Key_Right,Right,Prawo,,Key event subtype
 Event_Key_Shift,Shift,Shift,,Key event subtype
 Event_Key_Space,Space,Spacja,,Key event subtype
 Event_Key_Up,Up,Góra,,Key event subtype
-Event_Keyboard,Key Down,Naciskanie klawisza,,Keyboard event name
+Event_Keyboard,Key Down,Przytrzymany klawisz,,Keyboard event name
 Event_KeyPress,Key Pressed,Naciśnięcie klawisza,,Key Press event name
 Event_KeyPress_Short,Key Press -,Naciśnięcie klawisza - ,,KeyPress event short name
-Event_KeyDown_Short,Key Down -,Naciskanie klawisza - ,,KeyDown event short name
+Event_KeyDown_Short,Key Down -,Przytrzymany klawisz - ,,KeyDown event short name
 Event_KeyPressN,Press {0},Naciśnięcie {0},,Key Press event - short name
 Event_KeyRelease,Key Up,Zwolnienie klawisza,,Key Release event name
 Event_KeyRelease_Short,Key Up -,Zwolnienie klawisza - ,,Key Release event - short name
-Event_KeyDown,Key Down,Naciskanie klawisza,,Key Down event name
+Event_KeyDown,Key Down,Przytrzymanie klawisza,,Key Down event name
 Event_KeyUp,Key Up,Zwolnienie klawisza,,Key Up event name
 Event_Mouse,Mouse,Mysz,,Mouse event name
-Event_MouseClick,Mouse Click,Kliknięcie przyciskiem myszy,,Mouse Click event name
-Event_MouseDown,Mouse Down,Naciskanie przycisku myszy,,Mouse Down event name
+Event_MouseClick,Mouse Click,Naciśnięcie przyciskiem myszy,,Mouse Click event name
+Event_MouseDown,Mouse Down,Przytrzymanie przycisku myszy,,Mouse Down event name
 Event_MouseUp,Mouse Up,Zwolnienie przycisku myszy,,Mouse Up event name
-Event_Mouse_GlobalMouse,Global,Ogólnoświatowe,,Mouse event subtype
-Event_Mouse_GlobalMouse_LeftButton,Global Left Down,Globalne – naciskanie lewego przycisku,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse,Global,Globalne,,Mouse event subtype
+Event_Mouse_GlobalMouse_LeftButton,Global Left Down,Globalne – przytrzymanie lewego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_LeftPressed,Global Left Pressed,Globalne – naciśnięcie lewego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_LeftReleased,Global Left Released,Globalne – zwolnienie lewego przycisku,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,Globalne – naciskanie środkowego przycisku,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,Globalne – przytrzymanie środkowego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_MiddlePressed,Global Middle Pressed,Globalne – naciśnięcie środkowego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,Globalne – zwolnienie środkowego przycisku,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_RightButton,Global Right Down,Globalne – naciskanie prawego przycisku,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_RightButton,Global Right Down,Globalne – przytrzymanie prawego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,Globalne – naciśnięcie prawego przycisku,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_RightReleased,Global Right Released,Globalne – zwolnienie prawego przycisku,,"Mouseevent ""global"" subtype"
-Event_Mouse_LeftButton,Left Down,Naciskanie lewego przycisku,,Mouse event subtype
+Event_Mouse_LeftButton,Left Down,Przytrzymanie lewego przycisku,,Mouse event subtype
 Event_Mouse_LeftPressed,Left Pressed,Naciśnięcie lewego przycisku,,Mouse event subtype
 Event_Mouse_LeftReleased,Left Released,Zwolnienie lewego przycisku,,Mouse event subtype
-Event_Mouse_MiddleButton,Middle Down,Naciskanie środkowego przycisku,,Mouse event subtype
+Event_Mouse_MiddleButton,Middle Down,Przytrzymanie środkowego przycisku,,Mouse event subtype
 Event_Mouse_MiddlePressed,Middle Pressed,Naciśnięcie środkowego przycisku,,Mouse event subtype
 Event_Mouse_MiddleReleased,Middle Released,Zwolnienie środkowego przycisku,,Mouse event subtype
 Event_Mouse_MouseEnter,Mouse Enter,Najechanie myszą na element,,Mouse event subtype
@@ -362,10 +362,10 @@ GMLVisual_Event_Mouse_Right,Right,Prawo,,Mouse event subtype
 GMLVisual_Event_Mouse_Middle,Middle,Środkowy,,Mouse event subtype
 GMLVisual_Event_Mouse_Side1,Side 1,Boczny 1,,Mouse event subtype
 GMLVisual_Event_Mouse_Side2,Side 2,Boczny 2,,Mouse event subtype
-Event_Mouse_RightButton,Right Down,Naciskanie prawego przycisku,,Mouse event subtype
+Event_Mouse_RightButton,Right Down,Przytrzymanie prawego przycisku,,Mouse event subtype
 Event_Mouse_RightPressed,Right Pressed,Naciśnięcie prawego przycisku,,Mouse event subtype
 Event_Mouse_RightReleased,Right Released,Zwolnienie prawego przycisku,,Mouse event subtype
-Event_Other,Other,Inny powód,,Other event name
+Event_Other,Other,Inne,,Other event name
 Event_Other_AnimationEnd,Animation End,Koniec animacji,,Other event subtype
 Event_Other_AnimationEvent,Animation Event,Zdarzenie animacji,,Other event subtype
 Event_Other_AnimationUpdate,Animation Update,Aktualizacja animacji,,Other event subtype
@@ -376,19 +376,19 @@ Event_Other_GameStart,Game Start,Początek gry,,Other event subtype
 Event_Other_IntersectBoundary,Intersect Boundary,Przecięcie granicy,,Other event subtype
 Event_Other_OutsideRoom,Outside Room,Poza planszą,,Other event subtype
 Event_Other_RoomEnd,Room End,Koniec planszy,,Other event subtype
-Event_Other_RoomStart,Room Start,Początek planszy,,Other event subtype
+Event_Other_RoomStart,Room Start,Start planszy,,Other event subtype
 Event_Other_UserDefined,User Events,Zdarzenia użytkownika,,Other event subtype
 Event_Other_UserN,User Event {0},Zdarzenie użytkownika {0},,event other user N
-Event_Other_Views,Views,Wyświetlenia,,Other event subtype
+Event_Other_Views,Views,Widoki,,Other event subtype
 Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,Przecięcie granicy widoku {0},,"Other-Views ""Boundary view"" event numberN"
-Event_Other_Views_OutsideViewN,Outside View {0},Widok zewnętrzny {0},,"Other-Views ""Outside view"" event numberN"
+Event_Other_Views_OutsideViewN,Outside View {0},Na zewnątrz widoku {0},,"Other-Views ""Outside view"" event numberN"
 Event_Other_Views_Boundary,Intersect Boundary,Przecięcie granicy,,Intersect boundary view group title
-Event_Other_Views_Outside,Outside View,Widok zewnętrzny,,Outside view group title
+Event_Other_Views_Outside,Outside View,Poza widokiem,,Outside view group title
 Event_Step,Step,Krok,,Step event name
-Event_StepBegin,Begin Step,Rozpocznij krok,,Begin Step event name
-Event_StepEnd,End Step,Zakończ krok,,End Step event name
+Event_StepBegin,Begin Step,Rozpoczęcie kroku,,Begin Step event name
+Event_StepEnd,End Step,Koniec kroku,,End Step event name
 Event_Unknown,Unknown Event,Nieznane zdarzenie,,Object editor unknown event name
-SeqEvents_Tooltip,Sequence Events,Zdarzenia sekwencyjne,,Events button tooltip
+SeqEvents_Tooltip,Sequence Events,Zdarzenia sekwencji,,Events button tooltip
 SeqEvents_TypeFunctionNameHere,Type Function Name Here,Wprowadź tutaj nazwę funkcji,,Type Function Name Here
 SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},Spowoduje to zastąpienie następujących funkcji:\n{0},,Used in the confirmation dialog
 SeqEvents_NewFunctionQuestion,Would you like to create new functions?,Czy chcesz utworzyć nowe funkcje?,,Seq func question
@@ -423,7 +423,7 @@ Extension_Import_Resources_Title,Import resources: {0},Importuj zasoby: {0},,ext
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},Importuj starsze zasoby: {0},,legacy extension(1.x) import resource title
 Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,Czy wylogować użytkownika „{0}”?\nSpowoduje to zapisanie wszelkich zmian i ponowne uruchomienie środowiska IDE.,,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,Czy na pewno chcesz przywrócić ustawienia domyślne?\nSpowoduje to ponowne uruchomienie aplikacji w celu zastosowania zmian.,,Restore default settings restart prompt
-File_Menu_NewIDE,New IDE,Nowe środowisko IDE,,Start a new instance of the IDE from the file menu
+File_Menu_NewIDE,New IDE,Nowe okno IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,Wylogowanie,,The Logout program menu item
 File_Menu_MyAccount,My Account,Moje konto,,Launches my account web page menu item
 File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
@@ -455,8 +455,8 @@ Inspector_Unlock,Unlock inspector to allow new selections,"Odblokuj inspektora, 
 Inspector_MultiSortMode,Multi-select order,Kolejność wielokrotnego wyboru,,multi select order menu entry
 Inspector_MultiSelLabel,Selection:,Zaznaczenie: ,,inspector multi select label
 Inspector_SelectExistingTag,Select existing tag,Wybierz istniejący tag,,inspector tag combo label
-Inspector_TagsWindowTitleArg,Tags: {0},Tags: {0},,tags window title
-Inspector_TagsWindowMulti,Tags: Multiple Selection,Tags: Wielokrotny wybór,,tags window title
+Inspector_TagsWindowTitleArg,Tags: {0},Tagi: {0},,tags window title
+Inspector_TagsWindowMulti,Tags: Multiple Selection,Tagi: Wielokrotny wybór,,tags window title
 inspector_pref_scrollonexpand,Scroll category into view on expand,Przewijaj kategorię do widoku przy rozwijaniu,,inspector scroll on expand pref
 ListBoxEnum_eMultiSortMode_AssetType,Asset type,Typ zasobu,,multisort mode enum
 ListBoxEnum_eMultiSortMode_SelectionOrder,Selection order,Kolejność wyboru,,multisort mode enum
@@ -534,8 +534,8 @@ Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or v
 Inspector_OpenEditors,Open Editors,Otwórz edytory,,open multiple editors
 Inspector_Category_Properties,Properties,Właściwości,,inspector category
 Inspector_Category_Editors,Editors,Edytory,,inspector category
-Inspector_Field_Width,W,W,,inspector field label
-Inspector_Field_Height,H,H,,inspector field label
+Inspector_Field_Width,W,Sze,,inspector field label
+Inspector_Field_Height,H,Wys,,inspector field label
 Inspector_Field_X,X,X,,inspector field label
 Inspector_Field_Y,Y,Y,,inspector field label
 Inspector_TileOffset,Tile Offset,Przesunięcie kafelka,,inspector property label
@@ -572,7 +572,7 @@ fonteditor_or,Or,Lub,,Font editor select font OR include in build
 fonteditor_aa_on,On,Wł.,,Font Editor aa on
 fonteditor_no_preview,This font has no texture yet. Press 'Regenerate' to make one,"Ta czcionka nie ma jeszcze tekstury. Kliknij opcję „Generuj ponownie”, aby ją utworzyć",,Font no texture yet label
 fonteditor_radio_sample,Sample,Przykład,,Font editor sample text radio button
-fonteditor_radio_texture,Game Preview,Podgląd gry,,Font editor game preview radio button
+fonteditor_radio_texture,Game Preview,Podgląd w grze,,Font editor game preview radio button
 fonteditor_radio_sample_texture_tooltip,'Sample' shows the font's sample text\n'Game Preview' shows the font's generated texture that is used in the game,Opcja „Przykład” pozwala wyświetlić przykładowy tekst napisany czcionką\nOpcja „Podgląd gry” pozwala wyświetlić wygenerowaną teksturę czcionki użytej w grze,,Font editor sample texture preview help tooltip
 fonteditor_options,Options,Opcje,,Advanced font options
 fonteditor_options_desc,Advanced options,Opcje zaawansowane,,Advanced font options description
@@ -720,7 +720,7 @@ AddOns,Add-ons,Dodatki,,Add-ons node label
 GameOptions_AddOns_Label,Add one or more add-ons to this project,Dodaj co najmniej jeden dodatek do tego projektu,,Add addon to this project label
 GameOptions_Extensions,Extensions,Rozszerzenia,,Extensions node label
 Gamemaker_Help,Help,Pomoc,,Help window title
-Gamemaker_News,News,Wiadomości,,News window title
+Gamemaker_News,News,Nowości,,News window title
 Gmez_NoProject,Gmez Import: No project to import into,"Import GMEZ: brak projektu, do którego można wykonać import",,Error when importing without a project loaded
 GraphicProperties_AnimSpeed,Speed,Szybkość,,The animation speed for graphics
 GraphicProperties_FrameIndex,Frame,Klatki,,The initial frame for the sprite
@@ -763,18 +763,18 @@ IDEMenu_File,File,Plik,,The File menu item name
 IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
 IDEMenu_Tools,Tools,Narzędzia,,Main menu entry for tools
 IDEMenu_Help,Help,Pomoc,,Main menu entry for HELP
-IDEMenu_Help_SupportForum,Support Forums,Fora wsparcia,,Help menu item for support forums
+IDEMenu_Help_SupportForum,Support Forums,Forum wsparcia,,Help menu item for support forums
 IDEMenu_Help_YYG,GameMaker.io,GameMaker.io,,Help menu item for main yoyogames website
 IDEMenu_Help_GMC,GameMaker Community,Społeczność GameMaker,,Help menu item for gmc forums
 IDEMenu_Help_BetaForums,Mac Closed beta forums,Zamknięte fora beta na temat systemu Mac,,Closed beta forums for Mac
 IDEMenu_Help_SDKS,Required SDKs,Wymagane pakiety SDK,,Help menu item for the required sdks page
 IDEMenu_Help_KnowledgeBase,Knowledge Base,Baza Wiedzy,,Help menu item for knowledge base
 IDEMenu_Help_ReportBug,Report a Bug,Zgłoś błąd,,Help menu item for report a bug page
-IDEMenu_Help_ReleaseNotes,Release Notes,Informacje o wersjach,,Help menu item for release notes
-IDEMenu_Help_RuntimeReleaseNotes,Current Runtime Release Notes,Uwagi na temat wersji bieżącego środowiska uruchomieniowego,,Help menu item for current runtime release notes
+IDEMenu_Help_ReleaseNotes,Release Notes,Informacje o wydaniu,,Help menu item for release notes
+IDEMenu_Help_RuntimeReleaseNotes,Current Runtime Release Notes,Lista zmian obecnego wydania,,Help menu item for current runtime release notes
 IDEMenu_Help_StartPage,Start Page,Strona startowa,,Help menu item for reopening the start page
 IDEMenu_Help_WelcomePage,Welcome Page,Strona powitalna,,Help menu item for reopening the welcome page
-IDEMenu_Help_Help,Open Manual,Otwórz instrukcję,,Help menu item for actual help
+IDEMenu_Help_Help,Open Manual,Otwórz dokumentację,,Help menu item for actual help
 IDEMenu_Help_About,${IDEMenuHelpAbout},${IDEMenuHelpAbout},,Help menu item for actual About
 IDEMenu_Help_Licenses,Licences,Licencje,,Help menu item for licences
 IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
