@@ -542,7 +542,7 @@ Inspector_TileOffset,Tile Offset,Przesunięcie kafelka,,inspector property label
 Inspector_Separation,Separation,Separacja,,inspector property label
 Inspector_OutputBorder,Output Border,Obramowanie wyjściowe,,inspector property label
 Inspector_Dimension,Dimension,Wymiar,,inspector property label
-Inspector_Origin,Origin,Początek,,inspector property label
+Inspector_Origin,Origin,Osie,,inspector property label
 Inspector_TimeUnits,Time Units,Jednostki czasu,,inspector property label
 Inspector_SpeedFPS,Speed (FPS),Szybkość (kl./s),,inspector property label
 Inspector_LengthFrames,Length (Frames),Długość (klatki),,inspector property label
@@ -1257,7 +1257,7 @@ Object_PhysicsRestitution,Restitution,Sprężystość,,"object ""physicsRestitut
 Object_PhysicsSensor,Sensor,Czujnik,,"object ""physicsSensor"" property label"
 Object_PhysicsStartAwake,Start Awake,Przecknięcie,,"object ""physicsStartAwake"" property label"
 Object_Solid,Solid,Lity,,"Object Model ""solid"" property"
-Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,W przypadku kolizji instancji bryła będą automatycznie powracały do poprzedniego położenia,,object editor solid property tooltip
+Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,W przypadku kolizji instancji litych będą automatycznie powracały do poprzedniego położenia,,object editor solid property tooltip
 Object_UsesPhysics,Uses Physics,Używa fizyki,,"Object Model ""uses physics"" property"
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,"Instancje wykorzystują przetwarzanie w oparciu o fizykę, gdy znajdują się na planszy, dla której zaznaczono pole „Włącz fizykę”",,object editor uses physics tooltip
 Object_Visible,Visible,Widoczne,,"Object Model ""visible"" property"
@@ -1755,7 +1755,7 @@ Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual
 Splash_CheckingRSS,Checking RSS...,Sprawdzanie RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Pobieranie instrukcji...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Usuń punkty,,Path spline editor context menu entry
-SpriteEditor_LockOrigin,Lock sprite origin,Zablokuj początek duszka,,Lock sprite origin from editing
+SpriteEditor_LockOrigin,Lock sprite origin,Zablokuj osie duszka,,Lock sprite origin from editing
 SpriteEditor_Manual,Manual,Ręczny,,Sprite editor manual bounding box label
 SpriteEditor_Premultiply,Premultiply Alpha,Mnożenie wstępne z kanałem alfa,,Premultiply alpha channel of sprite composite
 SpriteEditor_EdgeFiltering,Edge Filtering,Filtrowanie krawędzi,,Edge filtering of sprite composite
@@ -1789,7 +1789,7 @@ SpriteEditor_EnableWrap,Wrap Frames,Zawijaj ramki,,Sprite editor wrap frames tog
 SpriteEditor_FPS,Speed:,Szybkość:,,Sprite editor fps playback speed label
 SpriteEditor_Import,Import,Importuj,,Sprite editor import button
 SpriteEditor_LabelFrameCount,Frame Count: {0},Liczba ramek: {0},,Sprite editor frame label
-SpriteEditor_LabelOrigin,Origin Point:,Punkt początku:,,Sprite editor origin point label
+SpriteEditor_LabelOrigin,Origin Point:,Punkt osi:,,Sprite editor origin point label
 SpriteEditor_LabelSize,Size:,Rozmiar:,,Sprite editor label size
 SpriteEditor_W,W: {0},S: {0},,Width label
 SpriteEditor_H,H: {0},W: {0},,Height label
@@ -1803,9 +1803,9 @@ Sprite_Resize_ResizeCanvas,Resize Canvas,Zmień rozmiar kanwy,,Resize label
 Sprite_Resize_Width,Width:,Szerokość:,,Width label
 Sprite_Resize_Height,Height:,Wysokość:,,Height label
 Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,Zachowaj proporcje:,,Maintain ratio label
-Sprite_Resize_Origin,Apply to Origin,Zastosuj do początku,,Also resize/scale sprite origin
-Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,"Zastosuj to samo przekształcenie do początku duszka\nJeśli początek duszka jest niestandardowy i odblokowany, ta pozycja jest tylko opcjonalna",,Sprite origin resize/scale tooltip
-SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,Zastosuj zmianę rozmiaru i skalowanie do początku duszka,,Sprite editor resize/scale origin preference
+Sprite_Resize_Origin,Apply to Origin,Zastosuj do osi,,Also resize/scale sprite origin
+Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,"Zastosuj to samo przekształcenie do osi duszka\nJeśli oś duszka jest niestandardowa i odblokowana, ta pozycja jest tylko opcjonalna",,Sprite origin resize/scale tooltip
+SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,Zastosuj zmianę rozmiaru i skalowanie do osi duszka,,Sprite editor resize/scale origin preference
 Sprite_Resize_Pixels,pixels,piksele,,Pixels label
 SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,Sprite jest zasobem zestawu kafelków!,,Tile set warning
 SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,"Ten sprite jest zestawem kafelków, a zmiana jego rozmiaru spowoduje zmianę danych kafelków. Czy mimo to chcesz kontynuować?",,Sprite resize tile set warning
@@ -1813,7 +1813,7 @@ Sprite_Resize_Percentage,%,%,,Percentage label
 Sprite_Resize_ScaleIn,Scale In:,Skaluj w:,,Scale in label
 Sprite_Resize_ResizeIn,Resize In:,Zmień rozmiar w:,,Resize in label
 SpriteEditor_Name,Name:,Nazwa:,,Sprite editor name label
-SpriteEditor_Origin,Origin,Początek,,Sprite editor origin label
+SpriteEditor_Origin,Origin,Oś,,Sprite editor origin label
 SpriteEditor_Origin_BottomLeft,Bottom Left,Lewy dolny,,Sprite editor origin combo menu item
 SpriteEditor_Origin_BottomMiddle,Bottom Center,Centralny dolny,,Sprite editor origin combo menu item
 SpriteEditor_Origin_BottomRight,Bottom Right,Prawy dolny,,Sprite editor origin combo menu item
@@ -4161,9 +4161,9 @@ GMStdScript,Script,Skrypt,,GML Visual  library argument label
 GMStdArgument,Argument,Argument,,GML Visual argument label
 GMStdOptional,Optional,Opcjonalne,,GML Visual optional label
 GMStdDefaultValue,Value,Wartość,,GML Visual default value label
-GMStdTarget,Target,Cel,,GML Visual  library argument label
+GMStdTarget,Target,Przypisz do,,GML Visual  library argument label
 GMStdReturnList,Return List,Zwróć listę,,GML Visual  library argument label
-GMStdFreeTarget,Free Target,Cel swobodny,,GML Visual  library argument label
+GMStdFreeTarget,Free Target,Dowolny cel,,GML Visual  library argument label
 GMStdObject,Object,Obiekt,,GML Visual  library argument label
 GMStdSequence,Sequence,Sekwencja,,GML Visual  library argument label
 GMStdX,X,X,,GML Visual  library argument label
@@ -4418,8 +4418,8 @@ GMStdVar_bboxtop,Bounding Box Top,Pole ograniczenia – góra,,GML Visual label
 GMStdVar_bboxright,Bounding Box Right,Pole ograniczenia – prawa,,GML Visual label
 GMStdVar_bboxbottom,Bounding Box Bottom,Pole ograniczenia – dół,,GML Visual label
 GMStdVar_insequence,In Sequence,W sekwencji,,GML Visual label
-GMStdVar_xoffset,Sprite Origin X,X początku duszka,,GML Visual label
-GMStdVar_yoffset,Sprite Origin Y,Y początku duszka,,GML Visual label
+GMStdVar_xoffset,Sprite Origin X,X osi duszka,,GML Visual label
+GMStdVar_yoffset,Sprite Origin Y,Y osi duszka,,GML Visual label
 GMStdVar_rotate,Rotate,Obróć,,Rotate GML Visual
 GMStdVar_xstart,Initial X Coordinate,Początkowa współrzędna X,,GML Visual™
 GMStdVar_ystart,Initial Y Coordinate,Początkowa współrzędna Y,,GML Visual™
@@ -4742,7 +4742,7 @@ roomeditor_selectionboundscolour,Selection bounds colour,Kolor granic wyboru,,pr
 roomeditor_selectionboundslockedcolour,Locked selection bounds colour,Kolor zablokowanych granic wyboru,,preference name for the selection bounds colour for locked and unlocked items in the room editor
 GridSettings_SnapToGridToolTip,Snap To Grid ,Przyciągaj do siatki ,,the tooltip for the snap to grid checkbox
 PhysicsShapeEditor_FrameOf,of,z,,Frame x of y label
-ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Domyślny początek duszka,,Default sprite origin preference
+ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Domyślna oś duszka,,Default sprite origin preference
 ResourcePrefs_DefaultSpriteCollisionMaskKind,Default sprite collision mask kind,Domyślny rodzaj maski kolizji duszka,,Preferences / Sprite Editor / Default sprite collision mask kind
 ListBoxEnum_eLVEDisplayMode_TreeView,Tree View,Widok drzewa,,enum name
 ListBoxEnum_eLVEDisplayMode_ListView,List View,Widok listy,,enum name
@@ -6040,7 +6040,7 @@ ListBoxEnum_eSoundMode_Loop,Loop,Pętla,,loop sound mode enum
 ListBoxEnum_eSoundMode_Single,Play once,Odtwórz raz,,single sound mode enum
 Track_MultiplyColour,Colour Multiply,Multiplikacja koloru,,Track colour
 Track_AddColour,Colour Add,Dodawanie koloru,,Track colour
-Track_Origin,Origin,Początek,,Sequence parameter
+Track_Origin,Origin,Oś,,Sequence parameter
 Track_ImageSpeed,Image Speed,Szybkość obrazu,,Sequence parameter
 Track_ImageIndex,Image Index,Indeks obrazu,,Sequence parameter
 Track_ImageAngle,Image Angle,Kąt obrazu,,Sequence parameter
@@ -6124,15 +6124,15 @@ SequenceCanvas_ToggleTransformGizmoSpecific,Select Transform Gizmo Mode,Wybierz 
 SequenceCanvas_ToggleGizmoTranslate,Translate,Tłumacz,,Toggle to translate canvas gizmo
 SequenceCanvas_ToggleGizmoScale,Scale,Skala,,Toggle to scale canvas gizmo
 SequenceCanvas_ToggleGizmoRotate,Rotate,Obróć,,Toggle to rotate canvas gizmo
-SequenceCanvas_ToggleGizmoOrigin,Origin,Początek,,Toggle to origin canvas gizmo
+SequenceCanvas_ToggleGizmoOrigin,Origin,Oś,,Toggle to origin canvas gizmo
 SequenceCanvas_ToggleBackdrop,Toggle canvas frame,Przełącz ramkę kanwy,,Toggle canvas frame on/off tooltip
 SequenceCanvas_ToggleBackdropSpecific,Canvas frame settings,Ustawienia ramki kanwy,,canvas frame settings tooltip
 SequenceCanvas_BackdropEnabled,Canvas frame enabled,Ramka kanwy włączona,,canvas frame enabled label
 SequenceCanvas_BackdropImageRefEnabled,Image reference enabled,Odwołanie do obrazu włączone,,image reference enabled label
 SequenceCanvas_BackdropWidth,Width,Szerokość,,canvas frame width label
 SequenceCanvas_BackdropHeight,Height,Wysokość,,canvas frame height label
-SequenceCanvas_xorigin,Origin X,Początek X,,canvas origin x
-SequenceCanvas_yorigin,Origin Y,Początek Y,,canvas origin y
+SequenceCanvas_xorigin,Origin X,Oś X,,canvas origin x
+SequenceCanvas_yorigin,Origin Y,Oś Y,,canvas origin y
 SequenceCanvas_Toolbox_Events,Events,Wydarzenia,,Toolbox events tooltip
 SequenceCanvas_Toolbox_AddAction,Add action,Dodaj czynność,,Toolbox add action tooltip
 SequenceCanvas_Toolbox_Edit,Edit,Edytuj,,Toolbox edit tooltip
@@ -6179,7 +6179,7 @@ SequenceGizmo_Sound,Sound,Dźwięk,,Sound gizmo text
 SequenceGizmo_Sequence,Sequence,Sekwencja,,Sequence gizmo text
 SequenceGizmo_Group,Group,Grupa,,Group gizmo text
 SequenceGizmo_Ghosting,Delta Ghosting,Delta Ghosting,,Ghosting gizmo text
-SequenceGizmo_Origin,Origin,Początek,,Origin gizmo text
+SequenceGizmo_Origin,Origin,Oś,,Origin gizmo text
 SequenceGizmo_ZeroZero,Zero zero,Zero zero,,Zero zero gizmo text
 SequenceGizmo_AxisTransform,Transform,Przekształcenie,,Transform gizmo text
 SequenceGizmo_ShowAxes,Show Axes,Pokaż osie,,Show axes gizmo text
@@ -6583,7 +6583,7 @@ ggs_requires_nex,Enable support for NEX libraries,Włącz obsługę bibliotek NE
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,"Nie skonfigurowano danych SLIM. Czy przejść na stronę https://slim.mng.nintendo.net/slim/home, aby je utworzyć?",,No SLIM data message box
 Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,BŁĄD: Urządzenie „{0}” nie zostało sparowane. Czy ma ono prawidłowy profil aprowizacji?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
 Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,"Wymienione poniżej urządzenia nie zostały sparowane. Uprawnij się, że mają one prawidłowe profile aprowizacji.",,The following devices have not been paired. Please ensure they have valid provisioning profiles
-IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,Brak otoki FFmpegWrapper,,Missing FFmpegWrapper Title
+IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,Brak zainstalowanego FFmpegWrapper,,Missing FFmpegWrapper Title
 IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,Brak pliku FFmpegWrapper.dll lub jego zależności. Przyczyną może być nieprawidłowa instalacja lub zbyt agresywny skaner wirusowy. Sprawdź skaner wirusowy lub przeprowadź ponownie instalację.,,Missing FFmpegWrapper dll message
 ProjectLoad_VerificationErrorTitle,Project Verification Error,Błąd weryfikacji projektu,,Project Verification Error Title
 ProjectLoad_MultipleRootsMessage,This project has multiple root views and is unstable. Select Yes to attempt a repair or No to continue in an unstable state.,"Ten projekt zawiera wiele widoków głównych i jest niestabilny. Wybierz opcję Tak, aby podjąć próbę naprawy, lub opcję Nie, aby kontynuować w stanie braku stabilności.",,Multiple roots in project message
@@ -6643,11 +6643,11 @@ CanvasItem_X,X,X,,x
 CanvasItem_Y,Y,Y,,x
 CanvasItem_Position,Position,Położenie,,position
 CanvasItem_Scale,Scale,Skala,,scale
-CanvasItem_Origin,Origin,Początek,,origin
+CanvasItem_Origin,Origin,Oś,,origin
 CanvasItem_ScaleX,Scale X,Skala X,,x scale
 CanvasItem_ScaleY,Scale Y,Skala Y,,x scale
-CanvasItem OriginX,Origin X,Początek X,,origin X
-CanvasItem OriginY,Origin Y,Początek Y,,origin Y
+CanvasItem OriginX,Origin X,Środek osi X,,origin X
+CanvasItem OriginY,Origin Y,Środek osi Y,,origin Y
 CanvasItem_Sprite,Sprite,Sprite,,sprite resource
 CanvasItem_Object,Object,Obiekt,,object resource
 CanvasItem_Sound,Sound,Dźwięk,,sound resource
@@ -7354,7 +7354,7 @@ RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,Przełącz Autokey,
 RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,Usuń poprzedzający element,,Redefine keys sequence_delete_bksp string
 RedefineKeys_Delete,Delete,Usuń,,Redefine keys Delete string
 RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,Przełącz początek wielokrotnego zaznaczenia,,Redefine keys sequence_toggle_multiselect_origin string
-RedefineKeys_Center Item Origin,Sequence Center Item Origin,Wyśrodkuj początek elementu,,Redefine keys sequence_center_item_origin string
+RedefineKeys_Center Item Origin,Sequence Center Item Origin,Wyśrodkuj oś elementu,,Redefine keys sequence_center_item_origin string
 RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,Zresetuj położenie elementu,,Redefine keys sequence_reset_item_position string
 RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Przełącz widoczność,,Redefine keys seq_smartguide_toggle_vis string
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Przełącz blokadę linijki,,Redefine keys seq_smartguide_toggle_rulerlock string
@@ -7404,7 +7404,7 @@ RedefineKeys_Go To Previous Event,Sequence Goto Prev Event,Przejdź do poprzedni
 RedefineKeys_tool_translate,Tool Translate,Translacja,,Redefine keys tool_translate string
 RedefineKeys_tool_scale,Tool Scale,Skalowanie,,Redefine keys tool_scale string
 RedefineKeys_tool_rotate,Tool Rotate,Obrót,,Redefine keys tool_rotate string
-RedefineKeys_tool_origin,Tool Origin,Początek,,Redefine keys tool_origin string
+RedefineKeys_tool_origin,Tool Origin,Punkt osi,,Redefine keys tool_origin string
 RedefineKeys_Play,Play,Odtwórz,,Redefine keys Play string
 RedefineKeys_Toggle Grid,Toggle Grid,Przełącz siatkę,,Redefine keys Toggle Grid string
 RedefineKeys_Open GoTo Menu,Go To,Idź do,,Redefine keys GoTo string
