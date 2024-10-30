@@ -152,7 +152,7 @@ Dialog_Ignore,Ignore,Ignoruj,,dialog ignore label
 Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,Czy na pewno chcesz usunąć zdarzenie wraz ze wszystkimi jego czynnościami?,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,Czy na pewno chcesz wyciąć wybrane zdarzenie?,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,Czy na pewno chcesz usunąć następującą liczbę zdarzeń wraz ze wszystkimi czynnościami: {0}?,,Delete multiple event dialog confirmation query
-Dialog_DeleteFrame_Query,Delete the selected frames?,Czy usunąć wybrane ramki?,,image editor delete frames confirm query
+Dialog_DeleteFrame_Query,Delete the selected frames?,Czy usunąć wybrane klatki?,,image editor delete frames confirm query
 Dialog_PasteEvent_NotReady,The event is still being copied. Please try pasting again in a few seconds.,Nadal trwa kopiowanie zdarzenia. Spróbuj wkleić ponownie za kilka sekund.,,Not ready to paste yet message
 Dialog_DontShowAgain,Don't show this message again,Nie pokazuj więcej tego komunikatu,,Message next to checkbox to allow the user to choose not to see this popup in future
 Dialog_Error,Error,Błąd,,error dialog title
@@ -394,7 +394,7 @@ SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},S
 SeqEvents_NewFunctionQuestion,Would you like to create new functions?,Czy chcesz utworzyć nowe funkcje?,,Seq func question
 SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,Zdarzenia sekwencyjne – tworzenie nowych funkcji,,Used as the confirmation dialog's title
 SeqMessages_TypeMessageHere,Type Broadcast Message Here,Wpisz tutaj treść komunikatu do rozesłania,,Type Broadcast Message Here
-SeqMoments_Frames,Frame,Ramka,,Frames label
+SeqMoments_Frames,Frame,Klatka,,Frames label
 Exit_AreYouSure,Are you sure you want to exit?,Czy na pewno chcesz zakończyć?,,"On closing main desktop to quit, are you sure?"
 Exit_SaveProject,Do you want to save changes before exiting?,Czy przed zakończeniem chcesz zapisać zmiany?,,Let user save project on exit
 CloseProject_Save,Do you want to save changes to the current project?,Czy chcesz zapisać zmiany w bieżącym projekcie?,,Prompt user to save changes to current project
@@ -527,7 +527,7 @@ Inspector_Category_TextureSettings,Texture Settings,Ustawienia tekstury,,Inspect
 Inspector_Category_CollisionMask,Collision Mask,Maska kolizji,,Inspector category
 Inspector_Category_Tiles,Tiles,Kafelki,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Opcje zaawansowane,,Inspector category
-Inspector_Category_CanvasFrame,Canvas Frame,Ramka kanwy,,Inspector category
+Inspector_Category_CanvasFrame,Canvas Frame,Klatka kanwy,,Inspector category
 Inspector_Category_Parent,Parent,Rodzic,,Inspector category
 Inspector_OpenEditor,Open Editor,Otwórz edytor,,open editor
 Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,Ten obiekt nie ma obecnie żadnych Zdarzeń.\nDodaj Zdarzenia tutaj lub za pomocą edytora,,no object events inspector label
@@ -723,8 +723,8 @@ Gamemaker_Help,Help,Pomoc,,Help window title
 Gamemaker_News,News,Wiadomości,,News window title
 Gmez_NoProject,Gmez Import: No project to import into,"Import GMEZ: brak projektu, do którego można wykonać import",,Error when importing without a project loaded
 GraphicProperties_AnimSpeed,Speed,Szybkość,,The animation speed for graphics
-GraphicProperties_FrameIndex,Frame,Ramka,,The initial frame for the sprite
-GraphicProperties_HeadPosition,Head,Głowica,,The initial head for the sprite
+GraphicProperties_FrameIndex,Frame,Klatki,,The initial frame for the sprite
+GraphicProperties_HeadPosition,Head,Początek,,The initial head for the sprite
 GraphicProperties_Height,Height,Wysokość,,graphic properties caption for height textbox
 GraphicProperties_PosX,X,X,,graphic properties caption for x textbox
 GraphicProperties_PosY,Y,Y,,graphic properties caption for y textbox
@@ -805,9 +805,9 @@ IDETooltop_WorkspaceZoomIn,Zoom In ,Powiększ ,,workspace zoom in ide toolbar to
 IDETooltop_WorkspaceZoomOut,Zoom Out ,Pomniejsz ,,workspace zoom out ide toolbar tooltip
 IDETooltop_WorkspaceZoomReset,Zoom Reset ,Zresetuj powiększenie ,,workspace zoom reset ide toolbar tooltip
 IDETooltop_CollapseDocks,Collapse/Expand dock panels ,Zwiń/rozwiń zadokowane panele ,,collapse/expand docks tooltip
-ImageEditor_AddFrame,Add Frame,Dodaj ramkę,,Image editor menu option -Add frame
+ImageEditor_AddFrame,Add Frame,Dodaj klatkę,,Image editor menu option -Add frame
 ImageEditor_AddFromFile,Import Image(s),Importuj obrazy,,Add images from file menu option
-ImageEditor_CreateFromStrip,Convert to Frames,Konwertuj na ramki,,create from strip menu option
+ImageEditor_CreateFromStrip,Convert to Frames,Konwertuj na klatki,,create from strip menu option
 ImageEditor_ImportFromStrip,Import Strip Image,Importuj obraz paska,,import strip image menu option
 ImageEditor_ExportToPNG,Export to PNG,Eksportuj do PNG,,export to png image menu option
 ImageEditor_AddGroup,Add group,Dodaj grupę,,Image editor layer context menu - add group
@@ -823,23 +823,23 @@ ImageEditor_ColourLeftLabel,Left:,Lewa:,,left brush label
 ImageEditor_ColourOnly,Colour only,Tylko kolor,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,Kolory,,colours panel title
 ImageEditor_UnableToLoadFrame,Unable to load,Nie można załadować,,Unable to load frame dialog title
-ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,"Sprite {0} zawiera następującą liczbę obrazów, których nie można załadować: {1}. Problematyczne ramki zostaną usunięte z duszka.",,Failed to load image
+ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,"Sprite {0} zawiera następującą liczbę obrazów, których nie można załadować: {1}. Problematyczne klatki zostaną usunięte z duszka.",,Failed to load image
 IE_ColourPanel_MenuToolTip,Colour Options,Opcje kolorów,,image editor colours panel menu button tooltip
 ImageEditor_ColourRightLabel,Right:,Prawa:,,right brush label
 ImageEditor_CommitToolChanges,Commit Tool Changes?,Czy zastosować zmiany narzędzi?,,Commit tool changes
-ImageEditor_CropToSelection,Crop All Frames To Selection,Przytnij wszystkie ramki do zaznaczenia,,Image editor - crop to selection menu option
-ImageEditor_AutoTrim,Auto Trim All Frames,Automatycznie przytnij wszystkie ramki,,Image editor - auto trim all frames
-ImageEditor_ReverseFrames,Reverse Frames,Odwróć ramki,,Image Editor - reverse frames menu entry
+ImageEditor_CropToSelection,Crop All Frames To Selection,Przytnij wszystkie klatki do zaznaczenia,,Image editor - crop to selection menu option
+ImageEditor_AutoTrim,Auto Trim All Frames,Automatycznie przytnij wszystkie klatki,,Image editor - auto trim all frames
+ImageEditor_ReverseFrames,Reverse Frames,Odwróć klatki,,Image Editor - reverse frames menu entry
 ImageEditor_Cut,Cut,Wytnij,,Image editor menu option -Cut
-ImageEditor_CutFrame,Cut Frame,Wytnij ramkę,,Image editor menu option -Cut
+ImageEditor_CutFrame,Cut Frame,Wytnij klatkę,,Image editor menu option -Cut
 ImageEditor_CutSelection,Cut Selection,Wytnij zaznaczenie,,Image editor menu option -Cut
 ImageEditor_Copy,Copy,Kopiuj,,Image editor menu option -Copy
-ImageEditor_CopyFrame,Copy Frame,Kopiuj ramkę,,Image editor copy frame menu option
-ImageEditor_PasteFrame,Paste Frame,Wklej ramkę,,Image editor paste frame menu option
+ImageEditor_CopyFrame,Copy Frame,Kopiuj klatkę,,Image editor copy frame menu option
+ImageEditor_PasteFrame,Paste Frame,Wklej klatkę,,Image editor paste frame menu option
 ImageEditor_CopySelection,Copy Selection,Kopiuj zaznaczenie,,Image editor copy selection menu option
 ImageEditor_PasteClipboard,Paste Clipboard,Wklej zawartość schowka,,Image editor paste clipboard menu option
 ImageEditor_SelectAll,Select All,Zaznacz wszystko,,Image editor select all menu option
-ImageEditor_DeleteFrames,Delete Selected Frames,Usuń wybrane ramki,,Image editor menu option -Delete selected frames
+ImageEditor_DeleteFrames,Delete Selected Frames,Usuń wybrane klatkę,,Image editor menu option -Delete selected frames
 ImageEditor_DeleteGroup,Delete group,Usuń grupę,,Image editor layer context menu - delete group/folder
 ImageEditor_DeleteLayer,Delete layer(s),Usuń warstwy,,Image editor layer context menu - delete layer or layers
 ImageEditor_DuplicateLayer,Duplicate layer(s),Duplikuj warstwy,,Image editor layer panel - duplicate layer menu option
@@ -848,7 +848,7 @@ ImageEditor_EffectApply,Apply,Zastosuj,,effect apply button
 ImageEditor_EffectApplyToLabel,Apply To:,Zastosuj do:,,effect apply to heading
 ImageEditor_EffectCancel,Cancel,Anuluj,,effect cancel button
 ImageEditor_Effects,Effects,Efekty,,Image editor menu heading -Effects
-ImageEditor_EffectAllFrames,Apply to All Frames,Zastosuj do wszystkich ramek,,apply to all frames label
+ImageEditor_EffectAllFrames,Apply to All Frames,Zastosuj do wszystkich klatek,,apply to all frames label
 ImageEditor_Flip,Flip,Przerzuć,,Image editor menu option -Flip
 ImageEditor_GridColour,Colour,Kolor,,Image editor grid colour label
 ImageEditor_GridSettings,Grid Settings,Ustawienia siatki,,Image editor grid settings label
@@ -867,7 +867,7 @@ ImageEditor_ImportCrop_Canvas,Crop/pad canvas,Przytnij/wypełnij kanwę,,image e
 ImageEditor_ImportScale_Canvas,Scale canvas,Skaluj kanwę,,image editor import - scale canvas
 ImageEditor_ImportCrop_Import,Crop/pad imported image,Przytnij/wypełnij zaimportowany obrazy,,image editor import- crop imported image
 ImageEditor_ImportScale_Import,Scale imported image,Skaluj zaimportowany obraz,,image editor import- scale imported image
-ImageEditor_InsertFrame,Insert Frame,Wstaw ramkę,,Image editor menu option -Insert frame
+ImageEditor_InsertFrame,Insert Frame,Wstaw klatkę,,Image editor menu option -Insert frame
 ImageEditor_IntensityLabel,Intensity:,Intensywność:,,effect intensity
 ImageEditor_InterpLabel,Interpolation:,Interpolacja:,,Image editor interpolation label
 ImageEditor_InvertSelection,Invert Selection,Odwróć zaznaczenie,,Image editor menu option -Invert selection
@@ -886,8 +886,8 @@ ImageEditor_MergeSelectedLayers,Merge Selected Layers,Scal wybrane warstwy,,Imag
 ImageEditor_Mirror,Mirror,Odbicie lustrzane,,Image editor menu option -Mirror
 ImageEditor_NxN_Pixels,{0} x {1} pixels,{0} x {1} px,,image editor pixel dimensions
 ImageEditor_OnionSkin_Tooltip,Toggle onion skinning,Przełącz efekt łusek cebuli,,Image editor onion skin button tooltip
-ImageEditor_OnionSkinFramesBack,Frames back,Liczba ramek wstecz,,Image editor onion skin settings label
-ImageEditor_OnionSkinFramesFwd,Frames forwards,Liczba ramek w przód,,Image editor onion skin settings label
+ImageEditor_OnionSkinFramesBack,Frames back,Liczba klatkę wstecz,,Image editor onion skin settings label
+ImageEditor_OnionSkinFramesFwd,Frames forwards,Liczba klatkę w przód,,Image editor onion skin settings label
 ImageEditor_OnionSkinSettings,Onion Skin Settings,Ustawienia efektu łusek cebuli,,Image editor onion skin settings title
 ImageEditor_OnionSkinTint,Colour,Kolor,,Image editor onion skin settings label
 ImageEditor_Paste,Paste,Wklej,,Image editor menu option -Paste
@@ -896,10 +896,10 @@ ImageEditor_PlayButton_Tooltip,Play/Pause animation,Odtwórz/wstrzymaj animację
 ImageEditor_Position,Position,Położenie,,image editor position label
 ImageEditor_Preview,Preview,Podgląd,,effect preview
 ImageEditor_Redo,Redo,Wykonaj ponownie,,Image editor menu option -Redo
-ImageEditor_ResizeCanvas,Resize All Frames,Zmień rozmiar wszystkich ramek,,image editor resize canvas menu entry
+ImageEditor_ResizeCanvas,Resize All Frames,Zmień rozmiar wszystkich klatek,,image editor resize canvas menu entry
 ImageEditor_Rotate,Rotate,Obróć,,Image editor menu option -Rotate
 ImageEditor_Scale,Scale,Skala,,Image editor menu option -Scale
-ImageEditor_ScaleImage,Scale All Frames,Skaluj wszystkie ramki,,Image editor scale image title
+ImageEditor_ScaleImage,Scale All Frames,Skaluj wszystkie klatki,,Image editor scale image title
 ImageEditor_SelectedLayer,Selected Layer,Wybrana warstwa,,effect selected layer option
 ImageEditor_SnapToGrid,Snap to grid,Przyciągnij do siatki,,Image editor snap to grid
 ImageEditor_TextTool_AA,Anti-alias,Antyaliasing,,Image editor text tool anti-alias
@@ -941,10 +941,10 @@ ImageEditor_ToolboxPanelTitle,Toolbox,Przybornik,,toolbox panel title
 ImageEditor_Transform,Animation,Animacja,,Image editor menu - animation transform heading
 ImageEditor_Menu_Flip,Flip,Przerzuć,,Image editor menu flip
 ImageEditor_Menu_Mirror,Mirror,Odbicie lustrzane,,Image editor menu mirror
-ImageEditor_Menu_AllFrames,All Frames,Wszystkie ramki,,Image editor menu flip animation
-ImageEditor_Menu_CurrentFrame,Selected Frames,Wybrane ramki,,Image editor menu flip current frame
-ImageEditor_Menu_RotateImageCW,Rotate All Frames (clockwise 90),Obróć wszystkie ramki (w prawo o 90°),,Image editor rotate clockwise menu entry
-ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),Obróć wszystkie ramki (w lewo o 90°),,Image editor rotate anti-clockwise menu entry
+ImageEditor_Menu_AllFrames,All Frames,Wszystkie klatki,,Image editor menu flip animation
+ImageEditor_Menu_CurrentFrame,Selected Frames,Wybrane klatki,,Image editor menu flip current frame
+ImageEditor_Menu_RotateImageCW,Rotate All Frames (clockwise 90),Obróć wszystkie klatki (w prawo o 90°),,Image editor rotate clockwise menu entry
+ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),Obróć wszystkie klatki (w lewo o 90°),,Image editor rotate anti-clockwise menu entry
 ImageEditor_Undo,Undo,Cofnij,,Image editor menu option -Undo
 ImageEditor_VisibleLayers,Visible Layers,Widoczne warstwy,,effect visible layers option
 ImageEditor_WidthLabel,Width:,Szerokość:,,image editor resize width label
@@ -973,8 +973,8 @@ ImageEditor_Warning_LayerLocked,Cannot paint to a locked or invisible layer,Nie 
 ImageEditor_Warning_LayerLocked_Dialog,Cannot paint to the selected layer - it is locked or hidden,Nie można malować na wybranej warstwie – jest zablokowana lub ukryta,,image editor: locked layer dialog warning
 ImageEditor_Warning_LayerHidden,Current layer is not visible,Bieżąca warstwa jest niewidoczna,,image editor hidden layer warning
 ImageEditor_Select_RectSize,Selection Area: {0}x{1},Obszar wyboru: {0}x{1},,selection rect size
-ImageEditor_CurrentFrame,Current Frame:,Bieżąca ramka:,,image editor current frame label
-ImageEditor_FrameNumberLabel,{0} of {1} frames,{0} z {1} ramek,,label for frame number
+ImageEditor_CurrentFrame,Current Frame:,Bieżąca klatka:,,image editor current frame label
+ImageEditor_FrameNumberLabel,{0} of {1} frames,{0} z {1} klatek,,label for frame number
 ImageEditor_BrushSizeLabel,Size:,Rozmiar:,,brush size label
 ImageEditor_BrushSmoothLabel,Smooth,Gładki,,brush smooth label
 ImageEditor_ColourOnlyLabel,Colour only:,Tylko kolor:,,magic wand colour only label
@@ -987,11 +987,11 @@ ImageEditor_SwatchMenu_Import,Import colours from sprite:,Importuj kolory z dusz
 ImageEditor_OnionBurger_Tooltip,Onion skin,Efekt łusek cebuli,,burger button tooltip
 ImageEditor_LoopBurger_Tooltip,Loop mode,Tryb pętli,,burger button tooltip
 ImageEditor_PlayBurger_Tooltip,Play,Odtwórz,,burger button tooltip
-ImageEditor_AddLayer_TT,Add Layer To All Frames,Dodaj warstwę do wszystkich ramek,,image editor add layer tooltip
+ImageEditor_AddLayer_TT,Add Layer To All Frames,Dodaj warstwę do wszystkich klatek,,image editor add layer tooltip
 ImageEditor_AddLayerGroup_TT,Add Layer Group,Dodaj grupę warstw,,image editor layer tooltip
 ImageEditor_ShiftLayerUp_TT,Shift Layer Up,Przesuń warstwę do góry,,image editor shift layer up tooltip
 ImageEditor_ShiftLayerDown_TT,Shift Layer Down,Przesuń warstwę w dół,,image editor shift layer down tooltip
-ImageEditor_DeleteLayer_TT,Delete Layer/Group For All Frames,Usuń warstwę/grupę dla wszystkich ramek,,image editor delete layer tooltip
+ImageEditor_DeleteLayer_TT,Delete Layer/Group For All Frames,Usuń warstwę/grupę dla wszystkich klatek,,image editor delete layer tooltip
 ImageEditor_EraseColour_TT,Left Or Right Click To Set Eraser,"Kliknij lewym lub prawym przyciskiem, aby ustawić gumkę",,erase colour button tooltip
 ImageEditor_LastLayerDeleteTitle,Can't Delete Last Layer,Nie można usunąć ostatniej warstwy,,can't delete last layer title
 ImageEditor_LayerLayerDeleteMessage,Can't delete layer - image must have at least one layer,Nie można usunąć warstwy – obraz musi posiadać co najmniej jedną warstwę,,last layer delete message
@@ -1050,7 +1050,7 @@ InstanceProperties_CreationCode,Creation Code,Kod tworzenia,,instance properties
 InstanceProperties_EditObject,Edit Object,Edytuj obiekt,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X,Przerzuć w osi X,,instance properties checkbox label for flip x
 InstanceProperties_FlipY,Flip Y,Przerzuć w osi Y,,instance properties checkbox label for flip y
-InstanceProperties_ImageIndex,Frame,Ramka,,Instance property initial image index
+InstanceProperties_ImageIndex,Frame,Klatka,,Instance property initial image index
 InstanceProperties_ImageSpeed,Image Speed,Szybkość obrazu,,Instance property initial image speed
 InstanceProperties_PosX,X,X,,instance properties numeric box label for x pos
 InstanceProperties_PosY,Y,Y,,instance properties numeric box label for y pos
@@ -1280,7 +1280,7 @@ ObjectEditor_Children,Children,Dziecko,,Children label in Object Editor
 ObjectEditor_Circle,Circle,Koło,,Object editor collision shape circle
 ObjectEditor_CodeWindow,Code,Kod,,object editor code window heading
 ObjectEditor_CollisionShape,Collision Shape,Kształt kolizji,,Object editor collision shape label
-ObjectEditor_CurrentFrame,Current Frame,Bieżąca ramka,,Physics collision window current frame
+ObjectEditor_CurrentFrame,Current Frame,Bieżąca klatka,,Physics collision window current frame
 ObjectEditor_DeleteEvent,Delete Event,Usuń zdarzenie,,Object Editor delete event menu option
 ObjectEditor_DeleteEvents,Delete Events,Usuń zdarzenia,,Object Editor delete event menu option (multiple)
 ObjectEditor_CutEvent,Cut Event,Wytnij zdarzenie,,Object editor cut event menu option
@@ -1759,7 +1759,7 @@ SpriteEditor_LockOrigin,Lock sprite origin,Zablokuj osie duszka,,Lock sprite ori
 SpriteEditor_Manual,Manual,Ręczny,,Sprite editor manual bounding box label
 SpriteEditor_Premultiply,Premultiply Alpha,Mnożenie wstępne z kanałem alfa,,Premultiply alpha channel of sprite composite
 SpriteEditor_EdgeFiltering,Edge Filtering,Filtrowanie krawędzi,,Edge filtering of sprite composite
-SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Pomnóż wstępnie z kanałem alfa w ramce duszka,,Premultiply alpha channel of sprite composite tooltip
+SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Pomnóż wstępnie z kanałem alfa w klatce duszka,,Premultiply alpha channel of sprite composite tooltip
 SpriteEditor_EdgeFiltering_Tooltip,Merge pixels along the edge of the graphic to correct interpolation,Scal piksele wzdłuż krawędzi grafiki w celu uzyskania poprawnej interpolacji,,Edge filtering of sprite composite tooltip
 SpriteEditor_FullImage,Full Image,Pełny obraz,,Sprite editor full image bounding box label
 SpriteEditor_Image,Image:,Obraz:,,Image label
@@ -1774,21 +1774,21 @@ SpriteEditor_ColEllipse,Ellipse (Slow),Elipsa (powolna),,Sprite editor collision
 SpriteEditor_CollisionMask,Collision Mask,Maska kolizji,,Sprite editor collision mask caption
 SpriteEditor_CollisionMaskTimeline,Collision Mask:,Maska kolizji:,,Sprite editor collision mask caption in timeline
 SpriteEditor_ColPrecise,Precise (Slow),Precyzyjna (powolna),,Sprite editor collision type
-SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precyzyjna na ramkę (powolna),,Sprite editor collision mask type
+SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precyzyjna na klatkę (powolna),,Sprite editor collision mask type
 SpriteEditor_ColRectangle,Rectangle,Prostokąt,,Sprite editor collision type
 SpriteEditor_ColRectangleRotation,Rectangle with rotation,Prostokąt z obrotem,,Sprite editor collision type
 SpriteEditor_ColMaskAutomatic,Automatic,Automatycznie,,Sprite editor automatic collision mask
-SpriteEditor_ContextMenu_AddFrame,Add Frame,Dodaj ramkę,,Sprite editor frame context menu
+SpriteEditor_ContextMenu_AddFrame,Add Frame,Dodaj klatkę,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Copy,Copy,Kopiuj,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Delete,Delete,Usuń,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Paste,Paste,Wklej,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_SelectAll,Select All,Zaznacz wszystko,,Sprite editor frame context menu
 SpriteEditor_EditImages,Edit Image,Edytuj obraz,,Sprite editor open image editor button
 SpriteEditor_EditMask,Edit Collision Mask,Edytuj maskę kolizji,,Sprite editor open collision mask button
-SpriteEditor_EnableWrap,Wrap Frames,Zawijaj ramki,,Sprite editor wrap frames toggle button caption
+SpriteEditor_EnableWrap,Wrap Frames,Zapętlaj klatki,,Sprite editor wrap frames toggle button caption
 SpriteEditor_FPS,Speed:,Szybkość:,,Sprite editor fps playback speed label
 SpriteEditor_Import,Import,Importuj,,Sprite editor import button
-SpriteEditor_LabelFrameCount,Frame Count: {0},Liczba ramek: {0},,Sprite editor frame label
+SpriteEditor_LabelFrameCount,Frame Count: {0},Liczba klatek: {0},,Sprite editor frame label
 SpriteEditor_LabelOrigin,Origin Point:,Punkt osi:,,Sprite editor origin point label
 SpriteEditor_LabelSize,Size:,Rozmiar:,,Sprite editor label size
 SpriteEditor_W,W: {0},S: {0},,Width label
@@ -1826,7 +1826,7 @@ SpriteEditor_Origin_TopMiddle,Top Center,Centralny górny,,Sprite editor origin 
 SpriteEditor_Origin_TopRight,Top Right,Prawy górny,,Sprite editor origin combo menu item
 SpriteEditor_Play,Play Animation,Odtwórz animację,,Sprite editor play animation button
 SpriteEditor_PlaybackOptions,Playback Options,Opcje odtwarzania,,Sprite editor playback options label
-SpriteEditor_PreviewFrameRanges,Previewing Frames:,Podgląd ramek: ,,Sprite editor label for displaying previewed frame ranges
+SpriteEditor_PreviewFrameRanges,Previewing Frames:,Podgląd klatek: ,,Sprite editor label for displaying previewed frame ranges
 SpriteEditor_ShowingColMask,Showing Collision Mask,Wyświetlanie maski kolizji,,Sprite editor label when showing collision mask over sprite
 SpriteEditor_TextureGroup,Group,Grupa,,Sprite editor texture group label
 SpriteEditor_TextureSettings,Texture Settings:,Ustawienia tekstury:,,Sprite editor texture settings label
@@ -1903,8 +1903,8 @@ ParticleTypeEditor_SpawnDeath,On Death,W chwili śmierci,,Particle type editor s
 ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,"Utwórz kolejną cząstkę, gdy ta umrze",,Particle type editor spawn on death help label
 ParticleTypeEditor_SpawnUpdate,On Update,W chwili aktualizacji,,Particle type editor spawn on update label
 ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,Utwórz koleją cząstkę przy każdej aktualizacji,,Particle type editor spawn on update help label
-ParticleTypeEditor_Headposition,Head,Głowica,,Particle type editor head label
-ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Użyj ramki duszka w ustalonym położeniu głowicy,,Particle type editor head help label
+ParticleTypeEditor_Headposition,Head,Początek,,Particle type editor head label
+ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Użyj klatki duszka w ustalonym położeniu początkowym,,Particle type editor head help label
 ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,Niezgodne środowisko uruchomieniowe,,Title for below error message
 ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,"Aktywne środowisko uruchomieniowe nie obsługuje systemów cząstek edytora. Aby skorzystać z tej funkcji, przeprowadź uaktualnienie do nowszej wersji środowiska uruchomieniowego.",,Not supported by runtime error message
 ParticleEditor_Title,Particle System: {0},System cząstek: {0},,Particle System editor window title
@@ -1975,10 +1975,10 @@ ListBoxEnum_eEmitMode_Burst,Burst,Wybuch,,Emitter mode
 StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,Nie udało się załadować strony startowej.\nMożesz utworzyć nowe projekty z menu Plik.,,Start page error text
 StartPage_ErrorTitle,An Error Occurred,Wystąpił błąd,,Start page error title
 StartPage_Title,Start Page,Strona startowa,,Start page title
-StripDialog_NumberOfImages,Number of Frames,Liczba ramek,,strip dialog frame count
-StripDialog_ImagesPerRow,Frames per Row,Liczba ramek na wiersz,,strip dialog frames per row
-StripDialog_ImageWidth,Frame Width,Szerokość ramki,,strip dialog frame width
-StripDialog_ImageHeight,Frame Height,Wysokość ramki,,strip dialog frame height
+StripDialog_NumberOfImages,Number of Frames,Liczba klatek,,strip dialog frame count
+StripDialog_ImagesPerRow,Frames per Row,Liczba klatek na wiersz,,strip dialog frames per row
+StripDialog_ImageWidth,Frame Width,Szerokość klatki,,strip dialog frame width
+StripDialog_ImageHeight,Frame Height,Wysokość klatki,,strip dialog frame height
 StripDialog_HCellOffset,Horizontal Cell Offset,Przesunięcie komórki w poziomie,,strip dialog horizontal cell offset
 StripDialog_VCellOffset,Vertical Cell Offset,Przesunięcie komórki w pionie,,strip dialog vertical cell offset
 StripDialog_HPixelOffset,Horizontal Pixel Offset,Przesunięcie punktu w poziomie,,strip dialog horizontal pixel offset
@@ -1986,7 +1986,7 @@ StripDialog_VPixelOffset,Vertical Pixel Offset,Przesunięcie punktu w pionie,,st
 StripDialog_HSeparation,Horizonal Separation,Separacja pozioma,,strip dialog horizontal separation
 StripDialog_VSeparation,Vertical Separation,Separacja pionowa,,strip dialog vertical separation
 StripDialogTitle,Create from Strip,Utwórz z paska,,strip image import dialog title
-StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,Zaimportowanie obrazów pasków spowoduje zastąpienie istniejących ramek duszków. Czy chcesz kontynuować?,,strip image import warning
+StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,Zaimportowanie obrazów pasków spowoduje zastąpienie istniejących klatek duszków. Czy chcesz kontynuować?,,strip image import warning
 StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false","Znaleziono zdublowany styl „{0}”. Zostanie od odrzucony, ponieważ dla zastępowania wybrano opcję fałsz",,Log message for when loading a duplicate style name with 'overwrite' set to false
 StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,Nie udało się sklonować obiektu wartości stylu typu „{0}”. Klasa obiektu musi uwzględniać wdrożenie interfejsu ICloneable,,exception message when attempting to clone an uncloneable object
 StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,Nie udało się sklonować obiektu wartości stylu typu „{0}”. Typy kolekcji muszą uwzględniać niestandardowe wdrożenie głębokiego klonowania,,exception message when attempting to clone an ICollection which doesn't have a deep clone available
@@ -2059,7 +2059,7 @@ TileSetEditor_AnimationSpeed_ToolTip,Animation Speed: Frames Per Second,Szybkoś
 TileSetEditor_AnimationSpeed,FPS,FPS,,tile set editor label for the animation speed setting
 TileSetEditor_AddAnimationButton,Add Anim,Dodaj animację,,label for the tile set editor button to add a new animation
 TileSetEditor_DeleteAnimationButton,Delete Anim,Usuń animację,,label for the tile set editor button to delete the currently selected animation
-TileSetEditor_AnimationTileBGColour,The background colour that should be shown behind animation frames,"Kolor tła, jaki powinien być wyświetlany za ramkami animacji",,preferences message for the background colour that should be shown behind animation frames
+TileSetEditor_AnimationTileBGColour,The background colour that should be shown behind animation frames,"Kolor tła, jaki powinien być wyświetlany za klatkami animacji",,preferences message for the background colour that should be shown behind animation frames
 TileSetEditor_AutoTilingTileBGColour,Auto tile background colour,Kolor tła przy automatycznym układaniu kafelków,,preferences message for the background colour that should be shown behind autotiling tiles
 TileSetEditor_DeleteAutoTileSetButton,Delete,Usuń,,label for the tile set editor button to delete the currently selected set of auto tiles
 TileSetEditor_AddFullAutoTileSetButton,47 Tiles,47 kafelków,,Label for the button to create a 47 tile autotile set
@@ -2793,7 +2793,7 @@ texteditor_minheight,Minimum code window height,Wysokość minimalna okna kodu,,
 webserverport,Help manual port,Port podręcznika pomocy,,The port number to use for the help web server setting
 externalbrowserforhelp,Use an external browser for help,Używaj przeglądarki zewnętrznej do obsługi pomocy,,Use an external browser for help setting
 use_online_help_pref,Use online manual,Używaj podręcznika online,,use online manual help pref
-imageeditor_buttonchoiceonframedelete,Automatic response to deleting frames,Automatyczna odpowiedź na usuwanie ramek,,Automatic button choice on frame deletion setting
+imageeditor_buttonchoiceonframedelete,Automatic response to deleting frames,Automatyczna odpowiedź na usuwanie klatek,,Automatic button choice on frame deletion setting
 imageeditor_choicefortoolchanges,Automatic response to committing changes on tool change,Automatyczna odpowiedź na zatwierdzenie zmian przy zmianie narzędzia,,Choice for tool changes setting
 imageeditor_layerlockeddisplay,Automatic response to locked layer warning,Automatyczna odpowiedź na ostrzeżenie o zablokowanej warstwie,,Layer locked display setting
 imageeditor_groupselecteddialog,Automatic response to group selected warning,Automatyczna odpowiedź na ostrzeżenie o wybranej grupie,,Group selected dialog setting
@@ -3428,7 +3428,7 @@ AddExistingFailedTitle,Add Existing Failed,Dodawanie istniejącego nie powiodło
 ImportAsIncludedFiles,Would you like to add these files as Included Files?,Czy chcesz dodać te pliki jako dołączone pliki?,,Ask the user if they want to add the dragged in files as included files
 ImportAsIncludedFilesTitle,Import As Included Files,Importuj jako dołączone pliki,,Import selected files as Included Files Question title
 TileSetEditor_Tiles,Tiles,Kafelki,,the tile selection display panel heading
-TileSetEditor_Frames,Frames,Ramki,,the tile animation frames panel heading
+TileSetEditor_Frames,Frames,Klatki,,the tile animation frames panel heading
 TileSetEditor_Library,Library,Biblioteka,,the tile animation/autotile library panel heading
 TileSetEditor_Tools,Tools,Narzędzia,,the tile editing tools panel heading
 TileSetEditor_Brushes,Brushes,Pędzle,,the tile editing brush scratchpad panel heading
@@ -3437,9 +3437,9 @@ TileSetEditor_SelectedTiles,Selected Tiles:,Wybrane kafelki:,,the selected tiles
 TileSetEditor_AnimationsLibrary,Animations Library,Biblioteka animacji,,the window panel title for the animations library
 TileSetEditor_AutoTileLibrary,Auto Tile Library,Biblioteka automatycznych kafelków,,the window panel title for the auto tile library
 TileSetEditor_AddAnimation,Add Animation,Dodaj animację,,the add animation label beside the add animation button
-TileSetEditor_SelectedFrame,Selected Frame:,Wybrana ramka:,,the caption in the animations window status bar
+TileSetEditor_SelectedFrame,Selected Frame:,Wybrana klatka:,,the caption in the animations window status bar
 TileSetEditor_SelectedTile,Selected Tile:,Wybrany kafelek:,,the caption in the animations window status bar
-TileSetEditor_SelectAnimationFrameCount,Set number of frames,Ustaw liczbę ramek,,the message displayed on a new animation which the user has not selected the frame count
+TileSetEditor_SelectAnimationFrameCount,Set number of frames,Ustaw liczbę klatek,,the message displayed on a new animation which the user has not selected the frame count
 TileSetEditor_TileTemplates,Auto Tile Templates,Szablony automatycznych kafelków,,The auto tile editor heading for the auto tile set list
 ApplyTo_GMLVisual_ToolTip,Apply to a different instance.,Zastosuj do innej instancji.,,Apply To GML Visual tooltip caption
 YoYoImage_UnknownImageFormat,Unknown image format,Nieznany format obrazu,,ouput to show that the selected image file was of an unknown type
@@ -3495,7 +3495,7 @@ ExtensionEditor_CompilerFlags,Compiler Flags:,Flagi kompilatora:,,compiler flags
 ExtensionEditor_LinkerFlags,Linker Flags:,Flagi konsolidatora:,,linker flags label
 ExtensionEditor_ClassName,Class Name:,Nazwa klasy:,,class name label
 ExtensionEditor_DelegateName,App Delegate Class Name:,Nazwa klasy delegata aplikacji:,,app delegate class name label
-ExtensionEditor_SystemFrameworks,System Frameworks,Systemowe środowiska ramowe,,system frameworks label
+ExtensionEditor_SystemFrameworks,System Frameworks,Systemowe frameworki,,system frameworks label
 ExtensionEditor_3rdPartyFrameworks,3rd Party Frameworks + Bundles,Środowiska ramowe + pakiety innych firm,,3rd party framwork label
 ExtensionEditor_CocoaPods,CocoaPods,CocoaPods,,List of CocoaPods for this extension
 ExtensionEditor_CocoaPods_Dependencies,CocoaPods Dependencies,Zależności CocoaPods,,List of CocoaPods Dependencies for this extension
@@ -3528,10 +3528,10 @@ ExtensionEditor_ButtonChoiceOnProxyDeletion,Automatic response to proxy file del
 ExtensionEditor_ButtonChoiceOnArgumentDeletion,Automatic button choice on argument deletion,Automatyczny wybór przycisku przy usunięciu argumentu,,Automatic button choice on argument deletion setting
 ExtensionEditor_ButtonChoiceOnAndroidPermissionDeletion,Automatic button choice on android permission deletion,Automatyczny wybór przycisku przy usunięciu uprawnienia w systemie Android,,Automatic button choice on android permission deletion setting
 ExtensionEditor_RemoveAndroidPermissionAreYouSure,Are you sure you want to delete the permission?,Czy na pewno chcesz usunąć uprawnienie?,,confirm message
-ExtensionEditor_RemoveIosSystemFrameworkAreYouSure,Are you sure you want to delete the iOS system framework?,Czy na pewno chcesz usunąć środowisko ramowe systemu iOS?,,confirm message
-ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice on iOS System Framework deletion,Automatyczny wybór przycisku przy usunięciu środowiska ramowego systemu iOS,,Automatic button choice on android permission deletion setting
-ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,Czy na pewno chcesz usunąć środowisko ramowe systemu iOS innej firmy?,,confirm message
-ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatyczny wybór przycisku przy usunięciu środowiska ramowego systemu iOS innej firmy,,Automatic button choice on iOS 3rd Party Framework deletion setting
+ExtensionEditor_RemoveIosSystemFrameworkAreYouSure,Are you sure you want to delete the iOS system framework?,Czy na pewno chcesz usunąć framework systemu iOS?,,confirm message
+ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice on iOS System Framework deletion,Automatyczny wybór przycisku przy usunięciu frameworku systemu iOS,,Automatic button choice on android permission deletion setting
+ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,Czy na pewno chcesz usunąć framework systemu iOS innej firmy?,,confirm message
+ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatyczny wybór przycisku przy usunięciu frameworku systemu iOS innej firmy,,Automatic button choice on iOS 3rd Party Framework deletion setting
 GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Wyszukaj zasoby, opcje, preferencje:",,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,Czego szukasz?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maksymalna liczba wyników wyszukiwania do wyświetlenia,,Go To max number pref
@@ -3566,7 +3566,7 @@ WorkspaceMenu_Resources,Assets,Zasoby,,Workspace area context menu
 WorkspaceMenu_GoTo,Go To...,Idź do...,,Workspace area context menu
 ExtensionEditor_AddSDK,Add SDK,Dodaj zestaw SDK,,main properties context menu entry
 ExtensionEditor_AddSource,Add Source,Dodaj źródło,,main properties context menu entry
-ExtensionEditor_AddIosFrameworkFromMac,Enter framework path on Mac,Wprowadź ścieżkę środowiska ramowego w systemie Mac,,main properties context menu entry
+ExtensionEditor_AddIosFrameworkFromMac,Enter framework path on Mac,Wprowadź ścieżkę frameworku w systemie Mac,,main properties context menu entry
 ExtensionEditor_AddPlaceholder,Add Placeholder,Dodaj symbol zastępczy,,main properties context menu entry
 ExtensionEditor_AddArgument,Add Argument,Dodaj argument,,function properties context menu entry
 Extension_Error,Extension Error,Błąd rozszerzenia,,Error with Extension setup
@@ -3639,7 +3639,7 @@ RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({
 RoomEditor_PathLayerStatus,Selected control point(s): {0},Wybrane punkty sterujące: {0},,the selected control points status for the path layer shown in the room editor status bar
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,Liczba klatek na sekundę,,the playback type comboxbox entry for fps
-ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Liczba klatek na ramkę gry,,the playback type comboxbox entry for game frame locked playback
+ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Liczba klatek na klatkę gry,,the playback type comboxbox entry for game frame locked playback
 ListBoxEnum_eObjectPropertyType_Real,Real,Liczba rzeczywista,,Real value type
 ListBoxEnum_eObjectPropertyType_Integer,Integer,Liczba całkowita,,Integer value type
 ListBoxEnum_eObjectPropertyType_String,String,Ciąg,,String value type
@@ -3781,15 +3781,15 @@ GMStdIfSeqExists_Name,If Sequence Exists,Jeśli sekwencja istnieje,,GML Visual  
 GMStdIfSeqExists_Desc,Check if a sequence exists.,"Sprawdź, czy sekwencja istnieje.",,GML Visual  library action description
 GMStdSeqGetLength_Name,Get Sequence Length,Pobierz długość sekwencji,,GML Visual library action name
 GMStdSeqGetLength_Desc,Gets the length of a sequence element.,Pobiera długość elementu sekwencji.,,GML Visual library action description
-GMStdSeqGetHead_Name,Get Sequence Head,Pobierz głowicę sekwencji,,GML Visual library action name
-GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,Pobierz położenie głowicy (w ramkach) elementu sekwencji.,,GML Visual library action description
-GMStdSeqSetHead_Name,Set Sequence Head,Ustaw głowicę sekwencji,,GML Visual library action name
-GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,Ustaw położenie głowicy (w ramkach) elementu sekwencji.,,GML Visual library action description
+GMStdSeqGetHead_Name,Get Sequence Head,Pobierz początek sekwencji,,GML Visual library action name
+GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,Pobierz położenie początku (w klatkach) elementu sekwencji.,,GML Visual library action description
+GMStdSeqSetHead_Name,Set Sequence Head,Ustaw początek sekwencji,,GML Visual library action name
+GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,Ustaw położenie początku (w ramkach) elementu sekwencji.,,GML Visual library action description
 GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
 GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Pobierz długość instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
-GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
-GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
-GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie głowicy (w ramkach) instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Ustaw położenie początku (w klatkach) instancji sekwencji ${sequenceelmid} na zmienną ${var},,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Pobierz położenie początku (w klatkach) instancji sekwencji ${sequenceelmid} do zmiennej ${var},,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie początku (w klatkach) instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdDestroyAtPos_Name,Destroy At Position,Zlikwiduj w położeniu,,GML Visual  library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,Zlikwiduj wszystkie instancje na danej pozycji.,,GML Visual  library action description
 GMStdSetSprite_Name,Set Sprite,Ustaw duszka,,GML Visual  library action name
@@ -4191,7 +4191,7 @@ GMStdForce,Force,Siła,,GML Visual  library argument label
 GMStdX2,X2,X2,,GML Visual  library argument label
 GMStdY2,Y2,Y2,,GML Visual  library argument label
 GMStdSprite,Sprite,Sprite,,GML Visual  library argument label
-GMStdFrameIndex,Frame,Ramka,,GML Visual  library argument label
+GMStdFrameIndex,Frame,Klatka,,GML Visual  library argument label
 GMStdStackOrder,Stack Order,Kolejność stosu,,GML Visual  library argument label
 GMStdNumber,Number,Liczba,,GML Visual  library argument label
 GMStdLeft,Left,Lewo,,GML Visual  library argument label
@@ -4278,7 +4278,7 @@ GMStdCamera,Camera,Kamera,,GML Visual label
 GMStdVisibility,Visibility,Widoczność,,GML Visual label
 GMStdParticleSystem,System,System,,GML Visual library argument label
 GMStdParticleType,Type,Typ,,GML Visual™ library argument label
-GMStdFrame,Frame,Ramka,,GML Visual  library argument label
+GMStdFrame,Frame,Klatka,,GML Visual  library argument label
 GMStdAngle,Angle,Kąt,,GML Visual  library argument labelG
 GMStdMinAngle,Min Angle,Min. kąt,,GML Visual™
 GMStdMaxAngle,Max Angle,Maks. kąt,,GML Visual™
@@ -4307,7 +4307,7 @@ GMStdRotation,Rotation,Obrót,,GML Visual  library argument label
 GMStdName,Name,Nazwa,,GML Visual  library argument label
 GMStdVertically,Vertical,Pionowe,,GML Visual  library argument label
 GMStdHorizontally,Horizontal,Poziome,,GML Visual  library argument label
-GMStdSeqHead,Head (frames),Głowica (ramki),,GML Visual library argument label
+GMStdSeqHead,Head (frames),Początek (ramki),,GML Visual library argument label
 GMStdEqual,Equal,Równe,,GML Visual™
 GMStdLess,Less,Mniej,,GML Visual™
 GMStdGreater,Greater,Większe,,GML Visual™
@@ -4434,7 +4434,7 @@ GMStdVar_columns,Columns,Kolumny,,GML Visual™
 GMStdVar_tilewidth,Tile Width,Szerokość kafelka,,GML Visual™
 GMStdVar_tileheight,Tile Height,Wysokość kafelka,,GML Visual™
 GMStdVar_tileset,Tile Set Resource,Zasób zestawu kafelków,,GML Visual™
-GMStdVar_frame,Current Frame,Bieżąca ramka,,GML Visual™
+GMStdVar_frame,Current Frame,Bieżąca klatka,,GML Visual™
 GMStdVar_tilemask,Mask,Maska,,GML Visual™
 GMStdVar_tileglobalmask,Global Mask,Maska globalna,,GML Visual™
 GMStdVar_hspeed,Horizontal Speed,Szybkość w poziomie,,GML Visual™
@@ -4580,7 +4580,7 @@ RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplikuj warstwę,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Usuń animację,,delete animation button tooltip
 TileSetEditor_PlayAnimation_ToolTip,Play Animation,Odtwórz animację,,play animation button tooltip
-TileSetEditor_FrameCount_ToolTip,Set Frame Count,Ustaw liczbę ramek,,frame count drop down tooltip
+TileSetEditor_FrameCount_ToolTip,Set Frame Count,Ustaw liczbę klatek,,frame count drop down tooltip
 WelcomePage_Title,Welcome Page,Strona powitalna,,Welcome page workspace title
 WelcomePage_InstallingTitle,While we finish up your installation...,Podczas gdy będziemy kończyć instalację...,,installation title
 WelcomePage_WelcomeTitle,Welcome,Witamy,,title to be used if not installing.
@@ -4708,7 +4708,7 @@ Marketplace_MyLibrary_SearchCaption,Search Results ({0}),Wyniki wyszukiwania ({0
 StartPage_Web_TooltipNotOwned,Acquire this tutorial,Pozyskaj ten samouczek,,Acquire tutorial tooltip
 StartPage_Web_TooltipNotOwnedDemo,Acquire this demo,Pozyskaj tę demonstrację,,Acquire demo tooltip
 StartPage_Web_OwnedTutorialsFiltered,Installed,Zainstalowane,,Installed filter text
-PhysicsShapeWindow_CurFrame,Frame:,Ramka:,,Phsyics shape window toolbar frame label
+PhysicsShapeWindow_CurFrame,Frame:,Klatka:,,Phsyics shape window toolbar frame label
 Validation_ItemFrozen,"Item '{0}' is locked, unlock to allow editing","Element „{0}” jest zablokowany. Odblokuj go, aby umożliwić edycję",,validation error message when item is locked
 Validation_ItemsFrozen,"Items '{0}' are locked, unlock to allow editing","Elementy „{0}” są zablokowane. Odblokuj je, aby umożliwić edycję",,validation error message when multiple items are locked
 Validation_LayerFrozen,"Layer '{0}' is locked, unlock to allow editing","Warstwa „{0}” jest zablokowana. Odblokuj ją, aby umożliwić edycję",,validation error message when layer is locked
@@ -4760,14 +4760,14 @@ ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Prostokąt,,sprite collision kind
 ListBoxEnum_eSpriteColKind_Ellipse,Ellipse (Slow),Elipsa (wolno),,Sprite editor collision type
 ListBoxEnum_eSpriteColKind_Diamond,Diamond (Slow),Diament (wolno),,Sprite editor collision type
 ListBoxEnum_eSpriteColKind_Precise,Precise (Slow),Precyzyjnie (wolno),,Sprite editor collision type
-ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precyzyjnie na ramkę (wolno),,Sprite editor collision mask type
+ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precyzyjnie na klatkę (powolne),,Sprite editor collision mask type
 ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle with rotation,Prostokąt z obrotem,,Sprite editor collision type
 RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in use and has been updated to '{1}',"Próba przywrócenia elementu o nazwie „{0}”, która jest już w użyciu i została zaktualizowana do „{1}”",,console log message when restoring an item whose name has been taken by another instance
 Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',BŁĄD: Nie można wyodrębnić „{0}” w „{1}”,,Error message when gmz/yyz extraction fails
 FontEditor_SampleText,Sample Text,Przykładowy tekst,,Font editor sample text
 PhysicsShapeEditor_ToggleGrid,Toggle grid on or off.,Włącz lub wyłącz siatkę.,,Toggle grid tooltip
 PhysicsShapeEditor_PlayAnimation,Play or pause the sprite animation.,Odtwórz lub wstrzymaj animację duszka.,,Play or pause tooltip
-PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,Ustaw wyświetlaną ramkę duszka,,Current frame tooltip
+PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,Ustaw wyświetlaną klatkę duszka,,Current frame tooltip
 PhysicsShapeEditor_SnapX,Set the horizontal grid alignment.,Ustaw wyrównanie siatki w poziomie.,,Snap x tooltip
 PhysicsShapeEditor_SnapY,Set the vertical grid alignment.,Ustaw wyrównanie siatki w pionie.,,Snap y tooltip
 GeneralSettings_ChainSoftness,Workspace chain rendering segment count,Liczba segmentów renderowania łańcucha w obszarze roboczym,,Chain softness preference
@@ -4856,7 +4856,7 @@ Debugger_Surfaces_Texture,Thumbnail,Miniaturka,,Debugger surfaces texture column
 Debugger_Surfaces_Size,Size,Rozmiar,,Debugger surfaces size column
 Debugger_SurfaceView_NoneSelected,Double-click a resource in the Resource View to view its source code here,"Kliknij dwukrotnie zasób w widoku zasobów, aby wyświetlić w tym miejscu jego kod źródłowy",,Debugger no source code selected
 Debugger_CallStack_Empty,The call stack is empty.,Stos wywołania jest pusty.,,The call stack is empty label
-Debugger_StackFrame_Tooltip,Double-click to go to this stack frame,"Kliknij dwukrotnie, aby przejść do tej ramki stosu",,Debugger stack frame tooltip
+Debugger_StackFrame_Tooltip,Double-click to go to this stack frame,"Kliknij dwukrotnie, aby przejść do tej klatki stosu",,Debugger stack frame tooltip
 Debugger_MemoryUsage,Memory:,Pamięć: ,,Debugger memory usage label
 Debugger_Fps,FPS:,Kl./s: ,,Debugger fps label
 Debugger_DataGrid_Name,Name,Nazwa,,Debugger data grid name column
@@ -5011,12 +5011,12 @@ ExtEditor_Tooltip_AndroidAddSDK,Add Android SDK,Dodaj zestaw Android SDK,,toolti
 ExtEditor_Tooltip_AndroidAddSource,Add Folder Containing Android Source files,Dodaj folder zawierające plik źródłowe systemu Android,,tooltip
 ExtEditor_Tooltip_CompilerFlags,Flags used when compiling imported source files,Flagi używane podczas kompilowania zaimportowanych plików źródłowych,,tooltip
 ExtEditor_Tooltip_LinkerFlags,Flags to be used when linking imported source files,Flagi używane podczas łączenia zaimportowanych plików źródłowych,,tooltip
-ExtEditor_Tooltip_AddSysFramework,Add system framework entry,Dodaj wpis systemowego środowiska ramowego,,tooltip
-ExtEditor_Tooltip_RemoveSysFramework,Remove selected framework,Usuń wybrane środowisko ramowe,,tooltip
-ExtEditor_Tooltip_Add3rdFramework,Add third-party framework entry,Dodaj wpis zewnętrznego środowiska ramowego,,tooltip
+ExtEditor_Tooltip_AddSysFramework,Add system framework entry,Dodaj wpis systemowego frameworku,,tooltip
+ExtEditor_Tooltip_RemoveSysFramework,Remove selected framework,Usuń wybraney framework,,tooltip
+ExtEditor_Tooltip_Add3rdFramework,Add third-party framework entry,Dodaj wpis zewnętrznego frameworku,,tooltip
 ExtEditor_Tooltip_CocoaPods,Learn about CocoaPods,Poznaj CocoaPods,,cocoapoads tooltip
 ExtEditor_Tooltip_Remove3rdFramework,Remove selected framework,Usuń wybrane środowisko ramowe,,tooltip
-ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,Pełna ścieżka elementu źródłowego do zaimportowania w systemie Mac,,tooltip
+ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,Pełna ścieżka do zaimportowania frameworku w systemie Mac,,tooltip
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Importuj z systemu Mac,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,Dodaj lokalny folder źródłowy,,tooltip
 GMLVisual_StoryPanel_Empty,An overview will appear here when you add an action,W tym miejscu po dodaniu działania pojawią się informacje ogólne,,Empty panel text
@@ -5053,8 +5053,8 @@ PlatformImage_NoFileSelectedTitle,No Image Selected,Nie wybrano obrazu,,the titl
 PlatformImage_NoFileSelectedMessage,Please select an image using the file browser,Wybierz obraz przy użyciu przeglądarki plików,,the warning message that no image has been selected
 PlatformImage_Images,Images:,Obrazy:,,the images section header
 PlatformImage_Icons,Icons:,Ikony:,,the icons section header
-OverwriteFramesTitle,Replace all frames,Zastąp wszystkie ramki,,image editor replace frames with os GML Visual files dialog title
-OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,Czy chcesz zastąpić WSZYSTKIE ramki upuszczonymi plikami obrazów?,,image editor replace frames with os GML Visual files dialog title
+OverwriteFramesTitle,Replace all frames,Zastąp wszystkie klatki,,image editor replace frames with os GML Visual files dialog title
+OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,Czy chcesz zastąpić WSZYSTKIE klatki upuszczonymi plikami obrazów?,,image editor replace frames with os GML Visual files dialog title
 ListBoxEnum_eSymbolType_eNone,Unknown,Nieznana,,Symbol type
 ListBoxEnum_eSymbolType_eEnumEntry,Enum Field,Pole tekstu stałego,,Symbol type
 ListBoxEnum_eSymbolType_eGlobal,Global Variable,Zmienna globalna,,Symbol type
@@ -5962,7 +5962,7 @@ SequenceDopeSheet_Timeline_Frames_Units,f,f,,timeline frames mode abbreviation
 SequenceDopeSheet_Timeline_Frames_Units_Tooltip,Frames,Klatki,,timeline frames mode tooltip
 SequenceDopeSheet_Timeline_Time_Units,h:m:s,g:m:s,,timeline time mode abbreviation
 SequenceDopeSheet_Timeline_Time_Units_Tooltip,Timestamp,Tag czasu,,timeline time mode tooltip
-SequenceDopeSheet_Timeline_Tooltip_HeadPos,Playhead position ({0}),Położenie głowicy odtwarzania ({0}),,timeline playhead position textbox tooltip
+SequenceDopeSheet_Timeline_Tooltip_HeadPos,Playhead position ({0}),Położenie początku odtwarzania ({0}),,timeline playhead position textbox tooltip
 SequenceDopeSheet_Timeline_Tooltip_Duration,Sequence length ({0}),Długość sekwencji ({0}),,timeline sequence length textbox tooltip
 SequenceDopeSheet_Timeline_ChangeTimeUnitsTooltip,Change time units,Zmień jednostki czasu,,timeline sequence time unit change tooltip
 SeqDopeSheet_EmptyAnimCurve_ChannelDesc,Select any parameter track to view curve.,"Wybierz ścieżkę dowolnego parametru, aby wyświetlić krzywą.",,empty dopesheet anim curve channels label
@@ -6011,7 +6011,7 @@ Track_TrackInformation,Track Information,Informacje o ścieżce,,Track informati
 Track_Name,Name,Nazwa,,Name of track label
 Track_Graphic,Graphic,Grafika,,Graphic track display nameSequenceParam_
 Track_Particles,Particles,Cząstki,,Particles track display name
-Track_SpriteFrames,Frames,Ramki,,Sprite frames track display name
+Track_SpriteFrames,Frames,Klatki,,Sprite frames track display name
 Track_Text,Text,Tekst,,Text track display name
 Track_Instance,Instance,Instancja,,Instance track display name
 Track_Sound,Sound,Dźwięk,,Sound track display name
@@ -6281,10 +6281,10 @@ ValueDialog_SoundResource,Sound,Dźwięk,,Value dialog sound label
 ValueDialog_EmitterResource,Audio Emitter,Emiter dźwięku,,Value dialog audio emitter label
 Sequence_Speed_Label,Fps,Kl./s,,Sequence speed label
 Sequence_Length_Label,Length,Długość,,Sequence length label
-Sequence_Head_Label,Head,Głowica,,Sequence head label
+Sequence_Head_Label,Head,Początek,,Sequence head label
 Sequence_Volume,Volume,Głośność,,Volume label
 Sequence_Tooltip_Volume,Master volume for IDE playback,Główna głośność odtwarzania w środowisku IDE,,Master volume tooltip
-Sequence_Tooltip_Play,Play sequence from head marker,Odtwórz sekwencję od znacznika głowicy,,Play sequence tooltip
+Sequence_Tooltip_Play,Play sequence from head marker,Odtwórz sekwencję od znacznika początku,,Play sequence tooltip
 Sequence_Tooltip_Stop,Pause sequence,Wstrzymaj sekwencję,,Pause sequence tooltip
 Sequence_Tooltip_PlaybackMode,Change playback mode,Zmień tryb odtwarzania,,Change playback mode tooltip
 Sequence_Tooltip_Button_Menu,Show Menu,Pokaż menu,,Show Menu tooltip
@@ -6685,7 +6685,7 @@ Warning_AppIconAlpha_Title,Warning,Ostrzeżenie,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,Wybrany obraz zawiera przezroczystość. Wybierz inny obraz.,,App icon image transparency warning message
 Error_CannotPackage_Message,Stop the current running project before creating the executable?,Czy przed utworzeniem pliku wykonywalnego zatrzymać aktualnie uruchomiony projekt?,,Application running error message.
 CannotImportStripImageError_Title,Error,Błąd,,Error
-CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,Obrazu o rozmiarze {0} x {1} nie można podzielić na {2} równe ramki. Zmień rozmiar obrazu i spróbuj ponownie.,,Strip image dimensions error
+CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,Obrazu o rozmiarze {0} x {1} nie można podzielić na {2} równe klatki. Zmień rozmiar obrazu i spróbuj ponownie.,,Strip image dimensions error
 SourceControl_GitExecutablePath,Git executable path,Ścieżka wykonywalna Git,,The path to the git executable
 SourceControl_GitMergeToolPath,Merge tool,Narzędzie scalania,,The merge tool path
 SourceControl_GitDiffToolPath,Diff tool,Narzędzie rozłączania,,The diff tool path
@@ -6839,7 +6839,7 @@ IDEMenu_ShowAllWindows,Show All Windows,Pokaż wszystkie okna,,Show all windows 
 IDEMenu_CloseAllWindows,Close All Windows,Zamknij wszystkie okna,,Close all windows - the name for the menu bar
 IDETooltip_CloseProject,Close Project,Zamknij projekt,,IDE toolbar tooltip for close project
 IDETooltip_InvalidFilename,Invalid characters,Nieprawidłowe znaki,,Invalid characters in a filename
-ImageEditor_DuplicateFrames,Duplicate frame(s),Zduplikowana ramka(-i),,Image editor duplicate frames
+ImageEditor_DuplicateFrames,Duplicate frame(s),Zduplikowana klatka(-i),,Image editor duplicate frames
 ListBoxEnum_eGMConversionMode_Automatic,Automatic,Automatycznie,,Let system decide to convert a file or not
 ListBoxEnum_eGMConversionMode_Required,Required,Wymagane,,Force to convert a file or not
 Marketplace_Package_UnknownPackageType,Error: Unknown package type,Błąd: Nieznany typ pakietu,,failed to identify package format
@@ -7200,7 +7200,7 @@ GMStdExpiryType,Expiry Type,Typ wygaśnięcia,,GML Visual library argument label
 GMStdVar_time_source_global,Global Time Source,Globalne źródło czasu,,GML Visual argument value
 GMStdVar_time_source_game,Game Time Source,Źródło czasu gry,,GML Visual argument value
 GMStdVar_time_source_units_seconds,Seconds,Sekundy,,GML Visual argument value
-GMStdVar_time_source_units_frames,Frames,Ramki,,GML Visual argument value
+GMStdVar_time_source_units_frames,Frames,Klatki,,GML Visual argument value
 GMStdVar_time_source_expire_nearest,Nearest,Najbliższe,,GML Visual argument value
 GMStdVar_time_source_expire_after,After,Po,,GML Visual argument value
 GMStdVar_time_source_state_initial,Initial,Początkowe,,GML Visual argument value
@@ -7360,10 +7360,10 @@ RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Przełącz wido
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Przełącz blokadę linijki,,Redefine keys seq_smartguide_toggle_rulerlock string
 RedefineKeys_seq_smartguide_toggle_snapping,Seq Smartguide Toggle Snapping,Przełącz przyciąganie,,Redefine keys seq_smartguide_toggle_snapping string
 RedefineKeys_sequence_toggle_translation_path,Sequence Toggle Translation Path,Przełącz ścieżkę translacji,,Redefine keys sequence_toggle_translation_path string
-RedefineKeys_sequence_move_playhead_left10,Sequence Move Playhead Left10,Przesuń głowicę odtwarzania w lewo 10,,Redefine keys sequence_move_playhead_left10 string
-RedefineKeys_sequence_move_playhead_right10,Sequence Move Playhead Right10,Przesuń głowicę odtwarzania w prawo 10,,Redefine keys sequence_move_playhead_right10 string
-RedefineKeys_sequence_move_playhead_left1,Sequence Move Playhead Left1,Przesuń głowicę odtwarzania w lewo 1,,Redefine keys sequence_move_playhead_left1 string
-RedefineKeys_sequence_move_playhead_right1,Sequence Move Playhead Right1,Przesuń głowicę odtwarzania w prawo 1,,Redefine keys sequence_move_playhead_right1 string
+RedefineKeys_sequence_move_playhead_left10,Sequence Move Playhead Left10,Przesuń początek odtwarzania w lewo 10,,Redefine keys sequence_move_playhead_left10 string
+RedefineKeys_sequence_move_playhead_right10,Sequence Move Playhead Right10,Przesuń początek odtwarzania w prawo 10,,Redefine keys sequence_move_playhead_right10 string
+RedefineKeys_sequence_move_playhead_left1,Sequence Move Playhead Left1,Przesuń początek odtwarzania w lewo 1,,Redefine keys sequence_move_playhead_left1 string
+RedefineKeys_sequence_move_playhead_right1,Sequence Move Playhead Right1,Przesuń początek odtwarzania w prawo 1,,Redefine keys sequence_move_playhead_right1 string
 RedefineKeys_sequence_move_keys_left10,Sequence Move Keys Left10,Przesuń klucze w lewo 10,,Redefine keys sequence_move_keys_left10 string
 RedefineKeys_sequence_move_keys_right10,Sequence Move Keys Right10,Przesuń klucze w prawo 10,,Redefine keys sequence_move_keys_right10 string
 RedefineKeys_sequence_move_keys_left1,Sequence Move Keys Left1,Przesuń klucze w lewo 1,,Redefine keys sequence_move_keys_left1 string
@@ -7381,8 +7381,8 @@ RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,Przytnij klucz po p
 RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,Podziel klucz na dwie ścieżki,,Redefine keys sequence_split_key_two_tracks string
 RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,Rozciągnij klucze w prawo,,Redefine keys sequence_stretch_keys_right string
 RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,Rozciągnij klucze w lewo,,Redefine keys sequence_stretch_keys_left string
-RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,Następna ramka kluczowa,,Redefine keys sequence_next_keyframe string
-RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,Poprzednia ramka kluczowa,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,Następna klatka kluczowa,,Redefine keys sequence_next_keyframe string
+RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,Poprzednia klatka kluczowa,,Redefine keys sequence_prev_keyframe string
 RedefineKeys_sequence_select_next_key,Sequence Select Next Key,Wybierz kolejny klucz,,Redefine keys sequence_select_next_key string
 RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,Wybierz poprzedni klucz,,Redefine keys sequence_select_prev_key string
 RedefineKeys_Go To Start,Sequence Goto Start,Przejdź do startu,,Redefine keys sequence_goto_start string
@@ -7456,14 +7456,14 @@ RedefineKeys_toggle_vsplit,Toggle Vsplit,Przełącz podział w pionie,,Redefine 
 RedefineKeys_toggle_hsplit,Toggle Hsplit,Przełącz podział w poziomie,,Redefine keys toggle_hsplit string
 RedefineKeys_centre_unit,Centre Unit,Wyśrodkuj jednostkę,,Redefine keys centre_unit string
 RedefineKeys_centre_fit,Centre Fit,Dopasuj do środka,,Redefine keys centre_fit string
-RedefineKeys_next_frame,Next Frame,Kolejna ramka,,Redefine keys next_frame string
-RedefineKeys_previous_frame,Previous Frame,Poprzednia ramka,,Redefine keys previous_frame string
+RedefineKeys_next_frame,Next Frame,Kolejna klatka,,Redefine keys next_frame string
+RedefineKeys_previous_frame,Previous Frame,Poprzednia klatka,,Redefine keys previous_frame string
 RedefineKeys_edit_cut_win,Edit Cut Win,"Edytuj - wytnij, okno",,Redefine keys edit_cut_win string
 RedefineKeys_edit_copy_win,Edit Copy Win,"Edytuj - kopiuj, okno",,Redefine keys edit_copy_win string
 RedefineKeys_edit_paste_win,Edit Paste Win,"Edytuj - wklej, okno",,Redefine keys edit_paste_win string
 RedefineKeys_Invert Selection,Invert Selection,Odwróć zaznaczenie,,Redefine keys Invert Selection string
-RedefineKeys_Add Frame,Add Frame,Dodaj ramkę,,Redefine keys Add Frame string
-RedefineKeys_insert_frame,Insert Frame,Wstaw ramkę,,Redefine keys insert_frame string
+RedefineKeys_Add Frame,Add Frame,Dodaj klatkę,,Redefine keys Add Frame string
+RedefineKeys_insert_frame,Insert Frame,Wstaw klatkę,,Redefine keys insert_frame string
 RedefineKeys_backspace_delete,Backspace Delete,Usuń poprzedni,,Redefine keys backspace_delete string
 RedefineKeys_import_files,Import Files,Importuj pliki,,Redefine keys import_files string
 RedefineKeys_Move Selection Up,Move Selection Up,Przesuń zaznaczenie do góry,,Redefine keys move_selection_up string
@@ -7500,22 +7500,22 @@ RedefineKeys_delete_tile_selection,Delete Tile Selection,Usuń wybór kafelków,
 RedefineKeys_add_anim,Add Anim,Dodaj animację,,Redefine keys add_anim string
 RedefineKeys_prev_anim,Prev Anim,Poprzednia animacja,,Redefine keys prev_anim string
 RedefineKeys_next_anim,Next Anim,Następna animacja,,Redefine keys next_anim string
-RedefineKeys_prev_anim_frame,Prev Anim Frame,Ramka poprzedniej animacji,,Redefine keys prev_anim_frame string
-RedefineKeys_next_anim_frame,Next Anim Frame,Ramka następnej animacji,,Redefine keys next_anim_frame string
+RedefineKeys_prev_anim_frame,Prev Anim Frame,Klatka poprzedniej animacji,,Redefine keys prev_anim_frame string
+RedefineKeys_next_anim_frame,Next Anim Frame,Klatka następnej animacji,,Redefine keys next_anim_frame string
 RedefineKeys_move_anim_up,Move Anim Up,Przesuń animację do góry,,Redefine keys move_anim_up string
 RedefineKeys_move_anim_down,Move Anim Down,Przesuń animację w dół,,Redefine keys move_anim_down string
-RedefineKeys_move_anim_frame_left,Move Anim Frame Left,Przesuń ramkę animacji w lewo,,Redefine keys move_anim_frame_left string
-RedefineKeys_move_anim_frame_right,Move Anim Frame Right,Przesuń ramkę animacji w prawo,,Redefine keys move_anim_frame_right string
+RedefineKeys_move_anim_frame_left,Move Anim Frame Left,Przesuń klatkę animacji w lewo,,Redefine keys move_anim_frame_left string
+RedefineKeys_move_anim_frame_right,Move Anim Frame Right,Przesuń klatkę animacji w prawo,,Redefine keys move_anim_frame_right string
 RedefineKeys_increase_brush_size,Increase Brush Size,Zwiększ rozmiar pędzla,,Redefine keys increase_brush_size string
 RedefineKeys_increase_brush_size_keypad,Increase Brush Size Keypad,"Zwiększ rozmiar pędzla, klawiatura",,Redefine keys increase_brush_size_keypad string
 RedefineKeys_decrease_brush_size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys decrease_brush_size string
 RedefineKeys_decrease_brush_size_keypad,Decrease Brush Size Keypad,"Zmniejsz rozmiar pędzla, klawiatura",,Redefine keys decrease_brush_size_keypad string
 RedefineKeys_sprite_add_broadcast_message,Sprite Add Broadcast Message,Duszek - dodaj komunikat do rozesłania,,Redefine keys sprite_add_broadcast_message string
-RedefineKeys_add_sprite_frame,Add Sprite Frame,Dodaj ramkę duszka,,Redefine keys add_sprite_frame string
-RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Wstaw ramkę duszka,,Redefine keys insert_sprite_frame string
-RedefineKeys_copy_frames_win,Copy Frames Win,"Kopiuj ramki, okno",,Redefine keys copy_frames_win string
-RedefineKeys_paste_frames_win,Paste Frames Win,"Wklej ramki, okno",,Redefine keys paste_frames_win string
-RedefineKeys_cut_frames_win,Cut Frames Win,"Wytnij ramki, okno",,Redefine keys cut_frames_win string
+RedefineKeys_add_sprite_frame,Add Sprite Frame,Dodaj klatkę duszka,,Redefine keys add_sprite_frame string
+RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Wstaw klatkę duszka,,Redefine keys insert_sprite_frame string
+RedefineKeys_copy_frames_win,Copy Frames Win,"Kopiuj klatki, Windows",,Redefine keys copy_frames_win string
+RedefineKeys_paste_frames_win,Paste Frames Win,"Wklej klatki, Windows",,Redefine keys paste_frames_win string
+RedefineKeys_cut_frames_win,Cut Frames Win,"Wytnij klatkę, Windows",,Redefine keys cut_frames_win string
 RedefineKeys_Pan To,Pan To Path,Kadruj do ścieżki,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,Odwróć ścieżkę,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,Odbicie lustrzane,,Redefine keys Mirror string
@@ -7724,7 +7724,7 @@ RedefineKeys_RoomEditor_NewFolder,Room Editor New Folder,Nowy folder,,Redefine k
 RedefineKeys_TextEditor_RegionsMenu,Text Editor Regions Menu,Menu regionów,,Redefine keys TextEditor_RegionsMenu string
 RedefineKeys_Breakpoint_MenuToggle,Breakpoint Menu Toggle,Przełączanie menu punktów przerwania,,Redefine keys Breakpoint_MenuToggle string
 RedefineKeys_TextEditorPanel_ConvertToGMLVisual,Text Editor Panel Convert To GML Visual,Konwersja do GML Visual,,Redefine keys TextEditorPanel_ConvertToGMLVisual string
-RedefineKeys_SequenceDopeSheet_Timeline_Frames,Sequence Dope Sheet Timeline Frames,Dope Sheet - Ramki osi czasu,,Redefine keys SequenceDopeSheet_Timeline_Frames string
+RedefineKeys_SequenceDopeSheet_Timeline_Frames,Sequence Dope Sheet Timeline Frames,Dope Sheet - Klatki osi czasu,,Redefine keys SequenceDopeSheet_Timeline_Frames string
 RedefineKeys_SequenceDopeSheet_Timeline_Time,Sequence Dope Sheet Timeline Time,Dope Sheet - Czas osi czasu,,Redefine keys SequenceDopeSheet_Timeline_Time string
 RedefineKeys_Shader_ChangeShaderType,Shader Change Shader Type,Zmień typ shadera,,Redefine keys Shader_ChangeShaderType string
 RedefineKeys_ShaderType_GLSLES,Shader Type GLSLES,Typ shadera: GLSLES,,Redefine keys ShaderType_GLSLES string
@@ -7739,9 +7739,9 @@ RedefineKeys_Export To PNG,Image Editor Export To PNG,Eksportuj do PNG,,Redefine
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,Zmień rozmiar kanwy,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,Przytnij do zaznaczenia,,Redefine keys ImageEditor_CropToSelection string
 RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,Automatyczne przycinanie,,Redefine keys ImageEditor_AutoTrim string
-RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Odwróć ramki,,Redefine keys ImageEditor_ReverseFrames string
-RedefineKeys_Transform Current Frame,Transform Current Frame,Bieżąca ramka,,Redefine keys Transform Current Frame string
-RedefineKeys_Transform All Frames,Transform All Frames,Przekształć wszystkie ramki,,Redefine keys Transform All Frames string
+RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Odwróć klatki,,Redefine keys ImageEditor_ReverseFrames string
+RedefineKeys_Transform Current Frame,Transform Current Frame,Bieżąca klatka,,Redefine keys Transform Current Frame string
+RedefineKeys_Transform All Frames,Transform All Frames,Przekształć wszystkie klatki,,Redefine keys Transform All Frames string
 RedefineKeys_Rotate Image Clockwise,Rotate Image Clockwise,Obróć obraz w prawo,,Redefine keys Rotate Image Clockwise string
 RedefineKeys_Rotate Image Anti-Clockwise,Rotate Image Anti-Clockwise,Obróć obraz w lewo,,Redefine keys Rotate Image Anti-Clockwise string
 RedefineKeys_ImageEditor_CentreUnitScale,Image Editor Centre Unit Scale,Wyśrodkuj skalę jednostek,,Redefine keys ImageEditor_CentreUnitScale string
