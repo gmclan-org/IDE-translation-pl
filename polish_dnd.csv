@@ -134,8 +134,8 @@ GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${ta
 GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},Pobierz zmienną instancji${dnd_get_inst_vars} do ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
 GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},Pobierz zmienną instancji ${dnd_set_inst_vars} do tymczasowej wartości ${target}${show_input_count},,GML Visual story text
 GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},Pobierz zmienną instancji ${dnd_get_inst_vars} do tymczasowej wartości ${target} w odniesieniu do: ${applyto}${show_input_count},,GML Visual story text
-GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},Ustaw duszka ${spriteind} na klatkę ${imageind},,GML Visual story text
-GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},Ustaw duszka ${spriteind} na klatkę ${imageind} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},Ustaw sprite'a ${spriteind} na klatkę ${imageind},,GML Visual story text
+GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},Ustaw sprite'a ${spriteind} na klatkę ${imageind} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdRotSprite_Story_1,Set rotation to ${angle},Ustaw obrót ${angle},,GML Visual story text
 GMStdRotSprite_Story_2,Set rotation to ${angle} on ${applyto},Ustaw obrót ${angle} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdRotSprite_Story_3,Add ${angle} to rotation,Dodaj ${angle} do obrotu,,GML Visual story text
@@ -166,8 +166,8 @@ GMStdSpriteAlpha_Story_1,Set alpha to ${alpha},Ustaw wartość alfa ${alpha},,GM
 GMStdSpriteAlpha_Story_2,Set alpha to ${alpha} on ${applyto},Ustaw wartość alfa ${alpha} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdSpriteAlpha_Story_3,Add ${alpha} to alpha,Dodaj ${alpha} do wartości alfa,,GML Visual story text
 GMStdSpriteAlpha_Story_4,Add ${alpha} to alpha on ${applyto},Dodaj ${alpha} do wartości alfa w odniesieniu do: ${applyto},,GML Visual story text
-GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},Ustaw kolor mieszania duszka na ${colour},,GML Visual story text
-GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},Ustaw kolor mieszania duszka na ${colour} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},Ustaw kolor mieszania sprite'a na ${colour},,GML Visual story text
+GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},Ustaw kolor mieszania sprite'a na ${colour} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdInstExists_Story_1,Check if ${obj} does not exist,"Sprawdź, czy obiekt ${obj} nie istnieje",,GML Visual story text
 GMStdInstExists_Story_2,Check if ${obj} does not exist on ${applyto},"Sprawdź, czy obiekt ${obj} nie istnieje w odniesieniu do: ${applyto}",,GML Visual story text
 GMStdInstExists_Story_3,Check if ${obj} exists,"Sprawdź, czy obiekt ${obj} istnieje",,GML Visual story text
@@ -429,14 +429,14 @@ GMStdDrawValueTransformed_Story_5,"Draw transformed ${caption}"" at ${dnd_positi
 GMStdDrawValueTransformed_Story_6,"Draw transformed ${caption}"" at ${dnd_position} on ${applyto}""",Rysuj z przekształceniem podpis ${caption} „w położeniu ${dnd_position} w odniesieniu do: ${applyto}”,,GML Visual story text
 GMStdDrawValueTransformed_Story_7,"Draw transformed ${caption}"" ${var} at ${dnd_position}""",Rysuj z przekształceniem podpis ${caption} „wartość ${var} w położeniu ${dnd_position}”,,GML Visual story text
 GMStdDrawValueTransformed_Story_8,"Draw transformed ${caption}"" ${var} at ${dnd_position} on ${applyto}""",Rysuj z przekształceniem podpis ${caption} „wartość ${var} w położeniu ${dnd_position} w odniesieniu do: ${applyto}”,,GML Visual story text
-GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},Rysuj klatkę ${image} duszka ${sprite} w położeniu ${dnd_position},,GML Visual story text
-GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},Rysuj klatkę ${image} duszka ${sprite} w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","Rysuj klatkę ${frame} duszka ${sprite} z przekształceniem, z zastosowaniem skali ${xscale},${yscale} i obrotu ${rot}",,GML Visual story text
-GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","Rysuj klatkę ${frame} duszka ${sprite} z przekształceniem, z zastosowaniem skali ${xscale},${yscale} i obrotu ${rot} w odniesieniu do: ${applyto}",,GML Visual story text
-GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},Rysuj duszka ${sprite} w ${number} wierszach w położeniu ${dnd_position},,GML Visual story text
-GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},Rysuj duszka ${sprite} w ${number} wierszach w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},Rysuj duszka ${sprite} w ${number} kolumnach w położeniu ${dnd_position},,GML Visual story text
-GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},Rysuj duszka ${sprite} w ${number} kolumnach w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},Rysuj klatkę ${image} sprite'a ${sprite} w położeniu ${dnd_position},,GML Visual story text
+GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},Rysuj klatkę ${image} sprite'a ${sprite} w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","Rysuj klatkę ${frame} sprite'a ${sprite} z przekształceniem, z zastosowaniem skali ${xscale},${yscale} i obrotu ${rot}",,GML Visual story text
+GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","Rysuj klatkę ${frame} sprite'a ${sprite} z przekształceniem, z zastosowaniem skali ${xscale},${yscale} i obrotu ${rot} w odniesieniu do: ${applyto}",,GML Visual story text
+GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},Rysuj sprite'a ${sprite} w ${number} wierszach w położeniu ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},Rysuj sprite'a ${sprite} w ${number} wierszach w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},Rysuj sprite'a ${sprite} w ${number} kolumnach w położeniu ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},Rysuj sprite'a ${sprite} w ${number} kolumnach w położeniu ${dnd_position} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdDrawRectangle_Story_1,Draw rectangle from ${dnd_position1} to ${dnd_position2},Rysuj prostokąt od ${dnd_position1} do ${dnd_position2},,GML Visual story text
 GMStdDrawRectangle_Story_2,Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},Rysuj prostokąt od ${dnd_position1} do ${dnd_position2} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdDrawGradientRect_Story_1,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2},Rysuj prostokątny kontur gradientu od ${dnd_position1} do ${dnd_position2},,GML Visual story text
@@ -1072,8 +1072,8 @@ GMStdPartTypeDestroy_Story_1,Destroy particle type ${type},Zlikwiduj typ cząste
 GMStdPartTypeDestroy_Story_2,Destroy particle type ${type} on ${applyto},Zlikwiduj typ cząstek ${type} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdPartTypeSize_Story_1,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle},Ustaw rozmiar cząstek typu ${type} w przedziale od min. ${minsize} do maks. ${maxsize} z przyrostem ${sizeincr} i wahaniem ${wiggle},,GML Visual story text
 GMStdPartTypeSize_Story_2,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto},Ustaw rozmiar cząstek typu ${type} w przedziale od min. ${minsize} do maks. ${maxsize} z przyrostem ${sizeincr} i wahaniem ${wiggle} w odniesieniu do: ${applyto},,GML Visual story text
-GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},Ustaw dla typu cząstek ${type} duszka ${sprite},,GML Visual story text
-GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},Ustaw dla typu cząstek ${type} duszka ${sprite} w odniesieniu do: ${applyto},,GML Visual story text
+GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},Ustaw dla typu cząstek ${type} sprite'a ${sprite},,GML Visual story text
+GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},Ustaw dla typu cząstek ${type} sprite'a ${sprite} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdPartTypeShape_Story_1,Set shape of particle type ${type} to ${shape},Ustaw dla typu cząstek ${type} kształt ${shape},,GML Visual story text
 GMStdPartTypeShape_Story_2,Set shape of particle type ${type} to ${shape} on ${applyto},Ustaw dla typu cząstek ${type} kształt ${shape} w odniesieniu do: ${applyto},,GML Visual story text
 GMStdPartTypeColor_Story_1,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}","Ustaw dla typu cząstek ${type} kolor początkowy ${startcol}, środkowy ${midcol}, końcowy ${endcol}",,GML Visual story text

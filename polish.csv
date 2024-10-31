@@ -504,8 +504,8 @@ Inspector_VAlign_Distrib,Distribute Vertically,Rozłóż równomiernie w pionie,
 Inspector_AddObjVariable,Add Variable,Dodaj zmienną,,inspector add object variable button
 SeqTrack_Singular,Track,Ścieżka,,sequence track type name singular
 SeqTrack_Plural,Tracks,Ścieżki,,sequence track type name plural
-SeqSpriteTrack_Singular,Sprite Track,Ścieżka duszka,,sprite track type name singular
-SeqSpriteTrack_Plural,Sprite Tracks,Ścieżki duszków,,sprite track type name plural
+SeqSpriteTrack_Singular,Sprite Track,Ścieżka sprite'a,,sprite track type name singular
+SeqSpriteTrack_Plural,Sprite Tracks,Ścieżki sprite'ów,,sprite track type name plural
 SeqObjectTrack_Singular,Object Track,Ścieżka obiektu,,object track type name singular
 SeqObjectTrack_Plural,Object Tracks,Ścieżki obiektu,,object track type name plural
 SeqAudioTrack_Singular,Audio Track,Ścieżka audio,,audio track type name singular
@@ -709,10 +709,10 @@ GadgetToolbox_TextEditorPanel,Text Editor Panel,Panel edytora tekstu,,Gadget too
 GadgetToolbox_ResourceButton,Resource Select Button,Przycisk wyboru zasobów,,Gadget toolbox display for the resource button
 GadgetToolbox_ResourceDropPanel,Resource Drop Panel,Panel upuszczania zasobów,,Gadget toolbox display for the resource drop panel
 GadgetToolbox_ResourceImage,Resource Image,Obraz zasobu,,Gadget toolbox display for the resource image icon
-GadgetToolbox_ResourceSpriteIcon,Sprite Icon,Ikona duszka,,Gadget toolbox display for the sprite icon
+GadgetToolbox_ResourceSpriteIcon,Sprite Icon,Ikona sprite'a,,Gadget toolbox display for the sprite icon
 GadgetToolbox_ResourceObjectIcon,Object Icon,Ikona obiektu,,Gadget toolbox display for the object icon
 GadgetToolbox_ResourceTileSetIcon,Tile Set Icon,Ikona zestawu kafelków,,Gadget toolbox display for the tileset icon
-GadgetToolbox_SpriteSelector,Sprite Selector,Selektor duszków,,Gadget toolbox display for the sprite selector
+GadgetToolbox_SpriteSelector,Sprite Selector,Selektor sprite'ów,,Gadget toolbox display for the sprite selector
 GadgetToolbox_Resources,Resources,Zasoby,,Gadget toolbox heading for the resources group
 GadgetToolbox_GMLVisual,GML Visual,GML Visual,,Gadget toolbox heading for the GML Visual group
 Game_Options,Game Options - {0},Opcje gry – {0},,Takes platform argument to show type of Game Options being displayed
@@ -823,7 +823,7 @@ ImageEditor_ColourLeftLabel,Left:,Lewa:,,left brush label
 ImageEditor_ColourOnly,Colour only,Tylko kolor,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,Kolory,,colours panel title
 ImageEditor_UnableToLoadFrame,Unable to load,Nie można załadować,,Unable to load frame dialog title
-ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,"Sprite {0} zawiera następującą liczbę obrazów, których nie można załadować: {1}. Problematyczne klatki zostaną usunięte z duszka.",,Failed to load image
+ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,"Sprite {0} zawiera następującą liczbę obrazów, których nie można załadować: {1}. Problematyczne klatki zostaną usunięte z sprite'a.",,Failed to load image
 IE_ColourPanel_MenuToolTip,Colour Options,Opcje kolorów,,image editor colours panel menu button tooltip
 ImageEditor_ColourRightLabel,Right:,Prawa:,,right brush label
 ImageEditor_CommitToolChanges,Commit Tool Changes?,Czy zastosować zmiany narzędzi?,,Commit tool changes
@@ -982,8 +982,8 @@ ImageEditor_ContiguousLabel,Contiguous mode:,Tryb ciągły,,magic wand contiguou
 ImageEditor_FillStyle_Stroke,Stroke,Pociągnięcie,,shape tool stroke style
 ImageEditor_FillStyle_Fill,Fill,Wypełnienie,,shape tool fill style
 ImageEditor_FillStyle_Both,Both,Obydwa,,shape tool both style
-ImageEditor_SwatchMenu_Copy,Copy colours to sprite:,Kopiuj kolory do duszka:,,swatch panel menu copy colours
-ImageEditor_SwatchMenu_Import,Import colours from sprite:,Importuj kolory z duszka:,,swatch panel menu import colours
+ImageEditor_SwatchMenu_Copy,Copy colours to sprite:,Kopiuj kolory do sprite'a:,,swatch panel menu copy colours
+ImageEditor_SwatchMenu_Import,Import colours from sprite:,Importuj kolory z sprite'a:,,swatch panel menu import colours
 ImageEditor_OnionBurger_Tooltip,Onion skin,Efekt łusek cebuli,,burger button tooltip
 ImageEditor_LoopBurger_Tooltip,Loop mode,Tryb pętli,,burger button tooltip
 ImageEditor_PlayBurger_Tooltip,Play,Odtwórz,,burger button tooltip
@@ -1291,7 +1291,7 @@ ObjectEditor_OpenParentObject,Open Parent Event,Otwórz zdarzenie rodzic,,Object
 ObjectEditor_OverrideParentEvent,Override Event,Zastąp zdarzenie,,Object editor override parent event menu option
 ObjectEditor_InheritParentEvent,Inherit Event,Dziedzicz zdarzenie,,Object editor inherit parent event menu option
 ObjectEditor_ViewParentEvent,Show Parent Event,Pokaż zdarzenie rodzic,,Object editor show parent event menu option
-ObjectEditor_SelectSprite,Select Sprite,Wybierz duszka,,Object editor select sprite caption
+ObjectEditor_SelectSprite,Select Sprite,Wybierz sprite'a,,Object editor select sprite caption
 ObjectEditor_SelectMask,Select Mask,Wybierz maskę,,Object editor select mask caption
 ObjectEditor_SelectParent,Select Parent,Wybierz element nadrzędny,,Object editor select parent caption
 ObjectEditor_Event,Event,Zdarzenie,,Event button
@@ -1300,7 +1300,7 @@ ObjectEditor_ModifyCollisionShape,Modify Collision Shape,Modyfikuj kształt koli
 ObjectEditor_Name,Name:,Nazwa:,,Name label in obejct editor
 ObjectEditor_NewSprite,New,Nowe,,object editor new sprite button
 ObjectEditor_NoParent,No Parent,Brak elementu nadrzędnego,,"Object editor ""no parent"" setting"
-ObjectEditor_NoSprite,No Sprite,Brak duszka,,"Object editor ""no sprite"" setting"
+ObjectEditor_NoSprite,No Sprite,Brak sprite'a,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,Właściwości obiektu,,Object properties window title
 ObjectEditor_Physics,Physics,Fizyka,,Physics label in Object Editor
 ObjectEditor_InstProps,Variables,Zmienne,,Object Variables label in Object Editor
@@ -1327,8 +1327,8 @@ ObjectEditor_RemoveListItem,Remove this item,Usuń tę pozycję,,Remove this ite
 ObjectEditor_PhysicsProperties,Physics Properties,Właściwości fizyki,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Kształt kolizji fizyki,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,Właściwości,,Object editor properties heading
-ObjectEditor_SameMask,Same As Sprite,Taka sama jak duszka,,"Object editor ""same as sprite"" mask setting"
-ObjectEditor_MaskSameAsSprite,Same As Sprite,Taka sama jak duszka,,Object editor same mask caption
+ObjectEditor_SameMask,Same As Sprite,Taka sama jak sprite'a,,"Object editor ""same as sprite"" mask setting"
+ObjectEditor_MaskSameAsSprite,Same As Sprite,Taka sama jak sprite'a,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,Kształt wypukły,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Obiekt: {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,Usuń tę zmienną,,Remove variable row tooltip
@@ -1394,7 +1394,7 @@ OutputPanel_Title,Output,Dane wyjściowe,,Output panel window title
 PropertyButton_NoResourceArg,No {0},{0}: brak,,no resource (type name) selected caption for resource button
 PropertyButton_NoResource,No Resource,Brak zasobu,,no resource selected caption for resource button
 PropertyButton_NoGMObject,No Object,Brak obiektu,,no object selected caption for the view object button
-PropertyButton_NoGMSprite,No Sprite,Brak duszka,,Button caption for when no sprite is selected
+PropertyButton_NoGMSprite,No Sprite,Brak sprite'a,,Button caption for when no sprite is selected
 PropertyButton_NoGMSequence,No Sequence,Brak sekwencji,,Button caption for when no sequence is selected
 PropertyButton_NoGMTileSet,No Tileset,Brak zestawu kafelków,,no background selected caption for the layer background button
 PropertyButton_NoGMParticleType,No Particle Type,Brak typu cząstek,,no particle type selected button caption
@@ -1423,7 +1423,7 @@ ResourceNode_OpenInMixer,Open In Sound Mixer,Otwórz w mikserze dźwięku,,Resou
 ResourceNode_RegenerateFont,Regenerate Font,Ponownie generuj czcionkę,,Resource Tree node menu - regenerate font
 ResourceNode_RegenerateFonts,Regenerate Fonts,Ponownie generuj czcionki,,Resource Tree node menu - regenerate fonts
 ResourceNode_OpenObjectEvents,Open All Event Scripts,Otwórz wszystkie skrypty zdarzeń,,Resource Tree node menu - open all event scripts
-ResourceNode_ImageAsSprite,Create Sprite From Image(s),Utwórz duszka na podstawie obrazów,,Resource Tree node menu - create a new sprite from image files
+ResourceNode_ImageAsSprite,Create Sprite From Image(s),Utwórz sprite'a na podstawie obrazów,,Resource Tree node menu - create a new sprite from image files
 ResourceNode_SetTextureGroup,Assign Texture Group,Przypisz grupę tekstur,,Resource Tree node menu - set the texture group of selected resources
 ResourceNode_NewTextureGroup,Create New...,Utwórz nową...,,Resource Tree node menu - create new texture group with selected resources
 ResourceNode_NewAudioGroup,Create New...,Utwórz nową...,,Resource Tree node menu - create new audio group with selected resources
@@ -1458,7 +1458,7 @@ ResourceMenu_CreateRoom,Create Room,Utwórz planszę,,"Resource menu ""Create Ro
 ResourceMenu_CreateScript,Create Script,Utwórz skrypt,,"Resource menu ""Create Script"" entry"
 ResourceMenu_CreateShader,Create Shader,Utwórz shader,,"Resource menu ""Create Shader"" entry"
 ResourceMenu_CreateSound,Create Sound,Utwórz dźwięk,,"Resource menu ""Create Sound"" entry"
-ResourceMenu_CreateSprite,Create Sprite,Utwórz duszka,,"Resource menu ""Create Sprite"" entry"
+ResourceMenu_CreateSprite,Create Sprite,Utwórz sprite'a,,"Resource menu ""Create Sprite"" entry"
 ResourceMenu_CreateTileset,Create Tile Set,Utwórz zestaw kafelków,,"Resource menu ""Create Tile Set"" entry"
 ResourceMenu_CreateNote,Create Note,Utwórz notatkę,,"Resource menu ""Create Note"" entry"
 ResourceMenu_CreateTimeline,Create Timeline,Utwórz oś czasu,,"Resource menu ""Create Timeline"" entry"
@@ -1755,11 +1755,11 @@ Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual
 Splash_CheckingRSS,Checking RSS...,Sprawdzanie RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Pobieranie instrukcji...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Usuń punkty,,Path spline editor context menu entry
-SpriteEditor_LockOrigin,Lock sprite origin,Zablokuj osie duszka,,Lock sprite origin from editing
+SpriteEditor_LockOrigin,Lock sprite origin,Zablokuj osie sprite'a,,Lock sprite origin from editing
 SpriteEditor_Manual,Manual,Ręczny,,Sprite editor manual bounding box label
 SpriteEditor_Premultiply,Premultiply Alpha,Mnożenie wstępne z kanałem alfa,,Premultiply alpha channel of sprite composite
 SpriteEditor_EdgeFiltering,Edge Filtering,Filtrowanie krawędzi,,Edge filtering of sprite composite
-SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Pomnóż wstępnie z kanałem alfa w klatce duszka,,Premultiply alpha channel of sprite composite tooltip
+SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Pomnóż wstępnie z kanałem alfa w klatce sprite'a,,Premultiply alpha channel of sprite composite tooltip
 SpriteEditor_EdgeFiltering_Tooltip,Merge pixels along the edge of the graphic to correct interpolation,Scal piksele wzdłuż krawędzi grafiki w celu uzyskania poprawnej interpolacji,,Edge filtering of sprite composite tooltip
 SpriteEditor_FullImage,Full Image,Pełny obraz,,Sprite editor full image bounding box label
 SpriteEditor_Image,Image:,Obraz:,,Image label
@@ -1804,8 +1804,8 @@ Sprite_Resize_Width,Width:,Szerokość:,,Width label
 Sprite_Resize_Height,Height:,Wysokość:,,Height label
 Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,Zachowaj proporcje:,,Maintain ratio label
 Sprite_Resize_Origin,Apply to Origin,Zastosuj do osi,,Also resize/scale sprite origin
-Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,"Zastosuj to samo przekształcenie do osi duszka\nJeśli oś duszka jest niestandardowa i odblokowana, ta pozycja jest tylko opcjonalna",,Sprite origin resize/scale tooltip
-SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,Zastosuj zmianę rozmiaru i skalowanie do osi duszka,,Sprite editor resize/scale origin preference
+Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,"Zastosuj to samo przekształcenie do osi sprite'a\nJeśli oś sprite'a jest niestandardowa i odblokowana, ta pozycja jest tylko opcjonalna",,Sprite origin resize/scale tooltip
+SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,Zastosuj zmianę rozmiaru i skalowanie do osi sprite'a,,Sprite editor resize/scale origin preference
 Sprite_Resize_Pixels,pixels,piksele,,Pixels label
 SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,Sprite jest zasobem zestawu kafelków!,,Tile set warning
 SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,"Ten sprite jest zestawem kafelków, a zmiana jego rozmiaru spowoduje zmianę danych kafelków. Czy mimo to chcesz kontynuować?",,Sprite resize tile set warning
@@ -1870,11 +1870,11 @@ ParticleTypeEditor_Appearance,Appearance,Wygląd,,Particle type appearance label
 ParticleTypeEditor_Properties,Properties,Właściwości,,Particle type properties label
 ParticleTypeEditor_BuiltInTextures,Textures,Tekstury,,Particle type built-in textures label
 ParticleTypeEditor_BuiltInTextures_Tooltip,Use a preset texture as a particle type,Użyj wstępnie ustawionej tekstury jako typu cząstek,,Help tooltip
-ParticleTypeEditor_Sprite_Tooltip,Use a Sprite from the project as a particle type,Użyj duszka z projektu jako typu cząstek,,Help tooltip
+ParticleTypeEditor_Sprite_Tooltip,Use a Sprite from the project as a particle type,Użyj sprite'a z projektu jako typu cząstek,,Help tooltip
 ParticleTypeEditor_Color,Colour,Kolor,,Particle type color label
 ParticleTypeEditor_ColorHelp,Sets how this particle type changes colour over time,Określa zmianę koloru typu cząstek w czasie,,Particle type color help
 ParticleTypeEditor_Size,Size,Rozmiar,,Particle type size label
-ParticleTypeEditor_SizeHelp,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,"Określa rozmiar, w jakim ten typ cząstek może występować w odniesieniu do duszka lub tekstury używanych do wyświetlania tego typu cząstek",,Particle type size help
+ParticleTypeEditor_SizeHelp,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,"Określa rozmiar, w jakim ten typ cząstek może występować w odniesieniu do sprite'a lub tekstury używanych do wyświetlania tego typu cząstek",,Particle type size help
 ParticleTypeEditor_Scale,Scale,Skala,,Particle type scale label
 ParticleTypeEditor_ScaleHelp,Sets the scale of this particle type,Określa skalę tego typu cząstek,,Particle type scale help
 ParticleTypeEditor_Min,Minimum,Minimalne,,Particle type minimum label
@@ -1904,7 +1904,7 @@ ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,"Utwórz
 ParticleTypeEditor_SpawnUpdate,On Update,W chwili aktualizacji,,Particle type editor spawn on update label
 ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,Utwórz koleją cząstkę przy każdej aktualizacji,,Particle type editor spawn on update help label
 ParticleTypeEditor_Headposition,Head,Początek,,Particle type editor head label
-ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Użyj klatki duszka w ustalonym położeniu początkowym,,Particle type editor head help label
+ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Użyj klatki sprite'a w ustalonym położeniu początkowym,,Particle type editor head help label
 ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,Niezgodne środowisko uruchomieniowe,,Title for below error message
 ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,"Aktywne środowisko uruchomieniowe nie obsługuje systemów cząstek edytora. Aby skorzystać z tej funkcji, przeprowadź uaktualnienie do nowszej wersji środowiska uruchomieniowego.",,Not supported by runtime error message
 ParticleEditor_Title,Particle System: {0},System cząstek: {0},,Particle System editor window title
@@ -1936,7 +1936,7 @@ ParticleEditor_ToggleBackground,Toggle preview background,Przełącz tło podgl�
 ParticleEditor_Play,Start the particle system,Uruchom system cząstek,,Start emitting particles tooltip
 ParticleEditor_Pause,Pause the particle system,Wstrzymaj system cząstek,,Pause emitting particles tooltip
 ParticleEditor_SelectType,Select particle type,Wybierz typ cząstek,,Select particle type window title
-ParticleEditor_BackgroundLabel,Display a sprite or a local image as the background of the Particle System preview.,Wyświetl duszka lub obraz lokalny jako tło podglądu systemu cząstek.,,Particle editor background explanation
+ParticleEditor_BackgroundLabel,Display a sprite or a local image as the background of the Particle System preview.,Wyświetl sprite'a lub obraz lokalny jako tło podglądu systemu cząstek.,,Particle editor background explanation
 ParticleEditor_BackgroundSprite,Sprite,Sprite,,Sprite label for background
 ParticleEditor_BackgroundImage,Local image,Obraz lokalny,,Texture background
 ParticleEditor_AutomaticUpdate,Automatic Update,Automatyczna aktualizacja,,Automatic update particle system label
@@ -1986,7 +1986,7 @@ StripDialog_VPixelOffset,Vertical Pixel Offset,Przesunięcie punktu w pionie,,st
 StripDialog_HSeparation,Horizonal Separation,Separacja pozioma,,strip dialog horizontal separation
 StripDialog_VSeparation,Vertical Separation,Separacja pionowa,,strip dialog vertical separation
 StripDialogTitle,Create from Strip,Utwórz z paska,,strip image import dialog title
-StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,Zaimportowanie obrazów pasków spowoduje zastąpienie istniejących klatek duszków. Czy chcesz kontynuować?,,strip image import warning
+StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,Zaimportowanie obrazów pasków spowoduje zastąpienie istniejących klatek sprite'ów. Czy chcesz kontynuować?,,strip image import warning
 StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false","Znaleziono zdublowany styl „{0}”. Zostanie od odrzucony, ponieważ dla zastępowania wybrano opcję fałsz",,Log message for when loading a duplicate style name with 'overwrite' set to false
 StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,Nie udało się sklonować obiektu wartości stylu typu „{0}”. Klasa obiektu musi uwzględniać wdrożenie interfejsu ICloneable,,exception message when attempting to clone an uncloneable object
 StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,Nie udało się sklonować obiektu wartości stylu typu „{0}”. Typy kolekcji muszą uwzględniać niestandardowe wdrożenie głębokiego klonowania,,exception message when attempting to clone an ICollection which doesn't have a deep clone available
@@ -2050,7 +2050,7 @@ AudioGroups_EditResource,Edit...,Edytuj…,,Audio groups window edit resource bu
 TileLayer_TileDataSize,Tile Data Size,Rozmiar danych kafelka,,tile layer properties caption for the data size drop down box
 TileSetEditor_EditImage,Edit Image,Edytuj obraz,,tile set editor edit image button caption
 TileSetEditor_Name,Name:,Nazwa:,,tile set editor name textbox caption
-TileSetEditor_NoSprite,No Sprite Selected,Nie wybrano duszka,,message to be shown when the user has not selected a sprite in the tile set editor window
+TileSetEditor_NoSprite,No Sprite Selected,Nie wybrano sprite'a,,message to be shown when the user has not selected a sprite in the tile set editor window
 TileSetEditor_OffsetX,Tile Offset X,Przesunięcie kafelka w osi X,,tile set editor x offset numeric textbox caption
 TileSetEditor_OffsetY,Tile Offset Y,Przesunięcie kafelka w osi Y,,tile set editor y offset numeric textbox caption
 TileSetEditor_OutBorderX,Output Border X,Obramowanie wyjściowe X,,tile set editor label for the output border x setting
@@ -2803,7 +2803,7 @@ imageeditor_selectioncolour1,Selection outline primary colour,Podstawowy kolor r
 imageeditor_selectioncolour2,Selection outline secondary colour,Pomocniczy kolor ramki zaznaczenia,,Selection colour 2
 imageeditor_backgroundcolour,Editor background colour,Kolor tła edytora,,Background colour in image editor
 imageeditor_transparentbackgroundstyle,Canvas style,Styl kanwy,,Transparent background style in image editor
-imageeditor_expandoverlay,Expand sprite controls overlay by default,Domyślnie rozwijaj nakładkę elementów sterujących duszkiem,,Expand sprite controls overlay setting
+imageeditor_expandoverlay,Expand sprite controls overlay by default,Domyślnie rozwijaj nakładkę elementów sterujących spritem,,Expand sprite controls overlay setting
 imageeditor_transparentcolour1,Canvas primary colour,Podstawowy kolor kanwy,,Transparent background colour 1 in image editor
 imageeditor_transparentcolour2,Canvas secondary colour (block pattern style),Pomocniczy kolor kanwy (deseń blokowy),,Transparent background colour 2 in image editor
 imageeditor_transparentblocksize,Canvas block size (block pattern style),Rozmiar bloku kanwy (deseń blokowy),,Transparent block size in image editor
@@ -2846,7 +2846,7 @@ roomeditor_automaticitemdeletion,Automatic response to room item deletion,Automa
 roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,Automatyczna odpowiedź na usunięcie warstwy planszy,,Automatic layer deletion in room editor
 roomeditor_automaticacceptitemdrag,Hide warnings when dragging unusable assets onto room layers,Ukryj ostrzeżenia w przypadku przeciągnięcia nieużywanych zasobów na warstwy planszy,,Automatic drag acceptance on invalid items in room editor
 roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,Utwórz nowe warstwy instancji w przypadku przeciągnięcia obiektów na nieodpowiednie warstwy,,Automatic drag acceptance on invalid instance items in room editor
-roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,Utwórz nowe warstwy zasobów w przypadku przeciągnięcia sekwencji/duszków na nieodpowiednie warstwy,,Automatic drag acceptance on invalid asset items in room editor
+roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,Utwórz nowe warstwy zasobów w przypadku przeciągnięcia sekwencji/sprite'ów na nieodpowiednie warstwy,,Automatic drag acceptance on invalid asset items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,Automatyczna odpowiedź na błąd przeciągania wyboru nieprawidłowej warstwy,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,Automatyczna odpowiedź na błąd przeciągania zablokowanej/niewidocznej warstwy,,Automatic layer drag acceptance for locked or invisible layer in room editor
 roomeditor_linkcolour,Chain link colour,Kolor ogniwa łańcucha,,Link Colour in Room Editor
@@ -3206,7 +3206,7 @@ keystore_jdk_error,JDK not installed correctly at location entered in Android Pl
 keystore_show_error,Could not process Keystore; may be corrupt or have incorrect password,Nie można przetworzyć magazynu kluczy. Być może jest uszkodzony lub hasło jest nieprawidłowe,,Keystore error during processing
 keystore_small_alias,Alias password must be longer than 5 characters,Hasło aliasu musi się składać z więcej niż 5 znaków,,Alias password must be longer than 5 characters
 keystore_invalid_alias_password,Invalid characters in alias password,Hasło aliasu zawiera nieprawidłowe znaki,,Invalid characters in alias password
-GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,Grupa tekstur dla duszka „{0}” jest nieprawidłowa – zamiast niej ustawiono domyślną grupę tekstur,,Error message on importing that a sprite texture group is wrong
+GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,Grupa tekstur dla sprite'a „{0}” jest nieprawidłowa – zamiast niej ustawiono domyślną grupę tekstur,,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,Włącz Flurry Analytics,,Enable Flurry Analytics
 ggs_enable_google_analytics,Enable Google Analytics,Włącz Google Analytics,,Enable Google Analytics
 ggs_google_analytics_id,Google Analytics ID,Identyfikator Google Analytics,,Google Analytics Id
@@ -3366,7 +3366,7 @@ runtime_message_url_warning,URL must be unique and not empty,Adres URL musi być
 runtime_message_url_empty,Cannot save changes to {0} because it has an empty URL,"Nie można zapisać zmian w {0}, ponieważ adres URL jest pusty",,Warning when a url has an empty URL on Apply
 runtime_message_update_successful,Successfully updated Runtime Feeds,Zaktualizowano kanały środowiska uruchomieniowego,,Successfully updated Runtime Feeds message
 IDE_OpenProject_NotExists_Title,Invalid Project,Nieprawidłowy projekt,,Title for IDE_OpenProject_NotExists message dialog
-SpriteEditor_InvalidFileFormat,The file(s) you attempted to load are not supported by the sprite editor.,"Pliki, które próbujesz załadować nie są obsługiwane przez edytor duszków.",,Sprite editor invalid file format dropped
+SpriteEditor_InvalidFileFormat,The file(s) you attempted to load are not supported by the sprite editor.,"Pliki, które próbujesz załadować nie są obsługiwane przez edytor sprite'ów.",,Sprite editor invalid file format dropped
 ImageEditor_InvalidFileFormat,The file(s) you attempted to load are not supported by the image editor.,"Pliki, które próbujesz załadować nie są obsługiwane przez edytor obrazów.",,Image editor invalid file format dropped
 SpriteEditor_InvalidFileFormat_Title,Invalid File Format,Nieprawidłowy format pliku,,Invalid file format dialog title
 ImageEditor_InvalidFileSingle,The file that you tried to import is not supported in this editor.,"Plik, który próbujesz zaimportować nie jest obsługiwany w tym edytorze.",,image invalid file format dropped
@@ -3387,8 +3387,8 @@ ColourPicker_PickColour,Select Colour:,Wybierz kolor,,Select Colour Label
 ColourPicker_BasicColours,Basic Colours:,Kolory podstawowe:,,Basic Colours Label
 ColourPicker_SavedColours,Custom Colours:,Kolory niestandardowe,,Custom Colours Label
 SpriteSelector_Source,Sprite:,Sprite:,,The sprite selector button heading
-SpriteSelector_SelectSprite,Select Sprite,Wybierz duszka,,The sprite selector button heading
-SpriteSelector_EditSprite,Edit Sprite,Edytuj duszka,,The edit sprite button tooltip
+SpriteSelector_SelectSprite,Select Sprite,Wybierz sprite'a,,The sprite selector button heading
+SpriteSelector_EditSprite,Edit Sprite,Edytuj sprite'a,,The edit sprite button tooltip
 SpriteSelector_EditImage,Edit Image,Edytuj obraz,,The edit image button tooltip
 SpriteSelector_NewSprite,New Sprite,Nowy sprite,,The new sprite button tooltip
 TileSet_Properties,Tile Set Properties,Właściwości zestawu kafelków,,the tile set properties window title
@@ -3399,16 +3399,16 @@ TileSetEditor_Editors,Editors:,Edytory:,,the tile set heading for the various su
 IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,Program GameMaker utracił stabilność.\nZapisz zmiany i zamknij,,Warn the user they should try saving changes and exit
 IDE_FatalErrorTitle,Fatal Error,Błąd krytyczny,,Title for the fatal error warning dialog
 IDE_ShutdownBlocked,GameMaker is running...,Program GameMaker jest uruchomiony...,,shutdown blocked message
-SpriteSelector_NoSprite,No Sprite,Brak duszka,,"Sprite selector ""no sprite"" setting"
+SpriteSelector_NoSprite,No Sprite,Brak sprite'a,,"Sprite selector ""no sprite"" setting"
 SpriteSelector_Dimensions,{0} x {1},{0} x {1},,Sprite selector dimensions label ie. width x height
-SpriteSelector_DragMessage,Drop here to assign sprite,"Upuść tutaj, aby przypisać duszka",,message displayed while dragging a sprite resource
+SpriteSelector_DragMessage,Drop here to assign sprite,"Upuść tutaj, aby przypisać sprite'a",,message displayed while dragging a sprite resource
 TileSetEditor_TileProperties,Tile Properties,Właściwości kafelków,,the tileset properties window heading for the tile properties
 TileSetEditor_TileSetSource,Source Image,Obraz źródłowy,,the tileset properties window heading for the source image
-TileSetEditor_NoSpriteMessage,Your tile set preview will appear here when you select a sprite,Po wybraniu duszka w tym miejscu będzie wyświetlany podgląd zestawu kafelków,,the message to appear in the tileset editor when there is no tileset to display
-TileSetEditor_SelectSprite,Select Sprite,Wybierz duszka,,the select sprite button message when no sprite is selected
+TileSetEditor_NoSpriteMessage,Your tile set preview will appear here when you select a sprite,Po wybraniu sprite'a w tym miejscu będzie wyświetlany podgląd zestawu kafelków,,the message to appear in the tileset editor when there is no tileset to display
+TileSetEditor_SelectSprite,Select Sprite,Wybierz sprite'a,,the select sprite button message when no sprite is selected
 SpriteEditor_ImportImagesTitle,Import Files,Importuj pliki,,Sprite editor confirm dialog for importing files
-SpriteEditor_ImportImages,Importing files to a sprite is not an undoable action. Do you want to continue?,Importowanie plików do duszka nie jest czynnością nieodwracalną. Czy chcesz kontynuować?,,Sprite editor confirm dialog for importing files
-SpriteEditor_ImportSpineSwfBlocked,Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites,"Sprite jest obecnie przypisany do zestawu kafelków „{0}”, który nie obsługuje duszków Spine ani SWF",,sprite editor spine/swf tileset sprite import
+SpriteEditor_ImportImages,Importing files to a sprite is not an undoable action. Do you want to continue?,Importowanie plików do sprite'a nie jest czynnością nieodwracalną. Czy chcesz kontynuować?,,Sprite editor confirm dialog for importing files
+SpriteEditor_ImportSpineSwfBlocked,Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites,"Sprite jest obecnie przypisany do zestawu kafelków „{0}”, który nie obsługuje sprite'ów Spine ani SWF",,sprite editor spine/swf tileset sprite import
 SpriteEditorPref_ImportImages,Automatic response to file import,Automatyczna odpowiedź na import plików,,Automatic choice for importing files into the sprite editor
 SpriteEditorPref_FailedToLoadImages,Automatic response to image load failure,Automatyczna odpowiedź na niepowodzenie ładowania obrazów,,Default response for images that failed to load
 Dialog_ImportFailed_Title,Import Failed,Import nie powiódł się,,Import failed dialog title
@@ -3614,7 +3614,7 @@ ShaderType_GLSL,GLSL,GLSL,,the glsl shader type option
 ShaderType_HLSL9,HLSL 9,HLSL 9,,the hlsl9 shader type option
 ShaderType_HLSL11,HLSL 11,HLSL 11,,the hlsl11 shader type option
 ShaderType_PSSL,PS4 (PSSL),PS4 (PSSL),,the pssl shader type option
-resourcetree_editimageondoubleclick,Sprite double click opens image editor,Dwukrotne kliknięcie duszka otwiera edytor obrazów,,the message to accompany the double click edit the image property
+resourcetree_editimageondoubleclick,Sprite double click opens image editor,Dwukrotne kliknięcie sprite'a otwiera edytor obrazów,,the message to accompany the double click edit the image property
 ResourceTree_OpenObjectEventsDoubleClick,Object double click opens all object events,Dwukrotne kliknięcie obiektu otwiera wszystkie zdarzenia obiektu,,double click object resource preference
 ResourceTree_CompactPref,Use compact resource tree (re-open resource tree),Użyj kompaktowego drzewa zasobów (otwórz ponownie drzewo zasobów),,resource tree pref
 ResourceTree_AllowLabelBelowHundred,Resource font can scale below 100%,Możliwość skalowania czcionki zasobu poniżej 100%,,resource tree pref
@@ -3792,18 +3792,18 @@ GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${seq
 GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Pobierz położenie początku (w klatkach) instancji sekwencji ${sequenceelmid} do zmiennej tymczasowej ${var},,GML Visual story text
 GMStdDestroyAtPos_Name,Destroy At Position,Zlikwiduj w położeniu,,GML Visual  library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,Zlikwiduj wszystkie instancje na danej pozycji.,,GML Visual  library action description
-GMStdSetSprite_Name,Set Sprite,Ustaw duszka,,GML Visual  library action name
-GMStdSetSprite_Desc,Change the sprite of an object instance.,Zmień duszka instancji obiektu.,,GML Visual  library action description
+GMStdSetSprite_Name,Set Sprite,Ustaw sprite'a,,GML Visual  library action name
+GMStdSetSprite_Desc,Change the sprite of an object instance.,Zmień sprite'a instancji obiektu.,,GML Visual  library action description
 GMStdRotSprite_Name,Set Instance Rotation,Ustaw obrót instancji,,GML Visual  library action name
 GMStdRotSprite_Desc,Set the rotation of an instance.,Ustaw obrót instancji.,,GML Visual  library action description
 GMStdSpriteAnimSpd_Name,Set Animation Speed,Ustaw szybkość animacji,,GML Visual  library action name
-GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,Ustaw szybkość animacji duszka w instancji.,,GML Visual  library action description
+GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,Ustaw szybkość animacji sprite'a w instancji.,,GML Visual  library action description
 GMStdSpriteScale_Name,Set Instance Scale,Ustaw skalę instancji,,GML Visual  library action name
-GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,Ustaw poziome i pionowe skalowanie duszka instancji.,,GML Visual  library action description
+GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,Ustaw poziome i pionowe skalowanie sprite'a instancji.,,GML Visual  library action description
 GMStdSpriteAlpha_Name,Set Instance Alpha,Ustaw kanał alfa instancji,,GML Visual  library action name
-GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,Ustaw przezroczystość (0-1) duszka instancji.,,GML Visual  library action description
+GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,Ustaw przezroczystość (0-1) sprite'a instancji.,,GML Visual  library action description
 GMStdSpriteColor_Name,Set Instance Colour,Ustaw kolor instancji,,GML Visual  library action name
-GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,Ustaw mieszanie koloru duszka instancji.,,GML Visual  library action description
+GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,Ustaw mieszanie koloru sprite'a instancji.,,GML Visual  library action description
 GMStdSetAlarm_Name,Set Alarm Countdown,Ustaw odliczanie alarmu,,GML Visual  library action name
 GMStdSetAlarm_Desc,Set the countdown value of an alarm event.,Ustaw wartość odliczania zdarzenia alarmu.,,GML Visual  library action description
 GMStdGetAlarm_Name,Get Alarm Countdown,Pobierz odliczanie alarmu,,GML Visual  library action name
@@ -3883,15 +3883,15 @@ GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,"Sprawdź
 GMStdIfColPoint_Name,If Collision Point,Jeśli kolizja z punktem,,GML Visual  library action name
 GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,"Sprawdź, czy co najmniej jedna instancja przecina punkt.",,GML Visual  library action description
 GMStdDrawSelf_Name,Draw Self,Rysuj samodzielnie,,GML Visual  library action name
-GMStdDrawSelf_Desc,Draw this instance's sprite.,Rysuj duszka obecnej instancji.,,GML Visual  library action description
+GMStdDrawSelf_Desc,Draw this instance's sprite.,Rysuj sprite'a obecnej instancji.,,GML Visual  library action description
 GMStdDrawValue_Name,Draw Value,Rysuj wartość,,GML Visual  library action name
 GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.","Rysuj określoną wartość. Może być ciągiem, liczbą lub zmienną.",,GML Visual  library action description
 GMStdDrawValueTransformed_Name,Draw Transformed Value,Rysuj wartość przekształconą,,GML Visual  library action name
 GMStdDrawValueTransformed_Desc,"Draw a value with a transformation. It can be a string, number or variable.","Rysuj wartość z przekształceniem. Może być ciągiem, liczbą lub zmienną.",,GML Visual  library action description
-GMStdDrawSprite_Name,Draw Sprite,Rysuj duszka,,GML Visual  library action name
-GMStdDrawSprite_Desc,Draw a sprite.,Rysuj duszka.,,GML Visual  library action description
-GMStdDrawSpritesStacked_Name,Draw Stacked Sprites,Rysuj stos duszków,,GML Visual  library action name
-GMStdDrawSpritesStacked_Desc,Draw a sprite multiple times in a stack.,Rysuj wiele duszków ułożonych w stos.,,GML Visual  library action description
+GMStdDrawSprite_Name,Draw Sprite,Rysuj sprite'a,,GML Visual  library action name
+GMStdDrawSprite_Desc,Draw a sprite.,Rysuj sprite'a.,,GML Visual  library action description
+GMStdDrawSpritesStacked_Name,Draw Stacked Sprites,Rysuj stos sprite'ów,,GML Visual  library action name
+GMStdDrawSpritesStacked_Desc,Draw a sprite multiple times in a stack.,Rysuj wiele sprite'ów ułożonych w stos.,,GML Visual  library action description
 GMStdDrawRectangle_Name,Draw Rectangle,Rysuj prostokąt,,GML Visual  library action name
 GMStdDrawRectangle_Desc,Draw a rectangle.,Rysuj prostokąt.,,GML Visual  library action description
 GMStdDrawGradientRect_Name,Draw Gradient Rectangle,Rysuj prostokątny gradient,,GML Visual  library action name
@@ -3909,7 +3909,7 @@ GMStdDrawInstanceScore_Desc,Draw an instance's score with a caption.,Rysuj wynik
 GMStdDrawInstanceHealth_Name,Draw Instance Health,Rysuj energię instancji,,GML Visual  library action name
 GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,Rysuj energię instancji przy użyciu paska życia.,,GML Visual  library action description
 GMStdDrawInstanceLives_Name,Draw Instance Lives,Rysuj życia instancji,,GML Visual  library action name
-GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,Rysuj życia instancji przy użyciu stosu duszków.,,GML Visual  library action description
+GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,Rysuj życia instancji przy użyciu stosu sprite'ów.,,GML Visual  library action description
 GMStdSetColor_Name,Set Draw Colour,Ustaw kolor rysowania,,GML Visual  library action name
 GMStdSetColor_Desc,Set the colour to blend all drawing with.,"Ustaw kolor, który będzie używany do mieszania we wszystkich rysunkach.",,GML Visual  library action description
 GMStdGetColor_Name,Get Draw Colour,Pobierz kolor rysowania,,GML Visual  library action name
@@ -3989,8 +3989,8 @@ GMStdCreateMap_Name,Create Map,Utwórz mapę,,GML Visual  library action name
 GMStdCreateMap_Desc,Create a map data structure.,Utwórz strukturę danych w postaci mapy.,,GML Visual  library action description
 GMStdForLoop_Name,For Loop,Pętla,,GML Visual  library action name
 GMStdForLoop_Desc,"A self-contained loop structure with initialise, condition and increment statements.","Niezależna, zamknięta struktura pętli posiadająca instrukcje inicjalizacji, warunku i przyrostu.",,GML Visual  library action description
-GMStdDrawSpriteExt_Name,Draw Sprite Transformed,Rysuj duszka z przekształceniem,,GML Visual  library action name
-GMStdDrawSpriteExt_Desc,Draw a sprite with transformations.,Rysuj duszka z uwzględnieniem przekształceń.,,GML Visual  library action description
+GMStdDrawSpriteExt_Name,Draw Sprite Transformed,Rysuj sprite'a z przekształceniem,,GML Visual  library action name
+GMStdDrawSpriteExt_Desc,Draw a sprite with transformations.,Rysuj sprite'a z uwzględnieniem przekształceń.,,GML Visual  library action description
 GMStdSetViewVar_Name,Set View Variable,Ustaw zmienną widoku,,GML Visual  library action name
 GMStdSetViewVar_Desc,Set a variable pertaining to a room view.,Ustaw zmienną odnoszącą się do widoku planszy.,,GML Visual  library action description
 GMStdGetViewVar_Name,Get View Variable,Pobierz zmienną widoku,,GML Visual  library action name
@@ -4418,8 +4418,8 @@ GMStdVar_bboxtop,Bounding Box Top,Pole ograniczenia – góra,,GML Visual label
 GMStdVar_bboxright,Bounding Box Right,Pole ograniczenia – prawa,,GML Visual label
 GMStdVar_bboxbottom,Bounding Box Bottom,Pole ograniczenia – dół,,GML Visual label
 GMStdVar_insequence,In Sequence,W sekwencji,,GML Visual label
-GMStdVar_xoffset,Sprite Origin X,X osi duszka,,GML Visual label
-GMStdVar_yoffset,Sprite Origin Y,Y osi duszka,,GML Visual label
+GMStdVar_xoffset,Sprite Origin X,X osi sprite'a,,GML Visual label
+GMStdVar_yoffset,Sprite Origin Y,Y osi sprite'a,,GML Visual label
 GMStdVar_rotate,Rotate,Obróć,,Rotate GML Visual
 GMStdVar_xstart,Initial X Coordinate,Początkowa współrzędna X,,GML Visual™
 GMStdVar_ystart,Initial Y Coordinate,Początkowa współrzędna Y,,GML Visual™
@@ -4506,8 +4506,8 @@ GMStdPartTypeShape_Name,Set Particle Shape,Ustaw kształt cząstek,,GML Visual�
 GMStdPartTypeShape_Desc,Set the shape of a particle type.,Ustaw kształt konkretnego typu cząstek.,,GML Visual™ action description
 GMStdPartTypeAlpha_Name,Set Particle Alpha,Ustaw kanał alfa cząstek,,GML Visual™ action name
 GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,Ustaw kanał alfa konkretnego typu cząstek.,,GML Visual™ action description
-GMStdPartTypeSprite_Name,Set Particle Sprite,Ustaw duszka cząstek,,GML Visual™ action name
-GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Ustaw duszka konkretnego typu cząstek.,,GML Visual™ action description
+GMStdPartTypeSprite_Name,Set Particle Sprite,Ustaw sprite'a cząstek,,GML Visual™ action name
+GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Ustaw sprite'a konkretnego typu cząstek.,,GML Visual™ action description
 GMStdPartTypeSpeed_Name,Set Particle Speed,Ustaw szybkość cząstek,,GML Visual™ action name
 GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,Ustaw szybkość danego typu cząstek.,,GML Visual™ action description
 GMStdPartTypeDirection_Name,Set Particle Direction,Ustaw kierunek cząstki,,GML Visual™ action name
@@ -4547,18 +4547,18 @@ ProgressBar_Save,Saving...,Zapisywanie…,,the progress bar caption while saving
 ProgressBar_Export,Exporting...,Eksportowanie...,,the progress bar caption while exporting
 ProgressBar_Process,Processing...,Przetwarzanie…,,the progress bar caption while processing
 ProgressBar_BuildProgress,Building... {0},Kompilowanie... {0},,The progress bar caption while compiling
-ProgressBar_SpritePreview,Sprite Preview...,Podgląd duszka...,,The progress bar caption while generating sprite preview
+ProgressBar_SpritePreview,Sprite Preview...,Podgląd sprite'a...,,The progress bar caption while generating sprite preview
 ProgressBar_Archiving,Archiving...,Archiwizowanie...,,Compressing to a .zip/.yyz/etc...
 ProgressBar_ConvertingGMX,Converting GMX...,Konwertowanie GMX...,,converting gmx progress caption
-TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Wyłącz eksport duszka źródłowego,,checkbox caption to disable the export on the source sprite
+TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Wyłącz eksport sprite'a źródłowego,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edytuj automatyczne układanie kafelków,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,Edytuj animację kafelków,,animation library tooltip
 FileFilters_AllSupported,All Supported File Types,Wszystkie obsługiwane typy plików,,file filter info
 FileFilters_ImageFiles,Image Files,Pliki obrazów,,Sprite resource file filter
 Sprite_FileFilters_SwfFiles,Shockwave Flash Object,Obiekt Shockwave Flash,,Sprite resource file filter
-SpriteEditor_NoExport,Export Sprite Disabled,Eksportowanie duszka wyłączone,,The caption alongside the checkbox to show if a sprite will be exported
+SpriteEditor_NoExport,Export Sprite Disabled,Eksportowanie sprite'a wyłączone,,The caption alongside the checkbox to show if a sprite will be exported
 SpriteEditor_ToolTip_WillExport,Sprite will export,Sprite będzie eksportowany,,THe tooltip when the sprite will be exported
-SpriteEditor_ToolTip_NoExport,Sprite export disabled by tile set(s): {0},Eksportowanie duszka wyłączone przez zestawy kafelków: {0},,The tooltip when the sprite will not be exported
+SpriteEditor_ToolTip_NoExport,Sprite export disabled by tile set(s): {0},Eksportowanie sprite'a wyłączone przez zestawy kafelków: {0},,The tooltip when the sprite will not be exported
 RoomEditor_SelectFromAnyLayer,Select From Any Layer ,Wybierz z dowolnej warstwy ,,tool tip for the select from any layer button
 RoomEditor_InstanceLayerStatus,LMB + {0} to paint with selected object resources,LMB + {0} aby malować za pomocą wybranych zasobów obiektu,,status bar information for painting in an instance layer
 RoomEditor_AssetLayerStatus,LMB + {0} to paint with selected sprite resources,LMB + {0} aby malować za pomocą wybranych zasobów sprite’a,,status bar information for painting in an asset layer
@@ -4666,10 +4666,10 @@ TextureAudioGroups_CyclicParent,A group cannot be a child of itself.,Grupa nie m
 TextureAudioGroups_CyclicParent_Title,Invalid Parent,Nieprawidłowy element nadrzędny,,Title for above warning
 workspace_background_pref,Restore Default,Przywróć domyślne,,Restore default background
 IDETooltip_CurrentTarget,Current Build Target,Bieżący cel kompilacji,,tooltip for the current build target info
-spriteanimmode,Default sprite animation mode,Domyślny tryb animacji duszka,,The default animation mode type for new sprites
-spriteanimspeed,Default sprite animation speed,Domyślna szybkość animacji duszka,,The default animation speed for new sprites
-NewSpriteWidth,Default sprite width,Domyślna szerokość duszka,,pref label
-NewSpriteHeight,Default sprite height,Domyślna wysokość duszka,,pref label
+spriteanimmode,Default sprite animation mode,Domyślny tryb animacji sprite'a,,The default animation mode type for new sprites
+spriteanimspeed,Default sprite animation speed,Domyślna szybkość animacji sprite'a,,The default animation speed for new sprites
+NewSpriteWidth,Default sprite width,Domyślna szerokość sprite'a,,pref label
+NewSpriteHeight,Default sprite height,Domyślna wysokość sprite'a,,pref label
 TileSetEditorMenu_Delete,Delete,Usuń,,the delete animation or auto tile set context menu option
 TileSetEditorMenu_Rename,Rename,Zmień nazwę,,the rename animation or auto tile set context menu option
 RoomEditor_NoSelectionPathLayerStatus,"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path","LMB + {0} translacja ścieżki, LMB + {1} obrót ścieżki, LMB + {2} skalowanie ścieżki",,status bar information for editing paths
@@ -4742,8 +4742,8 @@ roomeditor_selectionboundscolour,Selection bounds colour,Kolor granic wyboru,,pr
 roomeditor_selectionboundslockedcolour,Locked selection bounds colour,Kolor zablokowanych granic wyboru,,preference name for the selection bounds colour for locked and unlocked items in the room editor
 GridSettings_SnapToGridToolTip,Snap To Grid ,Przyciągaj do siatki ,,the tooltip for the snap to grid checkbox
 PhysicsShapeEditor_FrameOf,of,z,,Frame x of y label
-ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Domyślna oś duszka,,Default sprite origin preference
-ResourcePrefs_DefaultSpriteCollisionMaskKind,Default sprite collision mask kind,Domyślny rodzaj maski kolizji duszka,,Preferences / Sprite Editor / Default sprite collision mask kind
+ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Domyślna oś sprite'a,,Default sprite origin preference
+ResourcePrefs_DefaultSpriteCollisionMaskKind,Default sprite collision mask kind,Domyślny rodzaj maski kolizji sprite'a,,Preferences / Sprite Editor / Default sprite collision mask kind
 ListBoxEnum_eLVEDisplayMode_TreeView,Tree View,Widok drzewa,,enum name
 ListBoxEnum_eLVEDisplayMode_ListView,List View,Widok listy,,enum name
 ListBoxEnum_eLVEDisplayMode_Both,Both,Obydwa,,enum name
@@ -4766,8 +4766,8 @@ RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in 
 Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',BŁĄD: Nie można wyodrębnić „{0}” w „{1}”,,Error message when gmz/yyz extraction fails
 FontEditor_SampleText,Sample Text,Przykładowy tekst,,Font editor sample text
 PhysicsShapeEditor_ToggleGrid,Toggle grid on or off.,Włącz lub wyłącz siatkę.,,Toggle grid tooltip
-PhysicsShapeEditor_PlayAnimation,Play or pause the sprite animation.,Odtwórz lub wstrzymaj animację duszka.,,Play or pause tooltip
-PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,Ustaw wyświetlaną klatkę duszka,,Current frame tooltip
+PhysicsShapeEditor_PlayAnimation,Play or pause the sprite animation.,Odtwórz lub wstrzymaj animację sprite'a.,,Play or pause tooltip
+PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,Ustaw wyświetlaną klatkę sprite'a,,Current frame tooltip
 PhysicsShapeEditor_SnapX,Set the horizontal grid alignment.,Ustaw wyrównanie siatki w poziomie.,,Snap x tooltip
 PhysicsShapeEditor_SnapY,Set the vertical grid alignment.,Ustaw wyrównanie siatki w pionie.,,Snap y tooltip
 GeneralSettings_ChainSoftness,Workspace chain rendering segment count,Liczba segmentów renderowania łańcucha w obszarze roboczym,,Chain softness preference
@@ -4813,7 +4813,7 @@ Validate_MaintainFileExtension,"Invalid name, cannot change extension from '{0}'
 ObjectEditor_EditParent,Edit Parent,Edytuj element nadrzędny,,Edit parent object tooltip
 ObjectEditor_EditMask,Edit Mask,Edytuj maskę,,Edit mask tooltip
 StartPage_Web_RefreshTutorials,Refresh owned tutorials.,Odśwież posiadane samouczki.,,Refresh tutorials tooltip
-Tooltip_ResizeSprite,Resize Sprite,Zmień rozmiar duszka,,Sprite resize button tooltip
+Tooltip_ResizeSprite,Resize Sprite,Zmień rozmiar sprite'a,,Sprite resize button tooltip
 Debugger_UnableToEvaluate,<unable to evaluate>,<nie można dokonać ewaluacji>,,Unable to evaluate expression in debugger
 Debugger_ErrorMsg,An error has occurred in the game. See error message below.,W grze wystąpił błąd. Zobacz komunikat o błędzie poniżej.,,Debugger game error label
 Debugger_TabTitle,Debugger,Debugger,,Debugger tab title
@@ -5144,7 +5144,7 @@ PNG2Tileset_ImageBottom,Bottom Edge,Dolna krawędź,,Pixel offset to bottom of i
 PNG2Tileset_TilesetSpriteWidth,Destination Width,Szerokość docelowa,,Target width of the new tileset sprite
 PNG2Tileset_ImportOptions,Import options,Opcje importu,,Options for importing an imate and converting to tilesets
 PNG2Tileset_GenerateButton,Generate Map,Generuj mapę,,Button to create the tileset and map!
-PNG2Tileset_SpriteName,Sprite Name,Nazwa duszka,,Text for sprite name label
+PNG2Tileset_SpriteName,Sprite Name,Nazwa sprite'a,,Text for sprite name label
 PNG2Tileset_TilemapName,Tilemap Name,Nazwa mapy kafelków,,Text for tilemap name label
 PNG2Tileset_LayerName,Layer Name,Nazwa warstwy,,Text for layer name label
 PNG2Tileset_ColourLabel,Remove Colour,Usuń kolor,,Colour to remove on import
@@ -5247,7 +5247,7 @@ ResourceTree_HorizontalSeparatorColour,Horizontal separator colour,Kolor separat
 ResourceTree_TreeLineColour,Tree line colour,Kolor linii drzewa,,Choose colour for the Tree Lines
 ResourceTree_DefaultBackgroundColour,Default background colour,Domyślny kolor tła,,Default Background Colour
 ResourceTree_BackgroundColourHelp,Ensure alpha level is increased to display node highlight,"Podnieś poziom kanału alfa, aby wyświetlić wyróżnienie węzła",,Help label for the Resource Tree background colours
-ResourceTree_SpriteBackgroundColour,Sprites background colour,Kolor tła duszków,,Background Colour for Sprites
+ResourceTree_SpriteBackgroundColour,Sprites background colour,Kolor tła sprite'ów,,Background Colour for Sprites
 ResourceTree_TileSetsBackgroundColour,Tile Sets background colour,Kolor tła zestawów kafelków,,Background Colour for Tile Sets
 ResourceTree_SoundsBackgroundColour,Sounds background colour,Kolor tła dźwięków,,Background Colour for sounds
 ResourceTree_AudioEmittersBackgroundColour,Audio Emitters background colour,Kolor tła emiterów dźwięku,,Background Colour for Audio Emitters
@@ -5270,7 +5270,7 @@ ResourceTree_NotesBackgroundColour,Notes background colour,Kolor tła notatek,,B
 ResourceTree_MinItemSize,Minimum zoom (%),Minimalne powiększenie (%),,Minimum Zoom on Resource Tree
 ResourceTree_MaxItemSize,Maximum zoom (%),Maksymalne powiększenie (%),,Maximum Zoom on Resource Tree
 ResourceTree_DefaultLabelColour,Default Label Colour,Domyślny kolor etykiety,,Default Label Colour
-ResourceTree_SpriteLabelColour,Sprite Label Colour,Kolor etykiety duszków,,Label Colour for Sprites
+ResourceTree_SpriteLabelColour,Sprite Label Colour,Kolor etykiety sprite'ów,,Label Colour for Sprites
 ResourceTree_TileSetsLabelColour,Tile Sets Label Colour,Kolor etykiety zestawów kafelków,,Label Colour for Tile Sets
 ResourceTree_SoundsLabelColour,Sounds Label Colour,Kolor etykiety dźwięków,,Label Colour for sounds
 ResourceTree_PathsLabelColour,Paths Label Colour,Kolor etykiety ścieżek,,Backgound Colour for Paths
@@ -5289,7 +5289,7 @@ ResourceTree_DeleteView_Confirm,Delete the selected view: {0}?,Czy usunąć wybr
 ResourceTree_ShowTreeLines,Show tree lines,Pokaż linie drzewa,,Show Tree Lines in Resource Tree
 ResourceTree_ShowGroupIcons,Show group node icons,Pokaż ikony węzłów grup,,Show the Group Node Icons in the Resource Tree
 ResourceTree_DefaultIconColour,Default icon colour,Domyślny kolor ikony,,Default Icon Colour
-ResourceTree_SpriteIconColour,Sprites icon colour,Kolor ikony duszków,,Icon Colour for Sprites
+ResourceTree_SpriteIconColour,Sprites icon colour,Kolor ikony sprite'ów,,Icon Colour for Sprites
 ResourceTree_TileSetsIconColour,Tile Sets icon colour,Kolor ikony zestawów kafelków,,Icon Colour for Tile Sets
 ResourceTree_SoundsIconColour,Sounds icon colour,Kolor ikony dźwięków,,Icon Colour for sounds
 ResourceTree_AudioEmittersIconColour,Audio Emitters icon colour,Kolor ikon emiterów dźwięku,,Icon Colour for Audio Emitters
@@ -5364,12 +5364,12 @@ Proxy_Domain_Tooltip,Proxy Domain. Usually left blank,Domena serwera proxy. Zazw
 General Settings,General Settings,Ustawienia ogólne,,General Settings preference group heading
 Drag and Drop,GML Visual,GML Visual,,Drag and Drop preference group heading
 Image Editor,Image Editor,Edytor obrazów,,Image Editor preference group heading
-Sprite Editor,Sprite Editor,Edytor duszków,,Sprite Editor preference group heading
+Sprite Editor,Sprite Editor,Edytor sprite'ów,,Sprite Editor preference group heading
 Nineslice,Nine Slice,Obiekt 9-plasterkowy,,Sprite editor nineslice pref group subheading
 Object Editor,Object Editor,Edytor obiektów,,Object Editor preference group heading
 Script Editor,Script Editor,Edytor skryptów,,Script Editor preference group heading
 Room Editor,Room Editor,Edytor pomieszczeń,,Room Editor preference group heading
-Spline Editor,Spline Editor,Edytor duszków,,Spline Editor preference group heading
+Spline Editor,Spline Editor,Edytor sprite'ów,,Spline Editor preference group heading
 Sequences,Sequences,Sekwencje,,Sequences preference group heading
 Tile Sets Editor,Tile Sets Editor,Edytor zestawów kafelków,,Tile Sets Editor preference group heading
 Timelines,Timelines,Osie czasu,,Timelines preference group heading
@@ -5931,7 +5931,7 @@ ResourceTree_Sequences,Sequences,Sekwencje,,Resource tree label
 ResourceTree_Particles,Particle Systems,Systemy cząstek,,Resource tree label
 ResourceTree_Curves,Animation Curves,Krzywe animacji,,Resource tree label
 ResourceTree_AudioEmitters,Audio Emitters,Emitery dźwięku,,Resource tree label
-ResourceTree_CreateVectorSprite,Create Vector Sprite,Utwórz duszka wektorowego,,Resource tree label
+ResourceTree_CreateVectorSprite,Create Vector Sprite,Utwórz sprite'a wektorowego,,Resource tree label
 ResourceTree_OpenInShapeViewer,Open in Shape Viewer,Otwórz w przeglądarce kształtów,,Resource tree label
 SequenceEditor_Title,Sequence: {0},Sekwencja: {0},,Sequence editor window title
 SequenceEditor_Pref_AutoRecord,Automatically record changes,Automatycznie rejestruj zmiany,,Sequence auto record preference
@@ -5996,7 +5996,7 @@ Seq_AddStubTooltip,Add Function,Dodaj funkcję,,add function tooltip
 Seq_DeleteTooltip,Delete Moment,Usuń moment,,delete moment tooltip
 Seq_DeleteEventpinTooltip,Delete Broadcast Message,Usuń komunikat do rozesłania,,Delete Broadcast Message tooltip
 SE_Menu_Transform,Transform,Przekształcenie,,Transform menu
-SE_Menu_RasterizeSprite,Rasterize as Sprite,Rasteryzuj jako duszka,,Rasterize as sprite menu
+SE_Menu_RasterizeSprite,Rasterize as Sprite,Rasteryzuj jako sprite'a,,Rasterize as sprite menu
 Tag_Disable_Name,Disable,Wyłącz,,Disable tag name
 Tag_Disable_Description,Disable a track,Wyłącz ścieżkę,,Disable tag description
 Tag_Invisible_Name,Invisible,Niewidoczna,,Invisible tag name
@@ -6377,7 +6377,7 @@ AssetBrowser_MultipleResourceDelete_Confirm,Are you sure you want to delete {0} 
 AssetBrowser_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,Czy na pewno chcesz usunąć: {0}?\nUsunięte zostaną również zdarzenia kolizji z usuniętymi obiektami,,Resource tree delete events confirmation label
 AssetBrowser_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted,Czy na pewno chcesz usunąć te zasoby: {0}?\nUsunięte zostaną również zdarzenia kolizji z usuniętymi obiektami,,Resource tree delete confirmation label
 AssetBrowser_RoomOrderGroupDeleteWarning,Deleting a Room Order group will delete any room assets it contains.,Usunięcie grupy kolejności plansz spowoduje usunięcie wszelkich zawartych na planszy zasobów.,,room order group delete warning
-AssetBrowser_AssignSpriteToObject,Assign Sprite to Object,Przypisz duszka do obiektu,,assign sprite to object
+AssetBrowser_AssignSpriteToObject,Assign Sprite to Object,Przypisz sprite'a do obiektu,,assign sprite to object
 AssetBrowser_CreateChildRoom,Create Child Room,Utwórz planszę podrzędną,,create child room
 AssetBrowser_MultipleResourceSelection,<Multiple Assets>,<Wiele zasobów>,,multiple resource selected
 AssetBrowser_ColourCellTT,Right-click to edit,"Kliknij prawym przyciskiem myszy, aby edytować",,colour picker cell tooltip
@@ -6651,7 +6651,7 @@ CanvasItem OriginY,Origin Y,Środek osi Y,,origin Y
 CanvasItem_Sprite,Sprite,Sprite,,sprite resource
 CanvasItem_Object,Object,Obiekt,,object resource
 CanvasItem_Sound,Sound,Dźwięk,,sound resource
-Category_SpriteInfo,Sprite Information,Informacje o duszku,,inspector category label
+Category_SpriteInfo,Sprite Information,Informacje o sprite,,inspector category label
 Category_BasicInfo,Basic Information,Podstawowe informacje,,inspector category label
 Category_SoundInfo,Sound Information,Informacje o dźwięku,,inspector category label
 Category_InstanceInfo,Instance Information,Informacje o instancji,,inspector category label
@@ -7028,8 +7028,8 @@ ListBoxEnum_eTemplateFilter_User,User Templates,Szablony użytkownika,,listbox e
 SequencePref_TextTrackDefault,Default text for new Text Track,Domyślny tekst dla nowej ścieżki tekstowej,,default text for new text track
 Ins_MissingFontError,Font '{0}' is not available on this machine (?),Czcionka „{0}” jest niedostępna na tym komputerze (?),,This font is not available on this machine
 Preferences_linux_steamrt_sdk_dir,Steam Runtime SDK location,Lokalizacja Steam Runtime SDK,,Preferences/Platform Settings/Ubuntu
-RT_RoomSpriteGraphic,Sprite Instances,Instancje duszka,,room sprite graphic resource name
-RT_RoomSpriteGraphic_Singular,Sprite Instance,Instancja duszka,,room sprite graphic resource name singular
+RT_RoomSpriteGraphic,Sprite Instances,Instancje sprite'a,,room sprite graphic resource name
+RT_RoomSpriteGraphic_Singular,Sprite Instance,Instancja sprite'a,,room sprite graphic resource name singular
 RT_RoomSequenceGraphic,Sequence Instances,Instancje sekwencji,,room sequence graphic resource name
 RT_RoomSequenceGraphic_Singular,Sequence Instance,Instancja sekwencji,,room sequence graphic resource name singular
 RT_RoomAssetLayer,Asset Layers,Warstwy zasobu,,room asset layer resource name
@@ -7098,7 +7098,7 @@ ParamVariableNameRule,Function Parameter Naming Rule,Reguła tworzenia nazw para
 EnumNameRule,Enum Naming Rule,Reguła tworzenia nazw wyliczeń,,Enum Naming Rule
 EnumMemberNameRule,Enum Member Naming Rule,Reguła tworzenia nazw elementów składowych wyliczeń,,Enum Member Naming Rule
 MacroNameRule,Macro Naming Rule,Reguła tworzenia nazw makr,,Macro Naming Rule
-SpriteNameRule,Sprite Naming Rule,Reguła tworzenia nazw duszków,,Sprite Naming Rule
+SpriteNameRule,Sprite Naming Rule,Reguła tworzenia nazw sprite'ów,,Sprite Naming Rule
 TileSetNameRule,TileSet Naming Rule,Reguła tworzenia nazw zestawów kafelków (TileSet),,TileSet Naming Rule
 SoundNameRule,Sound Naming Rule,Reguła tworzenia nazw dźwięków,,Sound Naming Rule
 PathNameRule,Path Naming Rule,Reguła tworzenia nazw ścieżek,,Path Naming Rule
@@ -7126,7 +7126,7 @@ Inspector_OpenSoundMixer,Open Group Mixer,Otwórz mikser grupy,,inspector open s
 Inspector_SoundChoose,Choose Sound File,Wybierz plik dźwiękowy,,sound inspector choose sound file
 ROOM_EFFECTS_Offset_0,Offset 1,Przesunięcie 1,,offset filter param
 ROOM_EFFECTS_Offset_1,Offset 2,Przesunięcie 2,,offset filter param
-ROOM_EFFECTS_Sprite,Sprite,Duszek,,sprite param name
+ROOM_EFFECTS_Sprite,Sprite,Sprite,,sprite param name
 ROOM_EFFECT_FIELD_Min,Min,Min.,,room effect field name
 ROOM_EFFECT_FIELD_Max,Max,Maks.,,room effect field name
 ROOM_EFFECT_FIELD_Start,Start,Start,,room effect field name
@@ -7510,9 +7510,9 @@ RedefineKeys_increase_brush_size,Increase Brush Size,Zwiększ rozmiar pędzla,,R
 RedefineKeys_increase_brush_size_keypad,Increase Brush Size Keypad,"Zwiększ rozmiar pędzla, klawiatura",,Redefine keys increase_brush_size_keypad string
 RedefineKeys_decrease_brush_size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys decrease_brush_size string
 RedefineKeys_decrease_brush_size_keypad,Decrease Brush Size Keypad,"Zmniejsz rozmiar pędzla, klawiatura",,Redefine keys decrease_brush_size_keypad string
-RedefineKeys_sprite_add_broadcast_message,Sprite Add Broadcast Message,Duszek - dodaj komunikat do rozesłania,,Redefine keys sprite_add_broadcast_message string
-RedefineKeys_add_sprite_frame,Add Sprite Frame,Dodaj klatkę duszka,,Redefine keys add_sprite_frame string
-RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Wstaw klatkę duszka,,Redefine keys insert_sprite_frame string
+RedefineKeys_sprite_add_broadcast_message,Sprite Add Broadcast Message,Sprite - dodaj komunikat do rozesłania,,Redefine keys sprite_add_broadcast_message string
+RedefineKeys_add_sprite_frame,Add Sprite Frame,Dodaj klatkę sprite'a,,Redefine keys add_sprite_frame string
+RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Wstaw klatkę sprite'a,,Redefine keys insert_sprite_frame string
 RedefineKeys_copy_frames_win,Copy Frames Win,"Kopiuj klatki, Windows",,Redefine keys copy_frames_win string
 RedefineKeys_paste_frames_win,Paste Frames Win,"Wklej klatki, Windows",,Redefine keys paste_frames_win string
 RedefineKeys_cut_frames_win,Cut Frames Win,"Wytnij klatkę, Windows",,Redefine keys cut_frames_win string
@@ -7548,7 +7548,7 @@ RedefineKeys_Create Script,Create Script,Utwórz skrypt,,Redefine keys Create Sc
 RedefineKeys_Create Sequence,Create Sequence,Utwórz sekwencję,,Redefine keys Create Sequence string
 RedefineKeys_Create Shader,Create Shader,Utwórz shader,,Redefine keys Create Shader string
 RedefineKeys_Create Sound,Create Sound,Utwórz dźwięk,,Redefine keys Create Sound string
-RedefineKeys_Create Sprite,Create Sprite,Utwórz duszka,,Redefine keys Create Sprite string
+RedefineKeys_Create Sprite,Create Sprite,Utwórz sprite'a,,Redefine keys Create Sprite string
 RedefineKeys_Create Tile Set,Create Tile Set,Utwórz zestaw kafelków,,Redefine keys Create Tile Set string
 RedefineKeys_Create Timeline,Create Timeline,Utwórz oś czasu,,Redefine keys Create Timeline string
 RedefineKeys_AssetBrowser_ExpandChildren,Asset Browser Expand Children,Rozwiń elementy podrzędne,,Redefine keys AssetBrowser_ExpandChildren string
@@ -7574,7 +7574,7 @@ RedefineKeys_ResourceTree_Scripts_Singular,Resource Tree Scripts Singular,"Skryp
 RedefineKeys_ResourceTree_Sequences_Singular,Resource Tree Sequences Singular,"Sekwencje, pojedyncze",,Redefine keys ResourceTree_Sequences_Singular string
 RedefineKeys_ResourceTree_Shaders_Singular,Resource Tree Shaders Singular,"Shadery, pojedyncze",,Redefine keys ResourceTree_Shaders_Singular string
 RedefineKeys_ResourceTree_Sounds_Singular,Resource Tree Sounds Singular,"Dźwięki, pojedyncze",,Redefine keys ResourceTree_Sounds_Singular string
-RedefineKeys_ResourceTree_Sprites_Singular,Resource Tree Sprites Singular,"Duszki, pojedyncze",,Redefine keys ResourceTree_Sprites_Singular string
+RedefineKeys_ResourceTree_Sprites_Singular,Resource Tree Sprites Singular,"Sprite, pojedyncze",,Redefine keys ResourceTree_Sprites_Singular string
 RedefineKeys_ResourceTree_Tilesets_Singular,Resource Tree Tilesets Singular,"Kafelki, pojedyncze",,Redefine keys ResourceTree_Tilesets_Singular string
 RedefineKeys_ResourceTree_Timelines_Singular,Resource Tree Timelines Singular,"Osie czasu, pojedyncze",,Redefine keys ResourceTree_Timelines_Singular string
 RedefineKeys_AssetBrowser_ClearFavourites,Asset Browser Clear Favourites,Wyczyść ulubione,,Redefine keys AssetBrowser_ClearFavourites string
@@ -7782,9 +7782,9 @@ RedefineKeys_select_FreeRotateTool,Select Free Rotate Tool,Swobodny obrót,,Rede
 RedefineKeys_Rotate Brush,Rotate Brush,Obrót pędzla,,Redefine keys Rotate Brush string
 RedefineKeys_select_PanTool,Select Pan Tool,Kadruj,,Redefine keys select_PanTool string
 RedefineKeys_select_TextTool,Select Text Tool,Tekst,,Redefine keys select_TextTool string
-RedefineKeys_new_sprite,New Sprite,Nowy duszek,,Redefine keys new_sprite string
-RedefineKeys_edit_sprite,Edit Sprite,Edytuj duszka,,Redefine keys edit_sprite string
-RedefineKeys_select_sprite,Select Sprite,Wybierz duszka,,Redefine keys select_sprite string
+RedefineKeys_new_sprite,New Sprite,Nowy sprite,,Redefine keys new_sprite string
+RedefineKeys_edit_sprite,Edit Sprite,Edytuj sprite'a,,Redefine keys edit_sprite string
+RedefineKeys_select_sprite,Select Sprite,Wybierz sprite'a,,Redefine keys select_sprite string
 RedefineKeys_select_mask,Select Mask,Wybierz maskę,,Redefine keys select_mask string
 RedefineKeys_edit_mask,Edit Mask,Edytuj maskę,,Redefine keys edit_mask string
 RedefineKeys_open_events_window,Open Events Window,Otwórz okno zdarzeń,,Redefine keys open_events_window string
@@ -7889,7 +7889,7 @@ RedefineKeys_ImageEditor,Image Editor,Edytor obrazów,,Redefine keys location en
 RedefineKeys_RoomEditor,Room Editor,Edytor pomieszczeń,,Redefine keys location entry
 RedefineKeys_TimeLineEditor,Timeline Editor,Edytor osi czasu,,Redefine keys location entry
 RedefineKeys_TileSetEditor,Tileset Editor,Edytor zestawów kafelków,,Redefine keys location entry
-RedefineKeys_SpriteEditor,Sprite Editor,Edytor duszków,,Redefine keys location entry
+RedefineKeys_SpriteEditor,Sprite Editor,Edytor sprite'ów,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,Edytor ścieżek,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,Edytor obiektów,,Redefine keys location entry
 RedefineKeys_Errors,Errors,Błędy,,Redefine keys location entry
@@ -7916,7 +7916,7 @@ ROOM_EFFECTS_Spawn time,Spawn Time,Czas tworzenia,,spawn time param name
 ROOM_EFFECTS_Spawn all at start,Spawn all at start,Utwórz wszystkie przy starcie,,spawn all at start param name
 ROOM_EFFECTS_Warmup frames,Warmup Frames,Klatki przygotowawcze,,warmup Frames param name
 ROOM_EFFECTS_Particle mass,Mass,Masa,,mass param name
-ROOM_EFFECTS_Particle sprite scale,Sprite scale,Skala duszka,,particle sprite scale param name
+ROOM_EFFECTS_Particle sprite scale,Sprite scale,Skala sprite'a,,particle sprite scale param name
 ROOM_EFFECTS_Particle colour 1,Colour 1,Kolor 1,,colour 1 param name
 ROOM_EFFECTS_Particle colour 2,Colour 2,Kolor 2,,colour 2 param name
 ROOM_EFFECTS_Particle colour 3,Colour 3,Kolor 3,,colour 3 param name
