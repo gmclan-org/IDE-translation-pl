@@ -7076,7 +7076,7 @@ CanvasText_ParaSpacing,Paragraph Spacing,Rozstaw akapitów,,text track paragraph
 RedefineKeys_Record_Keys_Button,Key Search,Wyszukiwanie klawisza,,Record keys button
 RedefineKeys_Default_Search,Search,Szukaj,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Naciśnij klawisz aby wyszukać,,Redefine Keys search box default text when searching for key
-Feather_LintMessages_Title,Feather Messages,Komunikaty piórka,,Feather Messages Window Title
+Feather_LintMessages_Title,Feather Messages,Komunikaty Feathera,,Feather Messages Window Title
 Feather_RefactorDialog_Title,Rename Identifier,Zmień nazwę identyfikatora,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Podaj nową nazwę „{0}”:,,Content 1
 Feather_RefactorFailedDialog_Title,Failed to apply changes,Nie udało się zastosowanie zmian,,Refactor Failed Dialog Title
@@ -7087,7 +7087,7 @@ Feather_RefactorCannotRenameDialog_Content,The symbol under the caret cannot be 
 Feather_InitializationError_Title,Initialization Error,Błąd inicjalizacji,,Initialization Error
 ProgressBar_Feather_ParseProject,Analyzing Project...,Analizowanie projektu...,,Analyzing Project...
 Feather_OccurrencesGadget_Occurrences,Goto next usage of '{0}' ({1}/{2}),Przejdź do następnego użycia '{0}' ({1}/{2}),,Goto next usage of '{0}' ({1}/{2})
-Feather Settings,Feather Settings,Ustawienia piórka,,Feather Settings preference group heading
+Feather Settings,Feather Settings,Ustawienia Feathera,,Feather Settings preference group heading
 Highlighting,Highlighting,Zaznaczanie,,Highlighting preference group heading
 Message Severity,Message Severity,Stopień ważności komunikatu,,Message Severity group heading
 Naming Rules,Naming Rules,Reguły tworzenia nazw,,Naming Rules group heading
@@ -7861,7 +7861,7 @@ RedefineKeys_Rotate Path,Rotate Path,Obróć ścieżkę,,Redefine keys RotatePat
 RedefineKeys_Translate Path,Translate Path,Wykonaj translację ścieżki,,Redefine keys TranslatePath string
 RedefineKeys_Scale Path,Scale Path,Skaluj ścieżkę,,Redefine keys ScalePath string
 RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,Dope Sheet - Polecenie przewijania panelu,,Redefine keys DopeSheetPanel_ScrollCommand string
-RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Piórko - Otwórz menu szybkiej naprawy,,Redefine keys feather_open_quickfix_menu string
+RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Feather - Otwórz menu szybkiej naprawy,,Redefine keys feather_open_quickfix_menu string
 RedefineKeys_TileFlipTool,Tile Flip Tool,Kafelek - Odwracanie,,Redefine keys TileFlipTool string
 RedefineKeys_TileMirrorTool,Tile Mirror Tool,Kafelek - Odbicie lustrzane,,Redefine keys TileMirrorTool string
 RedefineKeys_TileEraserTool,Tile Eraser Tool,Kafelek - Gumka,,Redefine keys TileEraserTool string
@@ -7881,7 +7881,7 @@ RedefineKeys_Increase Brush Size,Increase Brush Size,Zwiększ rozmiar pędzla,,R
 RedefineKeys_Increase_Brush Size,Increase Brush Size,Zwiększ rozmiar pędzla,,Redefine keys Increase_Brush Size string
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys Decrease Brush Size string
 RedefineKeys_Decrease_Brush Size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys Decrease_Brush Size string
-RedefineKeys_feather_lint_messages_show,Feather Lint Messages Show,Piórko - pokaż komunikaty lintera,,Redefine keys feather_lint_messages_show string
+RedefineKeys_feather_lint_messages_show,Feather Lint Messages Show,Feather - pokaż komunikaty lintera,,Redefine keys feather_lint_messages_show string
 RedefineKeys_Global,Global,Ogólne,,Redefine keys location entry
 RedefineKeys_TextEditor,Text Editor,Edytor tekstu,,Redefine keys location entry
 RedefineKeys_SequenceEditor,Sequence Editor,Edytor sekwencji,,Redefine keys location entry
