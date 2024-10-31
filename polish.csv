@@ -423,7 +423,7 @@ Extension_Import_Resources_Title,Import resources: {0},Importuj zasoby: {0},,ext
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},Importuj starsze zasoby: {0},,legacy extension(1.x) import resource title
 Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,Czy wylogować użytkownika „{0}”?\nSpowoduje to zapisanie wszelkich zmian i ponowne uruchomienie środowiska IDE.,,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,Czy na pewno chcesz przywrócić ustawienia domyślne?\nSpowoduje to ponowne uruchomienie aplikacji w celu zastosowania zmian.,,Restore default settings restart prompt
-File_Menu_NewIDE,New IDE,Nowe okno IDE,,Start a new instance of the IDE from the file menu
+File_Menu_NewIDE,New IDE,Nowe okno środowiska IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,Wylogowanie,,The Logout program menu item
 File_Menu_MyAccount,My Account,Moje konto,,Launches my account web page menu item
 File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
@@ -1341,10 +1341,10 @@ ObjectEditor_EventNewLabel,New Event,Nowe zdarzenie,,new event button label
 InstanceEditor_Prop_OverrideTooltip,Override this variable,Zastąp tę zmienną,,Override variable tooltip
 OutputPanel_Output,Output,Dane wyjściowe,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,Wyniki wyszukiwania,,Output panel search results tab name
-OutputPanel_SourceControl,Source Control,Kontrola źródła,,Output panel source control tab name
-PathEditor_Increment,Increment:,Przyrost:,,Increment path label
+OutputPanel_SourceControl,Source Control,Kontrola wersji,,Output panel source control tab name
+PathEditor_Increment,Increment:,Zwiększ:,,Increment path label
 PathEditor_Add,Add,Dodaj,,Path editor add button name
-PathEditor_Closed,Closed,Zamknięty,,Path editor closed path checkbox
+PathEditor_Closed,Closed,Zamknięta,,Path editor closed path checkbox
 PathEditor_ConnectionKind,Connection Kind,Rodzaj połączenia,,Connection kind radio group caption
 PathEditor_ContextMenu_EditPoint,Edit,Edytuj,,Point label context menu item
 PathEditor_EditPoint,Edit,Edytuj,,Edit button text on path editor
@@ -2159,7 +2159,7 @@ Validate_UniqueName,Failed to set property on model '{0}' name is not unique,"Ni
 Validate_ImageLayerName,Layer name cannot be blank,Nazwa warstwy nie może być pusta,,validation error message for image layer name
 View_Menu_Bookmarks,Bookmarks,Zakładki,,Bookmarks menu item
 View_Menu_Breakpoints,Breakpoints,Punkty przerwania,,View breakpoints menu item
-View_Menu_GlobalGameSettings,Global Game Settings,Globalne ustawienia gry,,View the Global Game Settings menu item
+View_Menu_GlobalGameSettings,Global Game Settings,Ogólne ustawienia gry,,View the Global Game Settings menu item
 View_Menu_OutputWindow,Output Window,Okno wyjściowe,,View output window menu item
 Views_Menu_History,History,Historia,,Views menu entry for undo history
 Views_Menu_Output,Output,Dane wyjściowe,,Views menu entry for the output panel
@@ -3711,7 +3711,7 @@ GMStdCatCollisions,Collisions,Kolizje,,GML Visual  library category name
 GMStdCatDrawing,Drawing,Rysowanie,,GML Visual  library category name
 GMStdCatTiles,Tiles,Kafelki,,GML Visual  library category name
 GMStdCatInstVars,Instance Variables,Zmienne instancji,,GML Visual  library category name
-GMStdCatGlobal,Global,Ogólnoświatowe,,GML Visual  library category name
+GMStdCatGlobal,Global,Ogólne,,GML Visual  library category name
 GMStdCatRandom,Random,Losowe,,GML Visual  library category name
 GMStdCatLoops,Loops,Pętle,,GML Visual  library category name
 GMStdCatSwitch,Switch,Przełącz,,GML Visual  library category name
@@ -5164,7 +5164,7 @@ FontEditor_MissingFontError,Font is not available on this machine (?),Czcionka j
 FontEditor_MissingFontError_Tooltip,Verify that the font is installed on your machine and try again,"Sprawdź, czy czcionka jest zainstalowana na komputerze i spróbuj ponownie",,This font is not available on this machine tooltip
 Font_TooLargeTexPage,"Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.",Czcionka „{0}” zawiera więcej znaków niż można dopasować na stronie tekstury. Niektóre znaki nie będą widoczne.,,Font too large for texture page warning dialog
 Event_Gesture,Gesture,Gest,,Gesture event name
-Event_Gesture_Global,Global,Ogólnoświatowe,,Gesture event subtype
+Event_Gesture_Global,Global,Globalne,,Gesture event subtype
 Event_Gesture_Tap,Tap,Dotknięcie,,Tap gesture event name
 Event_Gesture_DoubleTap,Double Tap,Dwukrotne dotknięcie,,Double tap gesture event name
 Event_Gesture_DragStart,Drag Start,Rozpoczęcie przeciągnięcia,,Drag start gesture event name
@@ -5597,7 +5597,7 @@ SyntaxError_ArgCount,number of arguments for function {2} expected {0} got {1},"
 SyntaxError_ArgCountRange,number of arguments for function {3} expected {0} - {1} got {2},"oczekiwana liczba argumentów funkcji {3} to {0} – {1}, a otrzymano {2}",,syntax error
 SyntaxError_DuplicateEnumEntry,duplicate enum entry found,znaleziono zdublowany wpis tekstu stałego,,syntax error
 SyntaxError_DuplicateEnum,duplicate enum found,znaleziono zdublowany tekst stały,,syntax error
-SyntaxError_MissingGlobalVarName,missing variable name in globalvar,brak nazwy zmiennej w zmiennej globalnej,,syntax error
+SyntaxError_MissingGlobalVarName,missing variable name in globalvar,brak nazwy zmiennej w zmiennej globalnej (globalvar),,syntax error
 SyntaxError_MissingVarName,missing variable name in var,brak nazwy w zmiennej,,syntax error
 SyntaxError_MissingRegion,no matching #region found for #endregion,nie znaleziono #regionu pasującego do #regionukońcowego,,syntax error
 SyntaxError_MissingEndRegion,unclosed #region found at End of Script,na końcu skryptu znaleziono niezamknięty #region,,syntax error
@@ -7599,7 +7599,7 @@ RedefineKeys_Open Project,Open Project,Otwórz projekt,,Redefine keys Open Proje
 RedefineKeys_File_Menu_ImportProject,File Menu Import Project,Importuj projekt,,Redefine keys File_Menu_ImportProject string
 RedefineKeys_File_Menu_RecentProjects,File Menu Recent Projects,Ostatnie projekty,,Redefine keys File_Menu_RecentProjects string
 RedefineKeys_Save,Save,Zapisz,,Redefine keys Save string
-RedefineKeys_File_Menu_NewIDE,File Menu New IDE,Nowe środowisko IDE,,Redefine keys File_Menu_NewIDE string
+RedefineKeys_File_Menu_NewIDE,File Menu New IDE,Nowe okno środowiska IDE,,Redefine keys File_Menu_NewIDE string
 RedefineKeys_File_Menu_MyAccount,File Menu My Account,Moje konto,,Redefine keys File_Menu_MyAccount string
 RedefineKeys_File_Menu_Logout,File Menu Logout,Wylogowanie,,Redefine keys File_Menu_Logout string
 RedefineKeys_Edit_Menu_Search,Edit Menu Search,Znajdź,,Redefine keys Edit_Menu_Search string
@@ -7882,7 +7882,7 @@ RedefineKeys_Increase_Brush Size,Increase Brush Size,Zwiększ rozmiar pędzla,,R
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys Decrease Brush Size string
 RedefineKeys_Decrease_Brush Size,Decrease Brush Size,Zmniejsz rozmiar pędzla,,Redefine keys Decrease_Brush Size string
 RedefineKeys_feather_lint_messages_show,Feather Lint Messages Show,Piórko - pokaż komunikaty lintera,,Redefine keys feather_lint_messages_show string
-RedefineKeys_Global,Global,Ogólnoświatowe,,Redefine keys location entry
+RedefineKeys_Global,Global,Ogólne,,Redefine keys location entry
 RedefineKeys_TextEditor,Text Editor,Edytor tekstu,,Redefine keys location entry
 RedefineKeys_SequenceEditor,Sequence Editor,Edytor sekwencji,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,Edytor obrazów,,Redefine keys location entry
