@@ -818,7 +818,7 @@ ImageEditor_BrushPanelTitle,Brushes,Pędzle,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,Anuluj wybór,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,Rozmiar nowej kanwy,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,Dopasuj do ekranu,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:1,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:1,1:1,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,Lewa:,,left brush label
 ImageEditor_ColourOnly,Colour only,Tylko kolor,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,Kolory,,colours panel title
@@ -1791,8 +1791,8 @@ SpriteEditor_Import,Import,Importuj,,Sprite editor import button
 SpriteEditor_LabelFrameCount,Frame Count: {0},Liczba klatek: {0},,Sprite editor frame label
 SpriteEditor_LabelOrigin,Origin Point:,Punkt osi:,,Sprite editor origin point label
 SpriteEditor_LabelSize,Size:,Rozmiar:,,Sprite editor label size
-SpriteEditor_W,W: {0},S: {0},,Width label
-SpriteEditor_H,H: {0},W: {0},,Height label
+SpriteEditor_W,W: {0},Sze: {0},,Width label
+SpriteEditor_H,H: {0},Wys: {0},,Height label
 SpriteEditor_SWFPrecisionLabel,SWF Precision:,Dokładność SWF:,,SWF precision slider label
 Sprite_Resize_Title,Resize Properties: {0},Właściwości zmiany rozmiaru: {0},,Resize properties title
 Sprite_Resize_CurrentSize,Current,Bieżące,,Current size of sprite label
@@ -3714,7 +3714,7 @@ GMStdCatInstVars,Instance Variables,Zmienne instancji,,GML Visual  library categ
 GMStdCatGlobal,Global,Ogólne,,GML Visual  library category name
 GMStdCatRandom,Random,Losowe,,GML Visual  library category name
 GMStdCatLoops,Loops,Pętle,,GML Visual  library category name
-GMStdCatSwitch,Switch,Przełącz,,GML Visual  library category name
+GMStdCatSwitch,Switch,Wybór,,GML Visual  library category name
 GMStdCatTypes,Types,Typy,,GML Visual  library category name
 GMStdCatDataStructs,Data Structures,Struktury danych,,GML Visual  library category name
 GMStdCatAudio,Audio,Audio,,GML Visual  library category name
@@ -3973,10 +3973,10 @@ GMStdWhileLoop_Name,While Loop,Podczas pętli,,GML Visual  library action name
 GMStdWhileLoop_Desc,Execute code while a given expression is true.,"Wykonuj kod w trakcie, jak dane wyrażenie jest prawdziwe.",,GML Visual  library action description
 GMStdBreak_Name,Break,Przerwa,,GML Visual  library action name
 GMStdBreak_Desc,Break out of a loop.,Przerwij pętlę.,,GML Visual  library action description
-GMStdSwitch_Name,Switch,Przełącz,,GML Visual  library action name
-GMStdSwitch_Desc,Switch which branch to execute based on input.,"Przełącz gałąź do wykonania, w zależności od wprowadzonych danych wejściowych.",,GML Visual  library action description
+GMStdSwitch_Name,Switch,Wybór,,GML Visual  library action name
+GMStdSwitch_Desc,Switch which branch to execute based on input.,"Wybierz gałąź do wykonania, w zależności od wprowadzonych danych wejściowych.",,GML Visual  library action description
 GMStdCase_Name,Case,Przypadek,,GML Visual  library action name
-GMStdCase_Desc,A branch to execute in a switch if the case is true.,"Gałąź do wykonania w przełączniku, jeśli przypadek jest prawdziwy.",,GML Visual  library action description
+GMStdCase_Desc,A branch to execute in a switch if the case is true.,"Gałąź do wykonania w wyborze, jeśli przypadek jest prawdziwy.",,GML Visual  library action description
 GMStdDecimalToInteger_Name,Decimal To Integer,Dziesiętna na całkowitą,,GML Visual  library action name
 GMStdDecimalToInteger_Desc,"Round a decimal value to an integer value by rounding, ceiling or flooring it.","Zaokrąglij wartość dziesiętną do całkowitej, wykorzystując zaokrąglenie w górę, w dół lub dowolne.",,GML Visual  library action description
 GMStdStringToNumber_Name,String To Number,Ciąg na liczbę,,GML Visual  library action name
@@ -4519,7 +4519,7 @@ GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,"Sprawdza, c
 GMStdBufferExists_Name,If Buffer Exists,Jeśli bufor istnieje,,GML Visual™ action name
 GMStdBufferExists_Desc,Checks if a buffer exists.,"Sprawdza, czy bufor istnieje.",,GML Visual™ action description
 GMStdDefault_Name,Default,Domyślna,,GML Visual™ action name
-GMStdDefault_Desc,A default switch case for when no other case is matched.,"Domyślny przypadek przełączenia obowiązujący w sytuacjach, gdy żaden inny przypadek nie pasuje.",,GML Visual™ action description
+GMStdDefault_Desc,A default switch case for when no other case is matched.,"Domyślny wybór przełączenia obowiązujący w sytuacjach, gdy żaden inny wybór nie pasuje.",,GML Visual™ action description
 GMStdLoop_Name,Loop,Pętla,,GML Visual™ action name
 GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,Pętla ogólna wykonywana do momentu wykonania czynności przerwania.,,GML Visual™ action description
 GMStdGetInstanceVar_Name,Get Instance Variable,Pobierz zmienną instancji,,GML Visual™ action name
@@ -5789,7 +5789,7 @@ preferences_import_nmeta,Import nmeta file,Importuj plik nmeta,,Import an nmeta 
 preferences_open_authoring,Open Authoring Editor,Otwórz edytor tworzenia,,Open the Authoring Editor
 IncludedFilesPlatform_Switch,Switch,Switch,DO NOT TRANSLATE,Switch platform include name
 FileFilters_NMeta,Switch nmeta file,Switch plik nmeta,,Switch nmeta file filter description
-FileFilters_NSP,Switch Package,Switch pakiet,,Switch Package file filter
+FileFilters_NSP,Switch Package,Switch paczka,,Switch Package file filter
 App Icon,App Icon,Ikona aplikacji,,App Icon settings namespace
 iPad Pro,iPad Pro,iPad Pro,,iPad Pro settings namespace
 Notification,Notification,Powiadomienie,,Notification settings namespace
@@ -6549,11 +6549,11 @@ ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory n
 ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,Problem z konfiguracją: Wersja zestawu Xbox One SDK jest niezgodna z: {0}. Sprawdź swoje preferencje.,,Configuration Problem : Xbox One SDK Version does not match
 ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,Problem z konfiguracją: nie znaleziono katalogu Microsoft Xbox One. Sprawdź swoje preferencje.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
 ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Problem z konfiguracją: ścieżka Visual Studio dla Xbox One musi wskazywać na plik wsadowy Visual Studio (.bat).,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-Provisioning,Provisioning,Aprowizacja,DO NOT TRANSLATE,tvOS provisioning preference group subheading
+Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,Pamięć bazowa PS4,,title for options related to memory pool sizes
-Neo_Memory,PS4 Pro Memory,Pamięć Pro PS4,,title for options related to memory pool sizes
-ggs_onion,CPU/GPU 'onion' memory pool size (MB),Rozmiar puli pamięci „efektu cebuli” CPU/GPU (MB),DO NOT TRANSLATE onion,memory pool size for 'onion' memory
-ggs_garlic,GPU 'garlic' memory pool size (MB),Rozmiar puli pamięci „efektu czosnku” GPU (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
+Neo_Memory,PS4 Pro Memory,Pamięć PS4 Pro,,title for options related to memory pool sizes
+ggs_onion,CPU/GPU 'onion' memory pool size (MB),Rozmiar puli pamięci 'onion' CPU/GPU (MB),DO NOT TRANSLATE onion,memory pool size for 'onion' memory
+ggs_garlic,GPU 'garlic' memory pool size (MB),Rozmiar puli pamięci 'garlic' GPU (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
 ggs_ps4_garlic_memory_tooltip,The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools,Wyrażona w megabajtach ilość pamięci przeznaczonej na współdzieloną pulę pamięci GPU \nMaksymalny przydział musi być współdzielony przez obydwie pule,,tooltip for garlic memory pool
 ggs_ps4_onion_memory_tooltip,The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools,Wyrażona w megabajtach ilość pamięci przeznaczonej na współdzieloną pulę pamięci CPU/GPU \nMaksymalny przydział musi być współdzielony przez obydwie pule,,tooltip for garlic memory pool
 ggs_ps4_max_display_width,Maximum display width,Maksymalna szerokość wyświetlacza,,title for options relating to display resolution
@@ -6656,7 +6656,7 @@ Category_BasicInfo,Basic Information,Podstawowe informacje,,inspector category l
 Category_SoundInfo,Sound Information,Informacje o dźwięku,,inspector category label
 Category_InstanceInfo,Instance Information,Informacje o instancji,,inspector category label
 Category_SequenceInfo,Sequence Information,Informacje o sekwencji,,inspector category label
-GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// W wersji v2.3.0 zmieniono zasoby skryptu. Więcej informacji można znaleźć pod adresem\n// https://help.yoyogames.com/hc/en-us/articles/360005277377,,default script comment
+GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// W wersji v2.3.0 zmieniono działanie zasobów skryptu. Więcej informacji można znaleźć pod adresem\n// https://help.yoyogames.com/hc/en-us/articles/360005277377,,default script comment
 GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
 GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,Czy chcesz utworzyć następującą liczbę zasobów: {0}?,,label to warn user they are about to create a lot of resources
@@ -7513,9 +7513,9 @@ RedefineKeys_decrease_brush_size_keypad,Decrease Brush Size Keypad,"Zmniejsz roz
 RedefineKeys_sprite_add_broadcast_message,Sprite Add Broadcast Message,Sprite - dodaj komunikat do rozesłania,,Redefine keys sprite_add_broadcast_message string
 RedefineKeys_add_sprite_frame,Add Sprite Frame,Dodaj klatkę sprite'a,,Redefine keys add_sprite_frame string
 RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Wstaw klatkę sprite'a,,Redefine keys insert_sprite_frame string
-RedefineKeys_copy_frames_win,Copy Frames Win,"Kopiuj klatki, Windows",,Redefine keys copy_frames_win string
-RedefineKeys_paste_frames_win,Paste Frames Win,"Wklej klatki, Windows",,Redefine keys paste_frames_win string
-RedefineKeys_cut_frames_win,Cut Frames Win,"Wytnij klatkę, Windows",,Redefine keys cut_frames_win string
+RedefineKeys_copy_frames_win,Copy Frames Win,"Kopiuj klatki, okno",,Redefine keys copy_frames_win string
+RedefineKeys_paste_frames_win,Paste Frames Win,"Wklej klatki, okno",,Redefine keys paste_frames_win string
+RedefineKeys_cut_frames_win,Cut Frames Win,"Wytnij klatkę, okno",,Redefine keys cut_frames_win string
 RedefineKeys_Pan To,Pan To Path,Kadruj do ścieżki,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,Odwróć ścieżkę,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,Odbicie lustrzane,,Redefine keys Mirror string
@@ -7579,7 +7579,7 @@ RedefineKeys_ResourceTree_Tilesets_Singular,Resource Tree Tilesets Singular,"Kaf
 RedefineKeys_ResourceTree_Timelines_Singular,Resource Tree Timelines Singular,"Osie czasu, pojedyncze",,Redefine keys ResourceTree_Timelines_Singular string
 RedefineKeys_AssetBrowser_ClearFavourites,Asset Browser Clear Favourites,Wyczyść ulubione,,Redefine keys AssetBrowser_ClearFavourites string
 RedefineKeys_Window_Close,Window Close,Zamknij okno,,Redefine keys Window_Close string
-RedefineKeys_CMenu_CloseAllButThis,CMenu Close All But This,CMenu - Zamknij wszystko oprócz tego,,Redefine keys CMenu_CloseAllButThis string
+RedefineKeys_CMenu_CloseAllButThis,CMenu Close All But This,Zamknij wszystko (oprócz tego),,Redefine keys CMenu_CloseAllButThis string
 RedefineKeys_IDEMenu_Help_StartPage,IDEMenu Help Start Page,Strona startowa,,Redefine keys IDEMenu_Help_StartPage string
 RedefineKeys_IDEMenu_Help_Help,IDEMenu Help Help,Pomoc,,Redefine keys IDEMenu_Help_Help string
 RedefineKeys_IDEMenu_Help_KnowledgeBase,IDEMenu Help Knowledge Base,Baza wiedzy,,Redefine keys IDEMenu_Help_KnowledgeBase string
@@ -7666,7 +7666,7 @@ RedefineKeys_For Loop (i..n),For Loop (i..n),Pętla Loop (i..n),,Redefine keys F
 RedefineKeys_While Loop,While Loop,Podczas pętli,,Redefine keys While Loop string
 RedefineKeys_Do-Until Loop,Do-Until Loop,Pętla Do-Until,,Redefine keys Do-Until Loop string
 RedefineKeys_Repeat,Repeat,Powtórz,,Redefine keys Repeat string
-RedefineKeys_Switch,Switch,Przełącz,,Redefine keys Switch string
+RedefineKeys_Switch,Switch,Wybierz,,Redefine keys Switch string
 RedefineKeys_With,With,With,,Redefine keys With string
 RedefineKeys_Line Comment,Line Comment,Komentarz,,Redefine keys Line Comment string
 RedefineKeys_Multi-line Comment,Multi-line Comment,Komentarz wieloliniowy,,Redefine keys Multi-line Comment string
@@ -7906,7 +7906,7 @@ RedefineKeys_Command,Command{0},Command{0},,Redefine keys Command label
 RedefineKeys_Keys,Keys{0},Klucze{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Start rollbacku,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Zdarzenie rollbacku,,Other event subtype
-Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
+Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper - konfiguracja,,Other event subtype
 Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,"Zmienne są pokazywane tylko wówczas, gdy wszystkie wybrane Instancje mają ten sam Obiekt",,mixed instance object message
 Object_Managed,Managed,Zarządzany,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,"W przypadku instancji tego obiektu, jego cykl będzie zarządzany podczas rollbacku w trybie rozgrywki wieloosobowej",,The object is managed by rollback system (tooltip)
@@ -7953,7 +7953,7 @@ ROOM_EFFECTS_Blower camera offset scale,Camera offset scale,Skala przesunięcia 
 ROOM_EFFECTS_Particle drag,Particle drag,Typ cząstek,,particle drag param name
 ROOM_EFFECTS_Gravity,Gravity,Grawitacja,,gravity param name
 ROOM_EFFECTS_Enable debug mode,Enable debug mode,Włącz tryb debugowania,,enable debug mode param name
-ROOM_EFFECTS_filter_boxes,Boxes,Ramki,,boxes filter name
+ROOM_EFFECTS_filter_boxes,Boxes,Skrzynki,,boxes filter name
 ROOM_EFFECTS_Roundness,Roundness,Okrągłość,,roundness filter param
 ROOM_EFFECTS_filter_colour_balance,Colour Balance,Balans barw,,colour balance filter name
 ROOM_EFFECTS_filter_rgbnoise,RGB Noise,RGB - szum,,rgb noise filter name
@@ -7984,7 +7984,7 @@ gxc_err_game_name_too_long,The provided game name is too long,Podana nazwa gry j
 gxc_err_invalid_group_ownership,The users group has an invalid amount of owners (not 1),Grupa użytkowników ma nieprawidłową liczbę właścicieli (inną niż 1),,Error message from GXC
 option_operagx_team_tip,The selected group is missing on GX.Games,Wybranej grupy nie ma na GX.Games,,A tip shown when a group from the local settings cannot be found on GXC
 sso_new_game,[New Game...],[Nowa Gra...],,An item in a dropdown list representing the games registered on GXC. Should be enclosed into square brackets: that's because these symbols are not allowed on GXC and it guarantees that the user cannot create a game with the same name as this option.
-ExtensionEditor_FuncHidden,Hidden,Ukryta,,label
+ExtensionEditor_FuncHidden,Hidden,Ukryte,,label
 ExtensionEditor_Option_Name,Name,Nazwa,,Option name
 ExtensionEditor_Option_Name_Tooltip,This is how you will refer to it at compile/run time.,Tak będzie nazywana w czasie kompilacji/wykonywania.,,Tooltip option name
 ExtensionEditor_Option_Default,Default,Domyślna,,Default value
@@ -7994,8 +7994,8 @@ ExtensionEditor_Options_Window,Extension Options,Opcje rozszerzenia,,Extension O
 ExtensionEditor_OptionAddButton_Tooltip,Add a new option,Dodaj nową opcję,,Add option tooltip
 ExtensionEditor_WindowExtras,Extras: {0},Dodatki: {0},,Extras window title
 ExtensionEditor_WindowExtras_DisplayName,Display Name:,Nazwa wyświetlana:,,extension option display name label
-ExtensionEditor_WindowExtras_Description,Description (tooltip):,Opis (etykietka narzędzia),,extension option description tooltip label
-ExtensionEditor_WindowExtras_Export,Export to INI file:,Eksport do pliku INI,,extension option export to INI label
+ExtensionEditor_WindowExtras_Description,Description (tooltip):,Opis (tooltip):,,extension option description tooltip label
+ExtensionEditor_WindowExtras_Export,Export to INI file:,Eksport do pliku INI:,,extension option export to INI label
 ExtensionEditor_Option_ExtrasTooltip,Open extras...,Otwórz dodatki...,,Open option extras tooltip
 ExtensionEditor_Option_RemoveTooltip,Remove this option,Usuń tę opcję,,Remove option row tooltip
 ExtensionEditor_OptionWarning_Message,This window should only be used by the extension's author!\nDo you want to proceed?,Tego okna powinien używać tylko autor rozszerzenia!\nCzy chcesz kontynuować?,,Extension Options editor warning
