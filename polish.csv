@@ -8054,3 +8054,5 @@ Error_ProjectLoadPermissions,Could not load project at specified path: {0}.\nYou
 Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these to take effect,"Parametr GM2017 Stopień ważności komunikatu nie może mieć wartości Ignoruj, aby te zmiany mogły zostać wprowadzone",,GM2017 Message Severity must not be set to Ignore for these to take effect
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,Urządzenie o tej nazwie zostało już utworzone.,,Device manager name already taken error message
 GMStdTime,Time,Czas,,DnD library argument label
+IncludedFile_OpenInExternEd,Open in External Editor,Otwórz w zewnętrznym programie,,open in external editor
+ResourceNode_OpenInExternalEditor,Open in External Editor,twórz w zewnętrznym programie,,resource node open in external editor
