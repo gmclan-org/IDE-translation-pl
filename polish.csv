@@ -4311,8 +4311,8 @@ GMStdSeqHead,Head (frames),Początek (ramki),,GML Visual library argument label
 GMStdEqual,Equal,Równe,,GML Visual™
 GMStdLess,Less,Mniej,,GML Visual™
 GMStdGreater,Greater,Większe,,GML Visual™
-GMStdLessorEqual,Less or Equal,Nie większe niż,,GML Visual™
-GMStdGreaterorEqual,Greater or Equal,Nie mniejsze niż,,GML Visual™
+GMStdLessorEqual,Less or Equal,Mniejsze lub równe,,GML Visual™
+GMStdGreaterorEqual,Greater or Equal,Większe lub równe,,GML Visual™
 GMStdString,String,Ciąg,,GML Visual™
 GMStdResume,Resume,Wznów,,GML Visual™
 GMStdPaused,Paused,Wstrzymano,,GML Visual™
